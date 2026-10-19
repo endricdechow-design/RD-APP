@@ -1,0 +1,4048 @@
+{
+ "meta": {
+  "quelle": "Gemeinsames Kompendium Rettungsdienst 2026",
+  "seiten": 175,
+  "bereiche": [
+   "RKN",
+   "HS",
+   "DU",
+   "KR",
+   "VIE",
+   "OB",
+   "MH",
+   "MG",
+   "DN",
+   "KLE",
+   "AC",
+   "EU",
+   "SR AC",
+   "BO",
+   "HER",
+   "BOT",
+   "E",
+   "UN",
+   "REK",
+   "DO",
+   "GL",
+   "TNA-BL",
+   "GE",
+   "HSK",
+   "D",
+   "HA",
+   "HAM",
+   "E-3A"
+  ]
+ },
+ "daten": [
+  {
+   "id": "i-v-zugang",
+   "name": "i.v.-Zugang",
+   "seite": 28,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Infusion erforderlich (medizinische Indikation)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "(zu erwartende) Medikamentengabe i.v. erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "Infektion an der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dialyse-Shunt / Z. n. axillärer Lymphknotenentfernung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "paretische Extremität",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "verletzte oder (vor-)geschädigte Extremität",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "intranasal, buccal, sublingual, rektal, oral",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intramuskulär",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intraossärer Zugang",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verzicht auf Maßnahme bis zum Eintreffen Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nichtgelingen / Fehllage / Hämatom / Entzündung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akzidentelle Nerven- / Arterienverletzung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "geeignete Punktionsstelle suchen (von peripher nach zentral), Ellenbeuge möglichst vermeiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Reinigung und Desinfektion der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Venenstau",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "erneute Hautdesinfektion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Punktion der Vene",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blut in Kammer des Mandrins",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vorschieben der Kunststoffkanüle über lagefixierten Mandrin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aufheben des Venenstaus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Entfernen des Stahlmandrins",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anschließen der Infusion / Probeinjektion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "sichere Fixierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "ggf. Rücklaufprobe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "frei fließende Infusion ohne Paravasat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Probeinjektion von NaCl oder Aqua ad inj.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Schwellung proximal der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Kanüle nicht nutzen, ggf. entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Druckverband",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pflaster",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "frei fließende Infusion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "pharmakologischer Effekt verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Schwellung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "i-o-zugang-ez-io-cook-big",
+   "name": "i.o.-Zugang (EZ-IO® / Cook® / BIG®)",
+   "seite": 29,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Herz-Kreislauf-Stillstand",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "lebensbedrohliche Situation mit zwingender Indikation für parenteralen Zugang und Unmöglichkeit eines peripheren i.v.-Zugangs",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "Fraktur der entsprechenden Tibia",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "vorheriger Punktionsversuch am selben Knochen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Infektion, Endoprothese oder Implantat an der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "massive Weichteilschäden an der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "Applikation i.m., nasal, buccal oder rectal erwägen (bei erhaltenem Kreislauf)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verzicht auf Maßnahme bis zum Eintreffen Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Einwilligung gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Nichtgelingen / Fehllage / Hämatom / Entzündung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gefäß- / Nervenverletzung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Weichteilschäden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Punktionsort: proximale Tibia medial der Tuberositas tibiae",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "geeignete Nadel wählen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Punktionsort ausreichend reinigen und desinfizieren, ggf. rasieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verlängerungsschlauch und Dreiwegehahn mit kristalloider Lösung füllen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nadel aus Verpackung entnehmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Durchstechen der Haut senkrecht zur Knochenoberfläche bis Knochenkontakt spürbar·",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Einbohren (EZ-IO®; Cook®) der Nadel bis Widerstandsverlust; Platzieren der BIG®; Herstellerangaben beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nadel fixieren und Trokar entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aspiration von Blut bzw. Knochenmark",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anschließen einer Verlängerung,",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Lidocaingabe durch NotSan",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Spülen mit ca. 10 ml kristalloider Lösung und Infusion anschließen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nadel sicher fixieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "sicher platzierte und fest sitzende Nadel / keine Schwellung an der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aspiration von Blut bzw. Knochenmark, Blut in der Trokarspritze",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nach Bolusgabe leichtgängiges Injizieren der Lösung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gewünschte pharmakologische Wirkung verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Abbruch bei Komplikationen / Kanüle entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Druckverband",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "frei fließende Infusion / keine Schwellung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "pharmakologischer Effekt verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "je nach Fabrikat Herstellerangaben beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "extraglottischer-atemweg",
+   "name": "Extraglottischer Atemweg",
+   "seite": 30,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Herz-Kreislauf-Stillstand",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ateminsuffizienz mit Bewusstlosigkeit und fehlenden Schutzreflexen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "erhaltene Schutzreflexe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "komplette Verlegung der oberen Atemwege",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "Beutel-Masken-Beatmung, ggf. mit Guedel- oder Wendl-Tubus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "anderes extraglottisches Atemwegssicherungsverfahren (sofern vorhanden)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Einwilligung gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Nichtgelingen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fehllage / Dislokation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Magendilatation / Aspiration",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Weichteilschäden / Weichteilschwellungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "SAA Extraglottischer Atemweg – LTS-D (Larynxtubus mit Drainagekanal)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SAA Extraglottischer Atemweg – LMA-D (Larynxmaske mit Drainagekanal 2. Generation)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SAA Extraglottischer Atemweg – i-gel®",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "SAA Extraglottischer Atemweg – LTS-D (Larynxtubus mit Drainagekanal)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SAA Extraglottischer Atemweg – LMA-D (Larynxmaske mit Drainagekanal 2. Generation)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SAA Extraglottischer Atemweg – i-gel®",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "SAA Extraglottischer Atemweg – LTS-D (Larynxtubus mit Drainagekanal)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SAA Extraglottischer Atemweg – LMA-D (Larynxmaske mit Drainagekanal 2. Generation)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SAA Extraglottischer Atemweg – i-gel®",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "Beatmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kapnometrie / Kapnographie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "SpO2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "je nach Fabrikat Herstellerangaben beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Altersbegrenzung zur Anwendung durch Notfallsanitäter: Larynxtubus (LTS-D) für Neugeborene, Säuglinge und Kleinkinder nicht empfohlen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "extraglottischer-atemweg-lts-d",
+   "name": "Extraglottischer Atemweg – LTS-D®",
+   "seite": 31,
+   "abschnitte": {
+    "durchfuehrung": [
+     {
+      "text": "Auswahl der richtigen Tubusgröße (siehe Tabelle unten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ventilöffner entfernen, Sicht- und Funktionskontrolle (Cuffs prüfen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vorbereitung: Cuffs entlüften, ggfs. Tubus gleitfähig machen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopf in Neutralposition, Mund möglichst weit öffnen, ggf. Erbrochenes / Fremdkörper entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinn anheben, Tubus vorsichtig mittig am harten Gaumen entlang einführen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zunge darf dabei nicht nach hinten fallen, ggf. Daumen und Zeigefinger als „Schienung“ nutzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vorschieben bis zur obersten Zahnmarkierung oder bis Widerstand spürbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blocken der Cuffs mittels farbcodierter Spritze, Cuffdruckmessung, Cuffdruck maximal 60 cm H2O",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anschluss des Beatmungsbeutels, beatmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Magensonde in Drainagekanal einführen (max. Größe 18 Fr)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lagekontrolle: siehe Erfolgsprüfung, ggf. Korrektur, Neupositionierung erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fixierung des Tubus nach Standard",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beatmungsdruck < 25 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "sichtbare, atemzugsynchrone Thoraxbewegungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kapnometrie, Kapnographie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auskultation der Lungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine (geringe) Atemnebengeräusche im Rachen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "lässt sich die Magensonde nicht vorschieben, weist dies auf Fehllage oder Abknickung der Tubusspitze hin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Prüfung der Einführtiefe (Zahnmarkierung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. innerhalb der drei Zahnmarkierungen zurückziehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Tubus neu platzieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Magensonde entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Cuff komplett entlüften",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lagerung des Kopfes, Kinn anheben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wechsel der Tubusgröße",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Entfernen des Tubus, Beutel-Masken-Beatmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "endotracheale Intubation: Ultima ratio, wenn beherrscht oder durch Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   },
+   "groessentabelle": true
+  },
+  {
+   "id": "extraglottischer-atemweg-larynxmaske-mit-drainagekanal-2-generation",
+   "name": "Extraglottischer Atemweg – Larynxmaske mit Drainagekanal (2. Generation)",
+   "seite": 32,
+   "abschnitte": {
+    "durchfuehrung": [
+     {
+      "text": "Auswahl der richtigen Größe (größtmögliche Maskengröße wählen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sicht- und Funktionskontrolle (Cuff prüfen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Cuff komplett faltenfrei entlüften, gleitfähig machen (Cuffspitze)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopf in Neutralposition (oder leichte Schnüffelposition), Mund möglichst weit öffnen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Erbrochenes / Fremdkörper entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Larynxmaske vorsichtig mittig am harten Gaumen entlang einführen, hinter der Zunge der Gaumenwölbung folgen, ggf. Daumen und Zeigefinger als \"Schienung\" nutzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "freie Hand kann zur Unterstützung unter dem Kopf des Patienten platziert werden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vorschieben der Maske bis deutlicher Widerstand spürbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verifizieren der Lage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blocken des Cuffs, maximales Cuffvolumen darf nicht überschritten werden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Cuffdruckmessung, maximaler Cuffdruck 60 cm H2O",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anschluss des Beatmungsbeutels, beatmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Magensonde (OG-Tubus) in Drainagesystem einführen (maximale Größe beachten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lagekontrolle: siehe Erfolgsprüfung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Korrektur, Neupositionierung erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Fixierung mittels Pflasterstreifen (Fixierlasche bei LMA Supreme®)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beatmungsdruck < 25 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "sichtbare, atemzugsynchrone Thoraxbewegungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kapnometrie, Kapnographie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auskultation der Lungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine (geringe) Atemnebengeräusche im Rachen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Drainagekanal mit einem Tropfen Gel verschließen:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "\"Bubble Test\"",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "\"Suprasternal Notch Test\"",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Magensonde lässt sich problemlos einführen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "LMA Supreme®:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Abstand Fixierlasche zur Oberlippe > 2,5 cm ➜ LMA zu groß gewählt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Abstand Fixierlasche zur Oberlippe < 1,0 cm ➜ LMA zu klein gewählt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ambu AuraGain®: Zahnmarkierungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Prüfung der Einführtiefe (siehe Erfolgsprüfung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Lagekorrektur oder Neuplatzierung (Magensonde entfernen, Cuff entleeren, Larynxmaske neu platzieren)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lagerung des Kopfes",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Larynxmaske anderer Größe nutzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Entfernen der Larynxmaske, Beutel-Masken-Beatmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "anderes Mittel zur extraglottischen Atemwegssicherung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "endotracheale Intubation: Ultima ratio, wenn beherrscht oder durch Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   },
+   "groessentabelle": true
+  },
+  {
+   "id": "extraglottischer-atemweg-i-gel",
+   "name": "Extraglottischer Atemweg – i-gel®",
+   "seite": 33,
+   "abschnitte": {
+    "durchfuehrung": [
+     {
+      "text": "Auswahl der richtigen Größe (siehe Tabelle unten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sicht- und Funktionskontrolle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mit wasserbasiertem Gleitmittel gleitfähig machen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopf leicht überstrecken, Kinn sanft herunterdrücken",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Erbrochenes / Fremdkörper entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "zum Einführen keine Finger in den Mund des Patienten mit kontinuierlichem, sanften Druck am harten Gaumen entlang einführen, falls erforderlich mit „tiefer Rotation Vorschieben bis Widerstand spürbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beatmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lagekontrolle: siehe Erfolgsprüfung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Korrektur mit Esmarch-Handgriff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fixierung mit Pflasterstreifen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beatmungsdruck ≤ 40 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Eingang des gastrischen Absaugkanals mit etwas Gleitmittel versehen, Magensonde einführen und absaugen; dauerhaften Sog vermeiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "sichtbare, atemzugsynchrone Thoraxbewegungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kapnometrie, Kapnographie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auskultation der Lungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine (geringe) Atemnebengeräusche im Rachen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Prüfung der Einführtiefe (Schneidezähne ruhen auf Beißkeil-Markierung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Lagekorrektur oder Neuplatzierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lagerung des Kopfes",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wechsel der Größe (cave: i-gel®-Cuff erscheint kleiner als Cuff von traditionellem EGA mit gleicher Größenzuordnung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Entfernen der i-gel®-Maske, Beutel-Masken-Beatmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "anderes Mittel zur extraglottischen Atemwegssicherung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "endotracheale Intubation: Ultima ratio, wenn beherrscht oder durch Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   },
+   "groessentabelle": true
+  },
+  {
+   "id": "laryngoskopie",
+   "name": "Laryngoskopie",
+   "seite": 34,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Bolus-Suche und -Entfernung bei (sub-)totaler Atemwegsverlegung / Bolusgeschehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "Gegenwehr aufgrund von Schutzreflexen (Gefahr Erbrechen / Laryngospasmus)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "manuelle Entfernung sichtbarer Fremdkörper",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Entfernung mit Magillzange ohne Laryngoskop",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fremdkörper durch Absaugung mit großlumigem Katheter entfernbar (z. B. Yankauer)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fremdkörper bei ausreichender Spontanatmung belassen, wenn nicht zu bergen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Thoraxdruck erhöhen: z. B. Valsalva, Rückenschläge, Heimlich-Manöver",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Risiken (Bsp.): Verletzung Mund-Rachenraum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zahnschäden, Aspiration, Glottiskrampf, Laryngospasmus, Vagusreiz mit Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "MacIntosh-Spatel oder MacIntosh-ähnlichen Spatel verwenden, bevorzugt Videolaryngoskopie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beatmungsmöglichkeit (Beutel, Sauerstoffanschluss) und Absaugung bereithalten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "korrekte Lagerung (cave: HWS-Verletzung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mund öffnen, Rachenraum inspizieren, sichtbare Fremdkörper entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Laryngoskop vom rechten Mundwinkel einführen, Zahnkontakt vermeiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vorschieben Laryngoskop, Verlagern der Zunge nach links, Vorschub unter Sicht",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "sobald Kehldeckel sichtbar, Zug in Achse des Laryngoskopgriffs, dadurch Anheben des Zungengrundes",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Inspektion des Hypopharynx und Larynx auf Fremdkörper",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fremdkörper mit Magillzange fassen und entfernen, nochmalige Sichtkontrolle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei CPR: falls kein Fremdkörper (mehr) und Stimmritze eindeutig erkennbar, endotracheale Intubation (ein Versuch)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "vorsichtiges Zurückziehen und Entfernen des Laryngoskops",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "niemals blindes Vorschieben / Manipulieren mit Laryngoskop / Magillzange",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemwegssicherung nach Zustand und Bewusstseinslage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "entfernter Fremdkörper, verbesserte Oxygenierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "verbesserte Atemmechanik",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. endtidaler CO2-Nachweis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Rückbildung eventueller Atemnebengeräusche (z. B. Stridor)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Prüfung der korrekten Lagerung zur Laryngoskopie (verbesserte Jackson-, Schnüffelposition)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Absaugen von Sekreten / Blut (z. B. bei Schleimhautverletzungen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "Überwachung der Atemtätigkeit, Prüfung auf Atemnebengeräusche",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "klinisches und apparatives Monitoring, insbesondere SpO2, ggf. etCO2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "nichtinvasives-cpap-niv",
+   "name": "Nichtinvasives CPAP / NIV",
+   "seite": 35,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "schwere respiratorische Partial- und Global-Insuffizienz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kohlenmonoxid-Intoxikation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "bewusstloser oder unkooperativer Patient, Intoleranz der Maske",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "fehlende Spontanatmung oder Schnappatmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Spannungspneumothorax",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemwegsverlegung, Erbrechen, akute gastrointestinale Blutung, Ileus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gesichtsverletzung mit Blutungen in den Atemwegen, Frakturen, Deformitäten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "hämodynamische Instabilität / Schock / Hypotonie mit RRsyst < 90 mmHg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "hochdosierte Sauerstoffgabe (cave COPD)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "assistierte Beatmung über Beutel / Maske",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "invasive Beatmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "zwingend ausführliche Erläuterung der Maßnahme zum Abbau von Ängsten (unabdingbar für Toleranz der Maßnahme)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Grundsätzlich mit niedrigen Werten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Hyperkapnie",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "führend",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "beginnen und je nach Pat.-Zustand steigern.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "angepasste O2-Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "PEEP: Starteinstellung ➜ Steigerung auf 7 und 10 mbar nach SpO2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "PS: Starteinstellung ➜ Steigerung auf 5, 8 und 12 mbar entsprechend",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Tidalvolumen / etCO2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Patienten über Durchführung der Maßnahme (Ablauf) ausführlich informieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erfassung von Atemfrequenz, Herzfrequenz, Blutdruck, Sauerstoffsättigung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auswahl und Vorbereitung der korrekten Maskengröße",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "zunächst manuelle Anpassung und Halten der Maske (bessere Toleranz)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Einstellungen von PEEP und inspiratorischer Druckunterstützung (PS) abhängig vom Krankheitsbild",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "regelmäßige Kontrolle Beatmungsparameter und Alarmgrenzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Maske mit Haltebändern fixieren, sobald tolerabel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Abbruchkriterien beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Starteinstellungen je nach Krankheitsbild:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Hypoxie",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Mischform",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "führend",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "hochdosierte O2-Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "hochdosierte O2-Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· FiO2: 1,0",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· FiO2: 0,4 - 1,0",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· FO : 1,0",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "i 2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· PEEP: 5 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· PEEP: 0 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· PEEP: 5 mbar · PS: 5 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· PS: 0 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "· PS: 5 mbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "initial Steigerung PEEP",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "initial Steigerung PS",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "Verbesserung der respiratorischen Situation / Atemarbeit / - Atemmechanik",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verbesserung der Sauerstoffsättigung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Maßnahme beenden und Alternativen verwenden, wenn",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Abbruchkriterien vorliegen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Abbruchkriterien:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "zunehmende respiratorische Erschöpfung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "zunehmende Kreislaufdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Intoleranz gegenüber der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "Überwachung der Atemtätigkeit, Prüfung auf Atemnebengeräusche, Monitor: AF, TV, AMV, CO2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "klinisches und apparatives Monitoring, insbesondere SpO2 - zunehmende Bewusstseinstrübung und etCO2, soweit möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "tourniquet-pneumatische-blutsperre",
+   "name": "Tourniquet / pneumatische Blutsperre",
+   "seite": 36,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "lebensgefährliche Blutungen / multiple Blutungsquellen an einer Extremität",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nichterreichbarkeit der eigentlichen Verletzung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mehrere Verletzungen mit Blutungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Blutung der Extremitäten bei gleichzeitigem kritischen A-, B- oder C-Problem",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Unmöglichkeit der Blutstillung durch andere Maßnahmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Blutungen an Extremitäten bei Zeitdruck unter Gefahrensituationen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "Blutstillung mit anderen Mitteln zu erreichen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "absolute Intoleranz durch den Patienten trotz adäquater Schmerztherapie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "Blutstillung durch Abdrücken, Druckverband, Hämostyptika",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutstillung durch manuelle Kompression der Wunde",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme Einwilligung:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Haut- / Gewebe- / Nervenschaden durch Drucknekrosen - gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "oder Gewebsischämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "ggf. Kompartmentsyndrom / Reperfusionssyndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "evtl. Lungenembolien nach Öffnen des Tourniquets",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Anlage ca. 5 – 10 cm proximal (körpernah) der Blutungsquelle gelenkfern (wenn möglich)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nicht in Höhe Fibulaköpfchen am Unterschenkel anlegen (Gefahr direkte Schädigung d. Nervus peronaeus)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nicht auf Kleidung anlegen (Gefahr Lockerung / Verrutschen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anziehen des Knebels bis zur Blutstillung, dann Knebel fixieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutfluss muss komplett gestoppt werden, sonst venöse Stauung und damit Verstärkung der Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Uhrzeit der Anlage notieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "in der Regel keine Öffnung im Rettungsdienst",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Analgesie bei starken Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "Sistieren der Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Analgesie bei starken Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Ineffektivität ggf. Anlage eines 2. Tourniquets oberhalb des ersten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. zusätzlich Versuch mit Druckverband, manueller Kompression / Hämostyptika",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Unmöglichkeit zeitkritischer Transport",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "Erfolg der Blutstillung regelmäßig in kurzen Zeitabständen reevaluieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "bei Explosionsverletzungen ggf. primär körperstammnahe Anlage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "wenn bei unzugänglichem Blutungsort zur Erstversorgung ein Tourniquet angelegt wurde, sollte – nachdem der Pat. gerettet wurde und die Situation es erlaubt – die Fortsetzung der Maßnahme und ein möglicher Verfahrenswechsel kritisch geprüft werden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "beckenschlinge-trochanterschlinge",
+   "name": "Beckenschlinge (Trochanterschlinge)",
+   "seite": 37,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "initiale Stabilisierung bei Verdacht auf komplexe Beckenverletzungen (z. B. Beckenfraktur)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "technische Unmöglichkeit der Anlage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "absolute Intoleranz durch den Patienten trotz adäquater Schmerztherapie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "andere Stabilisierungsmöglichkeiten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schneller Transport als Ultima Ratio",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Einwilligung",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gefäß- / Nervenverletzungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Weichteilschäden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Risiko des weiteren unkontrollierten Blutverlustes bei",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Unterlassen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Anlage durch 2 oder 3 Helfer gemäß jeweiliger Bedienungsanleitung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fixierung der Beine (Knie), möglichst etwas innenrotiert",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kompression / Stabilisierung in Höhe des Trochanter major beidseits",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kompression des Beckens durch definierten Zug oder pneumatischen Druck (systemabhängig)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation der Anlagezeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bedarfsgerechte Analgesie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "IMMER:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Prüfung und Dokumentation der neurologischen und der Gefäßsituation vor und nach der Anlage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "regelmäßige Überprüfung im Verlauf",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Öffnung der Beckenschlinge im Rettungsdienst",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "sichere und feste Anlage der Beckenschlinge",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akzeptable Schmerzsituation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "bedarfsgerechte Analgesie bei starken Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kurzfristiges Öffnen bei Anlage über mehrere Stunden (in präklinischer Notfallrettung nicht zu erwarten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "regelmäßige Reevaluation des Patientenzustandes",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schmerzkontrolle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "komplettes Monitoring der kardiorespiratorischen Situation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "regelmäßige Prüfung der korrekten Lage und Kompressionswirkung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Herstellerangaben beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beckenschlinge wird auch als Trochanterschlinge bezeichnet",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "achsengerechte-immobilisation",
+   "name": "Achsengerechte Immobilisation",
+   "seite": 38,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "dislozierte Fraktur mit Gefahr weiterer Folgeschäden durch Fehlstellung / Durchblutungsstörung / Gewebsspannung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "absolute Intoleranz durch den Patienten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "bei fehlender Durchführbarkeit Notarzt abwarten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ausreichende Analgosedierung; ggf. Extension durch Zug in Kurznarkose / Relaxierung (prä-)klinisch notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Schmerzen, Gefäß- / Nervenverletzungen, Weichteilschäden, Funktionseinschränkung, Wundheilungs- - Durchblutungsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Arthrosen / Pseudarthrosen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen schriftliches Einverständnis nicht erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Extension durch Zug am körperfernen Frakturanteil",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wiederherstellen eines achsengerechten Standes der Frakturanteile",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gegensinniger Bewegungsablauf zum Traumamechanismus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "peripherer (distaler) Abschnitt wird gezogen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "zentraler (proximaler) Abschnitt des Frakturbereichs wird fixiert",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Fixieren / Gegenhalten körperstammnah durch 2. Person erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verfahren möglichst in zügiger, nicht unterbrochener Bewegung ausführen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "konsequente Immobilisation ggf. unter Aufrechterhaltung einer Extension",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Prüfung / Dokumentation neurologische / motorische und Gefäßsituation vor und nach der Anlage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "regelmäßige Überprüfung im Verlauf (DMS-Prüfung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Besonderheiten:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Schulter: Zurückhaltung, Vorliegen einer Fraktur möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Radius: bei sichtbarer Fehlstellung Extension durch Zug",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hüfte: Extension durch Zug und Lagerung in Vakuummatratze mit Beugung in Hüfte und Knie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Patella: zunächst Streckung des Kniegelenks; Versuch der Patella-Repositionierung bei weiter bestehender Luxation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sprunggelenk: bei sichtbarer Fehlstellung unbedingt Extension durch Zug",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "achsengerechter Stand der Frakturanteile",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verbesserung von Durchblutung / Motorik / Sensibilität",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akzeptable Schmerzsituation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verminderung der Weichteilspannung im Frakturbereich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "bedarfsgerechte Analgesie bei zu starken Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "regelmäßige Reevaluation des Patientenzustandes und von Durchblutung / Motorik / Sensibilität unterhalb des Frakturbereiches",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schmerzkontrolle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "regelmäßige Prüfung der korrekten Immobilisation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "thoraxentlastungspunktion",
+   "name": "Thoraxentlastungspunktion",
+   "seite": 39,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Spannungspneumothorax mit rasch zunehmender hämodynamischer und respiratorischer Instabilität",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "bei korrekter Indikation und korrektem Punktionsort: keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "keine Alternative",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Schmerzen, Gefäß- / Nervenverletzungen, Blutung, Weichteilschaden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Risiko der Verletzung von Thoraxorganen (Monaldi- + - Einwilligung gemäß dem geäußerten oder mutmaßlichen Bülau-Position)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Risiko der Verletzung von Abdominalorganen (Bülau- Position)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Aufsuchen der Punktionsstelle: 2. ICR Medioclavicularlinie (Monaldi-Position) oder alternativ 4. ICR vordere Axillarlinie (Bülau-Position)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kanülenlänge > 8 cm, möglichst großlumig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hautdesinfektion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aufsetzen einer halb mit NaCl 0,9 % / Aqua dest. gefüllten Spritze auf die Punktionskanüle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Punktion am Oberrand der Rippe senkrecht zur Thoraxwand",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Monaldi: Cave Verletzungsgefahr A. thoracica interna bei zu medialem Punktionsort",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bülau: Cave Gefahr von Organverletzungen bei zu caudalem Punktionssort",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Aspiration von Luft ist der Pleuraspalt erreicht",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kunststoffkanüle weiter vorschieben und Stahlmandrin entfernen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Kanülen mit Federmechanik (nach Veres): Kanüle bis zur Markierung weiter vorschieben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sicherung gegen Abknicken und Dislokation, sterile Abdeckung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "Entweichen von Luft über die Kanüle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Rückbildung der Schocksymptomatik / Kreislaufinsuffizienz; Rückbildung einer Halsvenenstauung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verbesserung von Atemmechanik und Oxygenierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "ggf. längere Kanüle bei adipösen Patienten (sofern vorhanden)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "2. Thoraxentlastungspunktion bei ausbleibendem Erfolg bzw. bei erneuter Symptomatik eines Spannungspneu durch Abknickung / Verstopfung / Dislokation der Kanüle ➜ dann ggf. am alternativen Punktionsort",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bedarfsgerechte Analgesie bei starken Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "regelmäßige Reevaluation des Patientenzustandes bzgl. effektiver Entlastung sowie Schmerzeinschätzung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "komplettes Monitoring der kardiorespiratorischen Situation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Cave: Belassen der Kunststoffkanüle garantiert nicht die dauerhaft effektive Entlastung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "die Thoraxentlastungspunktion ist eine überbrückende Notfallmaßnahme bis zur unverzüglichen Anlage einer Thoraxdrainage durch einen Arzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "manuelle-defibrillation",
+   "name": "Manuelle Defibrillation",
+   "seite": 40,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Herz-Kreislauf-Stillstand bei Kammerflimmern",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Herz-Kreislauf-Stillstand bei pulsloser ventrikulärer Tachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "alle EKG-Rhythmen außer Kammerflimmern und pulsloser ventrikulärer Tachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "keine Aufklärung möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verbrennungen / Hautläsionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verletzungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "gemäß Behandlungspfad Rettungsdienst (BPR) Reanimation ALS bzw. PLS",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "möglichst Verwendung von Klebeelektroden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder: möglichst Verwendung von (speziellen) Kinder-Klebeelektroden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Brustkorb sauber, trocken und haarfrei im Elektrodenbereich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Elektroden rechts-pectoral-apical oder in anterior-posteriorer Position kleben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anwählen des manuellen Modus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Identifikation der Rhythmusstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Energiewahl: gerätespezifische Energieabgabe gemäß Herstellerangabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aufladen des Defibrillators, Thoraxkompressionen während der Ladephase fortsetzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Warnung über bevorstehende Schockabgabe, auch weitere Personen (z.B. Angehörige, Passanten, ...) beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auslösen des Schocks",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nach Schockabgabe sofortiger Beginn der Thoraxkompressionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fortführen gemäß BPR Reanimation ALS / PLS",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "ROSC",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Terminierung des Kammerflimmerns, bzw. der Kammertachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "Re-Evaluation des ROSC",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "EKG-Monitoring",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Beachtung von Sicherheitsabständen zu sauerstoffführenden Gerätschaften",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "kardioversion",
+   "name": "Kardioversion",
+   "seite": 41,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "kardial bedingte Tachykardie mit hämodynamischer Instabilität und Bewusstlosigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "fehlende Bewusstlosigkeit, Sinustachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "keine Aufklärung möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verbrennungen / Hautläsionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verletzungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "gemäß Behandlungspfad Rettungsdienst (BPR) Reanimation ALS",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "EKG-Ableitung über EKG-Elektroden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder: möglichst Verwendung von (speziellen) Kinder-Klebeelektroden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Brustkorb sauber, trocken und haarfrei im Elektrodenbereich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Elektroden rechts-pectoral-apical oder in anterior-posteriorer Position kleben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Identifikation der Rhythmusstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Ausschalten der AED-Funktion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anwählen des synchronisierten Modus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "beachte Markierung der QRS-Komplexe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene: Energie auf 150 J einstellen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aufladen des Defibrillators",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Warnung über bevorstehende Schockabgabe, auch weitere Personen (z.B. Angehörige, Passanten,..) beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auslösen des Schocks (Hinweis: ggf. kurze Verzögerung möglich)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nach Schockabgabe Rhythmuskontrolle, Pulskontrolle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. zweimalige Wiederholung der Kardioversion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Beginn von CPR-Maßnahmen gemäß BPR Reanimation ALS / PLS",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "Terminierung der Tachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verbesserung der hämodynamischen Situation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wiedererlangen des Bewusstseins",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Wiederholung der Kardioversion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "EKG-Monitoring",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kreislaufüberwachung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Beachtung von Sicherheitsabständen zu sauerstoffführenden Gerätschaften",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gerätespezifische Besonderheiten beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei sehr breiten QRS-Komplexen möglicherweise keine Erkennung von QRS-Komplexen im Sync-Modus, dann ggf. manuelle Schockauslösung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "eine Kardioversionsindikation bei Kindern ist extrem unwahrscheinlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "externe-schrittmacheranlage",
+   "name": "Externe Schrittmacheranlage",
+   "seite": 42,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Bradykardie mit hämodynamischer Instabilität und Bewusstlosigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "technische Unmöglichkeit der Anlage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "absolute Intoleranz durch den Patienten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bewusstseinsklarer Patient mit klinischer Stabilität trotz Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "bei vital bedrohlicher Bradykardie ggf. CPR notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "bei korrekter Indikation keine vorherige Aufklärung möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Brustkorb sauber, trocken und haarfrei im Elektrodenbereich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Inspektion auf evtl. implantierten Schrittmacher / ICD (Abstand wahren)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Elektroden in anterior-posteriorer Position oder rechts-pectoral-apical kleben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "möglichst Demand-Modus verwenden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Frequenzeinstellung 70/min.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Stimulationsenergie zu Beginn 25 mA (Milliampere)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "zügige Steigerung der Stimulationsenergie um jeweils 10 mA, bis jede Stimulation mit einer Herzaktion beantwortet wird (durchgehende Captures im EKG und tastbare Pulswelle)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Stimulationsenergie nochmals u 15 mA steigern (Sicherheitsüberschuss)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gerätespezifische Besonderheiten beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "situationsgerechte Analgesie gemäß BPR \"Schmerzen\" (analog zu ACS)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "sicheres Auslösen von Captures, Anstieg der Herzfrquenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "tastbare Pulse analog zu Captures",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "verbesserte Hämodynamik und neurologische Situation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akzeptable Schmerzsituation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Überprüfung und ggf. Wechsel der Elektrodenposition bei ineffektiven Stimulationsversuchen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "regelmäßige Reevaluation des Patientenzustandes",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schmerzkontrolle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "komplettes Monitoring der kardiorespiratorischen Situation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "dauerhafte EKG-Überwachung der Stimulationsantwort (Captures + Puls)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Captures: elektrische Stimulation durch Schrittmacher wird durch elektrische Herzaktion beantwortet",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "immer Prüfung der Auswurfleistung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "endobronchiales-absaugen",
+   "name": "Endobronchiales Absaugen",
+   "seite": 43,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "akute respiratorische Insuffizienz",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "symptomatische Verlegung der Atemwege durch Sekrete z.B. Blut / Schleim / Eiter",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "Verzicht bei ausreichender Oxygenierung und akzeptabler Atemmechanik",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Erläuterung / Erklärung jedes einzelnen Schrittes und jeder - gemäß dem geäußerten oder mutmaßlichen Patientenwillen Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [],
+    "durchfuehrung": [
+     {
+      "text": "Präoxygenierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "steriles Arbeiten unerlässlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Händedesinfektion / sterile Handschuhe / sterile Absaugkatheter",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Monitoring (cave Bradykardie bei Vagusreiz)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "vorher Absaugen von Mund / Rachen- und evtl. Nasenbereich, um Aspirationen zu vermeiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mit sterilem Absaugkatheter ohne Sog in der Inspirationsphase tracheal in die Atemwege eingehen, bei leichtem Widerstand ca. 1 cm zurückziehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "häufig Hustenreiz als (positive) Reaktion bei korrekter Katheterlage",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mittels Fingertip Sog aufbauen und Katheter vorsichtig zurückziehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei weiterhin bestehendem Sekretverhalt Vorgang ggf. wiederholen mit sterilem Absaugkatheter",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "analoges Vorgehen auch über Tracheostoma oder Endotrachealtubus als Zugangsweg möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "freie Atemwege ohne relevante Nebengeräusche",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Beatmungsdruck prüfen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Abbruch / kurzfristige Unterbrechung bei relevanter symptomatischer Reflexbradykardie, ggf. Atropingabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Abbruch / kurzfristige Unterbrechung bei reflektorischem Bronchospasmus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "regelmäßige Reevaluation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Monitoring der Vitalparameter, insbesondere SpO2",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "intramuskulaere-injektion",
+   "name": "Intramuskuläre Injektion",
+   "seite": 44,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "notwendige Epinephringabe i.m. bei anaphylaktischen Reaktionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Glucagongabe bei Hypoglykämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Opiodgabe zur Analgesie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Midazolamgabe bei cerebralem Krampfanfall",
+      "ergaenzung": true,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "Kreislaufstillstand oder manifester Schock anderer Genese",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Infektion oder eingeschränkte Durchblutung an der Punktionsstelle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "paretische, verletzte oder (vor-)geschädigte Extremität",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Therapie mit Antikoagulantien und Blutungsneigung anderer Genese",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "buccale, rectale oder intranasale Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intravenös (Achtung: angepasste Dosierung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intraossär (Achtung: angepasste Dosierung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verzicht auf Maßnahme bis Eintreffen Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Komplikationen / Risiken:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Versehentliche intravasale / subkutane Injektion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hämatom / Entzündung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gefäß- / Nervenverletzungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Weichteilschäden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Einwilligung gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "Aufsuchen der Punktionsstelle: mittleres Drittel lateraler Oberschenkel, ggf. Oberarm",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Punktionsort ausreichend reinigen und desinfizieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Spannen der Haut am Einstichareal / Pat. soll Muskel nicht anspannen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Punktion senkrecht",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "langsame Injektion – bei Widerstand (z.B. Knochen) – Nadel zurückziehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nach Injektion: rasches Herausziehen und Kompression der Einstichstelle mit steriler Kompresse",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pflasterverband",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "keine Schwellung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Dysästhesien",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gewünschte pharmakologische Wirkung verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Abbruch bei Komplikationen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ggf. Druckverband",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "pharmakologischer Effekt verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Schwellung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Geeignete Größen von Einmalkanülen:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Stärke: 18 G / 19 G / 21 G / 22 G",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Länge: 25 bis 70 mm",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "intranasale-medikamentengabe",
+   "name": "Intranasale Medikamentengabe",
+   "seite": 45,
+   "abschnitte": {
+    "indikationen": [
+     {
+      "text": "Durchbrechung des Status epilepticus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schmerzmedikation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "kontraindikationen": [
+     {
+      "text": "Verletzung der Nase",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nasenbluten, übermäßige Schleimbildung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "alternativen": [
+     {
+      "text": "buccale, rektale oder intramuskuläre Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intravenös",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intraossär",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verzicht auf Maßnahme bis Eintreffen Notarzt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "einwilligung": [
+     {
+      "text": "gemäß dem geäußerten oder mutmaßlichen Patientenwillen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kein schriftliches Einverständnis erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dokumentation im Einsatzprotokoll notwendig",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "aufklaerung": [
+     {
+      "text": "Aufklärungsumfang nach Dringlichkeit der Maßnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Brennen nach Anwendung an Nasenschleimhaut",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "durchfuehrung": [
+     {
+      "text": "höchstkonzentrierte Lösung, kleinstes Volumen des Medikaments wählen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "benötigtes Medikamentenvolumen in Spritze aufziehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zerstäuber an Luer-Lock-Anschluss des Spritzenkonus verbinden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Luft eliminieren und sicherstellen, dass Spritze das gewünschte Medikamentenvolumen enthält",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mit der freien Hand den Hinterkopf des Patienten halten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zerstäuber fest auf Nasenloch aufsetzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ausrichtung Stempel nach oben und zur Seite",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Spritzenstempel zügig vorschieben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "max. Gesamtvolumen 1 ml pro Nasenloch",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "erfolgspruefung": [
+     {
+      "text": "gewünschte pharmakologische Wirkung verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "gegenmassnahmen": [
+     {
+      "text": "Abbruch bei Komplikationen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "verlaufskontrolle": [
+     {
+      "text": "pharmakologischer Effekt verabreichter Medikamente",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anmerkungen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Zur Applikation wird ein Spritzenaufsatz zur Zerstäubung eines Medikamentes, welches über die Nasenschleimhäute resorbiert wird, benötigt.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  }
+ ]
+}

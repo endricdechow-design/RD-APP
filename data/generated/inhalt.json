@@ -1,0 +1,478 @@
+{
+ "meta": {
+  "quelle": "Gemeinsames Kompendium Rettungsdienst 2026",
+  "seiten": 175,
+  "bereiche": [
+   "RKN",
+   "HS",
+   "DU",
+   "KR",
+   "VIE",
+   "OB",
+   "MH",
+   "MG",
+   "DN",
+   "KLE",
+   "AC",
+   "EU",
+   "SR AC",
+   "BO",
+   "HER",
+   "BOT",
+   "E",
+   "UN",
+   "REK",
+   "DO",
+   "GL",
+   "TNA-BL",
+   "GE",
+   "HSK",
+   "D",
+   "HA",
+   "HAM",
+   "E-3A"
+  ]
+ },
+ "daten": [
+  {
+   "titel": "Leitbild",
+   "seite": 6
+  },
+  {
+   "titel": "\"Was ist neu\"",
+   "seite": 7
+  },
+  {
+   "titel": "Verantwortliche",
+   "seite": 8
+  },
+  {
+   "titel": "Vorwort",
+   "seite": 11
+  },
+  {
+   "titel": "Symbole und Abkürzungen",
+   "seite": 13
+  },
+  {
+   "titel": "Rechtliche Fragen",
+   "seite": 14
+  },
+  {
+   "titel": "Aufklärung",
+   "seite": 17
+  },
+  {
+   "titel": "Mitfahrtverweigerung",
+   "seite": 20
+  },
+  {
+   "titel": "TNA",
+   "seite": 22
+  },
+  {
+   "titel": "Kindeswohlgefährdung",
+   "seite": 23
+  },
+  {
+   "titel": "Kapitel \"SAA\"",
+   "seite": 26
+  },
+  {
+   "titel": "Standardvorgehen SAA Invasive Maßnahmen",
+   "seite": 27
+  },
+  {
+   "titel": "SAA i.v.-Zugang",
+   "seite": 28
+  },
+  {
+   "titel": "SAA i.o.-Zugang",
+   "seite": 29
+  },
+  {
+   "titel": "SAA EGA allgemein",
+   "seite": 30
+  },
+  {
+   "titel": "SAA EGA LTS-D®",
+   "seite": 31
+  },
+  {
+   "titel": "SAA Larynxmaske mit Drainagekanal (2. Gen)",
+   "seite": 32
+  },
+  {
+   "titel": "SAA i-gel®",
+   "seite": 33
+  },
+  {
+   "titel": "SAA Laryngoskopie",
+   "seite": 34
+  },
+  {
+   "titel": "SAA Nicht-invasives CPAP / NIV",
+   "seite": 35
+  },
+  {
+   "titel": "SAA Tourniquet / pneumat. Blutsperre",
+   "seite": 36
+  },
+  {
+   "titel": "SAA Beckenschlinge",
+   "seite": 37
+  },
+  {
+   "titel": "SAA Achsengerechte Immobilisation",
+   "seite": 38
+  },
+  {
+   "titel": "SAA Thoraxentlastungspunktion",
+   "seite": 39
+  },
+  {
+   "titel": "SAA Manuelle Defibrillation",
+   "seite": 40
+  },
+  {
+   "titel": "SAA Kardioversion",
+   "seite": 41
+  },
+  {
+   "titel": "SAA Externe Schrittmacheranlage",
+   "seite": 42
+  },
+  {
+   "titel": "SAA Endobronchiales Absaugen",
+   "seite": 43
+  },
+  {
+   "titel": "SAA Intramuskuläre Injektion",
+   "seite": 44
+  },
+  {
+   "titel": "SAA Intranasale Medikamentengabe",
+   "seite": 45
+  },
+  {
+   "titel": "Erläuterungen Medikamentengabe",
+   "seite": 46
+  },
+  {
+   "titel": "Notfallkarte Opioidüberdosierung",
+   "seite": 48
+  },
+  {
+   "titel": "SAA Acetylsalicylsäure",
+   "seite": 49
+  },
+  {
+   "titel": "SAA Amiodaron",
+   "seite": 50
+  },
+  {
+   "titel": "SAA Atropin",
+   "seite": 51
+  },
+  {
+   "titel": "SAA Butylscopolamin",
+   "seite": 52
+  },
+  {
+   "titel": "SAA Dimenhydrinat",
+   "seite": 53
+  },
+  {
+   "titel": "SAA Dimetinden",
+   "seite": 54
+  },
+  {
+   "titel": "SAA Epinephrin",
+   "seite": 55
+  },
+  {
+   "titel": "SAA Esketamin",
+   "seite": 56
+  },
+  {
+   "titel": "SAA Fentanyl",
+   "seite": 57
+  },
+  {
+   "titel": "SAA Furosemid",
+   "seite": 58
+  },
+  {
+   "titel": "SAA Glucagon",
+   "seite": 59
+  },
+  {
+   "titel": "SAA Glucose",
+   "seite": 60
+  },
+  {
+   "titel": "SAA Glyceroltrinitrat",
+   "seite": 61
+  },
+  {
+   "titel": "SAA Heparin",
+   "seite": 62
+  },
+  {
+   "titel": "SAA Ibuprofen",
+   "seite": 63
+  },
+  {
+   "titel": "SAA Ipratropiumbromid",
+   "seite": 64
+  },
+  {
+   "titel": "SAA Ketamin",
+   "seite": 65
+  },
+  {
+   "titel": "SAA Lidocain",
+   "seite": 66
+  },
+  {
+   "titel": "SAA Metoprolol",
+   "seite": 67
+  },
+  {
+   "titel": "SAA Midazolam",
+   "seite": 68
+  },
+  {
+   "titel": "SAA Morphin",
+   "seite": 69
+  },
+  {
+   "titel": "SAA Nalbuphin",
+   "seite": 70
+  },
+  {
+   "titel": "SAA Naloxonhydrochlorid",
+   "seite": 71
+  },
+  {
+   "titel": "Ondansetron",
+   "seite": 72
+  },
+  {
+   "titel": "SAA Paracetamol",
+   "seite": 73
+  },
+  {
+   "titel": "SAA Prednisolon",
+   "seite": 74
+  },
+  {
+   "titel": "SAA Salbutamol",
+   "seite": 75
+  },
+  {
+   "titel": "SAA Sauerstoff",
+   "seite": 76
+  },
+  {
+   "titel": "SAA Tranexamsäure",
+   "seite": 77
+  },
+  {
+   "titel": "SAA Urapidil",
+   "seite": 78
+  },
+  {
+   "titel": "SAA Vollelektrolytlösung",
+   "seite": 79
+  },
+  {
+   "titel": "Kapitel \"Herangehensweise\"",
+   "seite": 80
+  },
+  {
+   "titel": "Primary und Secondary Survey",
+   "seite": 81
+  },
+  {
+   "titel": "Schockraumalarmierung Non-Trauma / Trauma",
+   "seite": 83
+  },
+  {
+   "titel": "SINNHAFT",
+   "seite": 86
+  },
+  {
+   "titel": "Atemwegsmanagement",
+   "seite": 88
+  },
+  {
+   "titel": "Behandlungspfade \"Kreislaufstillstand\"",
+   "seite": 90
+  },
+  {
+   "titel": "Reanimation Erwachsene - ALS",
+   "seite": 91
+  },
+  {
+   "titel": "Reanimation Kinder - PLS",
+   "seite": 93
+  },
+  {
+   "titel": "Erstversorgung Neugeborener",
+   "seite": 95
+  },
+  {
+   "titel": "Reanimation Neugeborene - NLS",
+   "seite": 97
+  },
+  {
+   "titel": "Post-ROSC",
+   "seite": 99
+  },
+  {
+   "titel": "Medikamente Reanimation",
+   "seite": 100
+  },
+  {
+   "titel": "Kapitel \"Leitsymptome u. Krankheitsbilder",
+   "seite": 102
+  },
+  {
+   "titel": "Leitsymptom \"Dyspnoe\"",
+   "seite": 103
+  },
+  {
+   "titel": "Leitsymptom \"Kurzzeitige Bewusstlosigkeit\"",
+   "seite": 104
+  },
+  {
+   "titel": "Leitsymptom \"Schmerzen\" u. Schmerzbehandlung",
+   "seite": 105
+  },
+  {
+   "titel": "Leitsymptom \"Schock\"",
+   "seite": 113
+  },
+  {
+   "titel": "Leitsymptom \"Zentrales neurologisches Defizit\"",
+   "seite": 114
+  },
+  {
+   "titel": "A-Problem bei Fremdkörperaspiration",
+   "seite": 115
+  },
+  {
+   "titel": "A-Problem beim Erwachsenen",
+   "seite": 116
+  },
+  {
+   "titel": "Akutes Aortensyndrom",
+   "seite": 117
+  },
+  {
+   "titel": "ACS",
+   "seite": 118
+  },
+  {
+   "titel": "Anaphylaxie",
+   "seite": 121
+  },
+  {
+   "titel": "Akuter arterieller Verschluss peripherer Gefäße",
+   "seite": 125
+  },
+  {
+   "titel": "Atemnot durch verlegtes Tracheostoma",
+   "seite": 126
+  },
+  {
+   "titel": "Bronchialobstruktion",
+   "seite": 128
+  },
+  {
+   "titel": "Dehydratation",
+   "seite": 131
+  },
+  {
+   "titel": "Geburtsbegleitung",
+   "seite": 132
+  },
+  {
+   "titel": "Hitzeschäden",
+   "seite": 134
+  },
+  {
+   "titel": "Hyperglykämie",
+   "seite": 135
+  },
+  {
+   "titel": "Hypertensiver Notfall",
+   "seite": 136
+  },
+  {
+   "titel": "Hypoglykämie",
+   "seite": 138
+  },
+  {
+   "titel": "Instabile Bradykardie",
+   "seite": 140
+  },
+  {
+   "titel": "Instabile Tachykardie",
+   "seite": 141
+  },
+  {
+   "titel": "Intoxikation",
+   "seite": 142
+  },
+  {
+   "titel": "Kardiales Lungenödem",
+   "seite": 143
+  },
+  {
+   "titel": "Krampfanfall",
+   "seite": 145
+  },
+  {
+   "titel": "Lungenarterienembolie",
+   "seite": 149
+  },
+  {
+   "titel": "Obstruktion der oberen Atemwege - Säugling /",
+   "seite": 151
+  },
+  {
+   "titel": "Schlaganfall",
+   "seite": 152
+  },
+  {
+   "titel": "Sepsis",
+   "seite": 154
+  },
+  {
+   "titel": "Kapitel \"Trauma, MANV und Sonstiges\"",
+   "seite": 156
+  },
+  {
+   "titel": "Trauma",
+   "seite": 157
+  },
+  {
+   "titel": "Patientenzentrierte Rettung",
+   "seite": 165
+  },
+  {
+   "titel": "mSTART",
+   "seite": 167
+  },
+  {
+   "titel": "Intoxikation mit Kohlenstoffmonoxid",
+   "seite": 171
+  },
+  {
+   "titel": "Links und Hinweise",
+   "seite": 175
+  }
+ ]
+}

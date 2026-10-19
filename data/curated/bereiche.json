@@ -1,0 +1,125 @@
+{
+ "_hinweis": "Bereichscodes laut Legende S. 12.",
+ "bereiche": [
+  {
+   "code": "RKN",
+   "name": "Rhein-Kreis Neuss"
+  },
+  {
+   "code": "HS",
+   "name": "Kreis Heinsberg"
+  },
+  {
+   "code": "DU",
+   "name": "Duisburg"
+  },
+  {
+   "code": "KR",
+   "name": "Krefeld"
+  },
+  {
+   "code": "VIE",
+   "name": "Kreis Viersen"
+  },
+  {
+   "code": "OB",
+   "name": "Oberhausen"
+  },
+  {
+   "code": "MH",
+   "name": "Mülheim an der Ruhr"
+  },
+  {
+   "code": "MG",
+   "name": "Mönchengladbach"
+  },
+  {
+   "code": "DN",
+   "name": "Kreis Düren"
+  },
+  {
+   "code": "KLE",
+   "name": "Kreis Kleve"
+  },
+  {
+   "code": "AC",
+   "name": "Stadt Aachen"
+  },
+  {
+   "code": "EU",
+   "name": "Kreis Euskirchen"
+  },
+  {
+   "code": "SR AC",
+   "name": "StädteRegion Aachen"
+  },
+  {
+   "code": "BO",
+   "name": "Bochum"
+  },
+  {
+   "code": "HER",
+   "name": "Herne"
+  },
+  {
+   "code": "BOT",
+   "name": "Bottrop"
+  },
+  {
+   "code": "E",
+   "name": "Essen"
+  },
+  {
+   "code": "UN",
+   "name": "Kreis Unna"
+  },
+  {
+   "code": "REK",
+   "name": "Rhein-Erft-Kreis"
+  },
+  {
+   "code": "DO",
+   "name": "Dortmund"
+  },
+  {
+   "code": "GL",
+   "name": "Rheinisch-Bergischer Kreis"
+  },
+  {
+   "code": "TNA-BL",
+   "name": "TNA-Bergisches Land",
+   "teil": [
+    "Ennepe-Ruhr-Kreis",
+    "Leverkusen",
+    "Kreis Mettmann",
+    "Solingen",
+    "Remscheid",
+    "Wuppertal"
+   ]
+  },
+  {
+   "code": "GE",
+   "name": "Gelsenkirchen"
+  },
+  {
+   "code": "HSK",
+   "name": "Hochsauerlandkreis"
+  },
+  {
+   "code": "D",
+   "name": "Düsseldorf"
+  },
+  {
+   "code": "HA",
+   "name": "Hagen"
+  },
+  {
+   "code": "HAM",
+   "name": "Hamm"
+  },
+  {
+   "code": "E-3A",
+   "name": "NATO AWACS E-3A Component"
+  }
+ ]
+}

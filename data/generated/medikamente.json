@@ -1,0 +1,5752 @@
+{
+ "meta": {
+  "quelle": "Gemeinsames Kompendium Rettungsdienst 2026",
+  "seiten": 175,
+  "bereiche": [
+   "RKN",
+   "HS",
+   "DU",
+   "KR",
+   "VIE",
+   "OB",
+   "MH",
+   "MG",
+   "DN",
+   "KLE",
+   "AC",
+   "EU",
+   "SR AC",
+   "BO",
+   "HER",
+   "BOT",
+   "E",
+   "UN",
+   "REK",
+   "DO",
+   "GL",
+   "TNA-BL",
+   "GE",
+   "HSK",
+   "D",
+   "HA",
+   "HAM",
+   "E-3A"
+  ]
+ },
+ "daten": [
+  {
+   "id": "acetylsalicylsaeure",
+   "name": "Acetylsalicylsäure",
+   "seite": 49,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Acetylsalicylsäure (ASS)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "500 mg Trockensubstanz + 5 ml Lösungsmittel, diverse orale Darreichungsformen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Thrombozytenaggregationshemmer / Hemmung der Cyclooxygenase",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Akutes Coronarsyndrom, Myokardinfarkt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff oder Salicylate",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "aktuell bestehende innere Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Trauma mit Gefahr einer nicht komprimierbaren Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "V.a. akutes Aortensyndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutungsneigung / hämorrhagische Diathese",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "letztes Trimenon der Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung durch NotSan bei Pat. < 18 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Überempfindlichkeit gegen andere NSAR",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Asthmaanfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "aktuelles Ulcus ventriculi oder Ulcus duodeni",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Leber- und Nierenfunktionsstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwerer Glucose-6-Phosphat-Dehydrogenasemangel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Methotrexat-Einnahme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "i.v.: 250 mg langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "oral: 200 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Bronchospasmus, Auslösung eines Asthmaanfalls",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutungsgefahr",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gastrointestinale Beschwerden (Übelkeit, Erbrechen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Wirkeintritt: nach ca. 10 - 15 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkdauer: Tage (Lebensdauer der Thrombozyten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Besondere Hinweise zur Anwendung:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "für die i.v.-Gabe Herstellerangaben beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "amiodaron",
+   "name": "Amiodaron",
+   "seite": 50,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Amiodaron",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "50 mg/ml (Amp. 150 mg / 3 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antiarrhythmikum (Klasse 3)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Reanimation: refraktäres Kammerflimmern, pulslose ventrikuläre Tachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "lebensbedrohliche ventrikuläre Tachykardie",
+      "ergaenzung": true,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bekannte Jod-Allergie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "Säuglinge und Kinder < 3 Jahre (Gehalt an Benzylalkohol)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Reanimation:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "langsame i.v.-Injektion als Bolusgabe unter laufender Infusion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mit Vollelektrolytlösung nachspülen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gabe nach der 3. Defibrillation",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Kinder: 5 mg/kgKG (max. 300 mg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene: 300 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition nach der 5. Defibrillation",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Kinder: 5 mg/kgKG (max. 150 mg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene 150 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "lebensbedrohliche ventrikuläre Tachykardie:",
+      "ergaenzung": true,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "300 mg Amiodaron in einer Kurzinfusion über ca. 20 Minuten",
+      "ergaenzung": true,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Bradykardie, Überleitungsstörungen, Hypotonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "bei Anwendung über Perfusor (z.B. im Rahmen der antiarrhythmischen Therapie außerhalb einer Reanimationssituation) Verdünnung mit Glucose 5 %",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "alternatives Medikament: Lidocain",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "atropin",
+   "name": "Atropin",
+   "seite": 51,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Atropinsulfat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "0,5 mg/ml (Amp. 0,5 mg / 1 ml) oder 1 mg/ml (Amp. 1 mg / 1 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Parasympatholytikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "instabile Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Engwinkelglaukom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung < 18 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Myasthenia gravis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ileus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "instabile Bradykardie",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Einzeldosis 0,5 mg i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei nachweisbarer, aber nicht ausreichender Wirkung Repetition nach 3 - 5 min bis adäquater Anstieg der Herzfrequenz (max. Gesamtdosis 3 mg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "wenn wirkungslos, dann keine weitere Gabe ➜ Wechsel auf Epinephrin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Tachykardie, Arrhythmie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mydriasis, Sehstörungen, Auslösung eines Glaukomanfalls",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mundtrockenheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Miktionsstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Unruhe- und Erregungszustände, Verwirrtheitszustände",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Wechsel auf Epinephrin bei persistierender instabiler Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "butylscopolamin",
+   "name": "Butylscopolamin",
+   "seite": 52,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Butylscopolaminiumbromid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "20 mg/ml (Amp. 20 mg / 1 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Parasympatholytikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "starke kolikartige abdominelle Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tachykardie, Tachyarrhythmie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Engwinkelglaukom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ileus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "mechanische Stenosen im Magen-Darmtrakt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Myasthenia gravis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung < 12 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "kardiale Vorerkrankungen, z.B. KHK und hochgradige Herzklappenstenosen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Harnverhalt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vorbehandlung mit anticholinerg wirkenden Medikamenten (z.B. Antidepressiva, Neuroleptika, Antihistaminika)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "0,3 mg/kgKG langsam i.v., Repetition nach 5 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "max. 20 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "allergische Haut- und Schleimhautreaktionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tachykardie, Blutdruckabfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mydriasis, Sehstörungen, Auslösung eines Glaukomanfalls",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mundtrockenheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Miktionsstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwindel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Wirkeintritt nach ca. 15 Minuten, Wirkdauer ca. 5 Stunden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Nierenkoliken laut Leitlinie (AWMF 043-025) nicht mehr angezeigt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "dimenhydrinat",
+   "name": "Dimenhydrinat",
+   "seite": 53,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Diphenhydramin, 8-Chlortheophyllin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "6,2 mg/ml (Amp. 62 mg / 10 ml) oder 40 mg Supp.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antihistaminikum (Histamin-1-Rezeptor-Antagonist), Antiemetikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Übelkeit und Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akute Bronchialobstruktion (Asthma / COPD)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Engwinkelglaukom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Krampfanfälle (Epilepsie, Eklampsie)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bekannte Porphyrie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bekanntes Long-QT-Syndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Phäochromozytom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Therapie mit MAO-Hemmern",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine rektale Anwendung bei Kindern < 1 Jahr",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Schwangerschaft und Stillzeit (CAVE: keine Anwendung bei Wehentätigkeit)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Morbus Parkinson",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Herzrhythmusstörungen und KHK",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Erwachsene und Kinder > 14 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "62 mg langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder 6 - 14 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "40 mg langsam i.v. oder rektal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder < 6 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "40 mg rektal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "ZNS-Dämpfung mit Sedierung, Müdigkeit (verstärkt unter Alkoholeinfluss)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "paradoxe Reaktionen möglich (Unruhe, Erregung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mydriasis, Sehstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mundtrockenheit, Miktionsstörungen, gastrointestinale Beschwerden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Beeinträchtigung der Fahrtauglichkeit und Reaktionsfähigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "dimetinden",
+   "name": "Dimetinden",
+   "seite": 54,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Dimetindenmaleat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "1 mg/ml (Amp. 4 mg / 4 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antihistaminikum (Histamin-1-Rezeptor-Antagonist)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Anaphylaxie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft und Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 12 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Glaukom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Epilepsie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Erwachsene und Kinder > 12 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "4 - 8 mg i.v. (0,1 mg/kgKG, max. 8 mg) langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Sedierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erregungszustand",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mydriasis, Sehstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mundtrockenheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gastrointestinale Beschwerden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Beeinträchtigung der Fahrtauglichkeit und Reaktionsfähigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "epinephrin",
+   "name": "Epinephrin",
+   "seite": 55,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Epinephrin (Adrenalin)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "1 mg/ml (Amp. 1 mg / 1 ml, Stechamp. 25 mg / 25 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Sympathomimetikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Reanimation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "instabile Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anaphylaxie ab Stadium II mit Atemstörung oder Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Laryngotracheobronchitis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Obstruktion der oberen Atemwege durch Schleimhautschwellung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "entfällt bei vitaler Gefährdung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Reanimation",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Erwachsene: 1 mg i.v. / i.o.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder: 0,01 mg/kgKG i.v. / i.o.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei VF: nach dritter Defibrillation, danach alle 4 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Asystolie / PEA: so früh wie möglich, danach alle 4 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "instabile Bradykardie",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "1 mg Epinephrin in 100 ml NaCl 0,9 % (0,01 mg/ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "0,5 ml (5 µg) bolusweise jede Minute i.v. bis adäquater Herzfrequenzanstieg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "danach regelmäßige Evalution – bei Abfall der HF erneut 0,5 ml (5 µg) i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "alternativ Perfusor: 1 mg Epinephrin in 100 ml NaCl 0,9 %, Laufrate 30 ml/h",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anaphylaxie ab Stadium II",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Erwachsene und Kinder > 12 Jahre: 0,5 mg i.m.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder 6 - 12 Jahre: 0,3 mg i.m.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder < 6 Jahre: 0,15 mg i.m.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bei fehlender Wirkung und in Abhängigkeit unerwünschter Wirkungen kann die Injektion alle fünf bis 10 Minuten je nach klinischer Symptomatik wiederholt werden.",
+      "ergaenzung": true,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Obstruktion der oberen Atemwege durch Schleimhautschwellung, Anaphylaxie mit A- oder B-Problem,",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Laryngotracheobronchitis",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "4 mg Epinephrin vernebeln",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition nach 10 min möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Angina pectoris (erhöhter myokardialer O2-Bedarf)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypertonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tachykardie / Herzrhythmusstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Durchblutungsstörungen / Nekrosen im Bereich der Akren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Unruhe, Angst, Kopfschmerzen, Tremor, Palpitationen, Mydriasis, Hyperglykämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "sehr kurze Halbwertszeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Interaktionen: Abschwächung der Epinephrin-Wirkung durch NaHCO3",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nicht gleichzeitig mit NaHCO3 über einen Zugang geben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "esketamin",
+   "name": "Esketamin",
+   "seite": 56,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Esketamin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "5 mg/ml (Amp. 25 mg / 5 ml), 25 mg/ml (Amp. 50 mg / 2 ml, 250 mg / 10 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Analgetikum, Anästhetikum (dosisabhängig)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "starker Schmerz (NRS ≥ 6)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Bewusstseinstörung – Sopor, Koma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Intoxikation mit psychoaktiven Substanzen, Alkohol, Opioiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ACS, Myokardinfarkt, Herzinsuffizienz mit kardialer Dekompensation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gesteigerter Hirndruck",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft, insbesondere Eklampsie / Präeklampsie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere hypertensive Entgleisung (über 180/100 mmHg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vormedikation mit Aminophyllin, Theophyllin, Ergometrin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nicht oder ungenügend behandelte Hyperthyreose",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 10 kgKG (ca. 12 Monate)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Bewusstseinsstörung – Somnolenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "RRsyst < 100 mmHg bei Volumenmangelschock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. unter akutem Alkoholeinfluss, zentral dämpfenden oder psychotropen Substanzen in der Anamnese",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. mit schweren psychotischen Störungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei erhöhtem Augeninnendruck (Glaukom) und perforierenden Augenverletzungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "i.v.: 0,125 mg/kgKG, Repetition von 0,125 mg/kgKG, Maximaldosis 0,25 mg/kgKG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nasal, i.m.: 1 mg/kgKG zur Initialtherapie, einmalige Repetition 1 mg/kgKG möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kombination von Midazolam u. Esketamin bei i.v.-Gabe empfohlen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "weitere Blutdrucksenkung bei Volumenmangelschock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nystagmus, Doppelsehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aufwachreaktionen, Albträume, Unruhe, Schwindel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Euphorie, Dysphorie, Panikattacken",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bewusstseinstrübung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ateminsuffizienz (dosisabhängig)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anstieg von Blutdruck und Herzfrequenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zunahme des intraokularen Drucks (Cave: Glaukom)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Speichelfluss, Übelkeit, Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: Ampullen mit unterschiedlichen Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "hohe Geräusch- und Lichtempfindlichkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkeintritt nach ca. 1 min, Wirkdauer ca. 20 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Verwendung von Ketamin: Dosisverdoppelung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "fentanyl",
+   "name": "Fentanyl",
+   "seite": 57,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Fentanylcitrat bzw. Fentanyldihydrogencitrat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "50 µg / ml (Amp. zu 100 µg / 2 ml und 500 µg / 10 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "µ-Opioidrezeptoragonist, BtM",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "starker Schmerz (NRS ≥ 6)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Bewusstseinsstörung – Sopor, Koma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 21 kgKG (ca. 6 Jahre)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Bewusstseinsstörung – Somnolenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Atemwegserkrankungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Myasthenia gravis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Darmerkrankungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Opioidabhängigkeit / Substitution mit Methadon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "fraktionierte, langsame Gabe intravenös im Abstand von 3 - 4 Minuten in 50-µg-Schritten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Maximaldosis: 2 µg/kgKG ideales Körpergewicht",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nasale und i.m. Gabe: 2 µg/kgKG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Übelkeit, Erbrechen, Obstipation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression, Hypoventilation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutdruckabfall, Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Benommenheit, Schwindel, Euphorisierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Miosis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Muskelsteifheit, insbesondere Thoraxrigidität bei schneller Applikation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "anticholinerge Wirkungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "serotoninerge Wirkungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Überdosierung / Gegenmaßnahmen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Atemdepression, Atemstillstand, Bewusstseinsverlust → Kommandoatmung anwenden → bei Abfall der SpO2 : Sauerstoff applizieren → assistierte Beatmung (Beutel-Maske-Beatmung): BPR Atemwegsmanagement → ultima ratio: Naloxon titrieren: SAA Naloxon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Übelkeit und Erbrechen: SAA Dimenhydrinat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: vorsichtige Titration bei alten und multimorbiden Patienten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Cave: Wirkungsverstärkung und erhöhtes Risiko von Atemdepression in Kombination mit Alkohol- /",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Drogenkonsum / zentral dämpfenden Medikamenten (Benzodiazepine, Gabapentin, Pregabalin, o.ä.)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "furosemid",
+   "name": "Furosemid",
+   "seite": 58,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Furosemid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "10 mg/ml (Amp. 20 mg / 2 ml, Amp. 40 mg / 4 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Diuretikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "kardiales Lungenödem",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypovolämie, schwergradige Dehydratation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nierenversagen mit Anurie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Leberversagen mit Bewusstseinsstörung (Praecoma / Coma hepaticum)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Hypokaliämie, Hyponatriämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Patienten < 12 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypotonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "20 mg Furosemid langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "einmalige Repetition nach 15 min möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "allergische Haut- und Schleimhautreaktionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutdruckabfall, Hypotonie, Orthostase",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Elektrolytstörungen (Hypokaliämie, Hyponatriämie)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hörstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gastrointestinale Beschwerden (z.B. Übelkeit)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: Inkompatibilitäten (pH) ➜ keine Mischung und / oder gleichzeitige Injektion mit anderen Substanzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkeintritt nach 2 - 15 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "glucagon",
+   "name": "Glucagon",
+   "seite": 59,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Glucagon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "i.m.: 1 mg / ml (Pulver zur Herstellung der Injektionslösung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "nasal: 3 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Hormon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Hypoglykämie < 60 mg/dl bzw. 3,3 mmol/l (Fremdhilfe erforderlich)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "leere Glykogenspeicher (schwere Leberfunktionsstörung, Alkoholmissbrauch etc.)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gleichzeitige Einnahme von Indometacin (paradoxe Wirkung möglich)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "nasal ab 4 Jahren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Erwachsene und Kinder über 25 kg KG (ca. 8 Jahre): 1 mg i.m.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder unter 25 kg KG: 0,5 mg i.m.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene und Kinder > 4 Jahre: 3 mg Glucagon (Baqsimi®) i.n.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Übelkeit / Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tachykardie, Hypertonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Dokumentation der Charge erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "glucose",
+   "name": "Glucose",
+   "seite": 60,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Glucose",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "10 %, 20 %, 40 % und weitere Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Monosaccharid (Einfachzucker)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Hypoglykämie < 60 mg/dl bzw. 3,3 mmol/l (Fremdhilfe erforderlich)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "auf sichere intravasale Lage des Venenzugangs achten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "höherkonzentrierte Lösungen verdünnen, max. 20 %ige Glucose i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Glucose i.v. zusammen mit einlaufender Vollelektrolytlösung applizieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene und Kinder > 30 kgKG",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Einzeldosis 8 - 10 g Glucose i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Einzeldosis 0,2 g pro kgKG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetitionen möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Bei wachen Pat. mit erhaltenen Schutzreflexen und Schluckfähigkeit soll die Gabe von Glucose per os erfolgen.",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Venenreizung, Nekrosen bei paravasaler Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hyperglykämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypokaliämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: unterschiedliche Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Alternativen lt. BPR „Hypoglykämie“ prüfen (Glucagon)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "glyceroltrinitrat",
+   "name": "Glyceroltrinitrat",
+   "seite": 61,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Glyceroltrinitrat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "0,4 mg / Hub",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "organisches Nitrat, Vasodilatator / Antianginosum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "kardiales Lungenödem",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "hypertensiver Notfall mit kardialer Symptomatik",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Myokardinfarkt (keine routinemäßige Gabe)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Unverträglichkeit gegen die Substanz und andere Nitratverbindungen sowie Pfefferminzöl",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypotonie RRsyst < 100 mmHg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "inferiorer Infarkt mit rechtsventrikulärer Beteiligung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gleichzeitige Einnahme von Phosphodiesterase-5-Hemmern",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere stenosierende Herzklappenfehler",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bekannte HOCM (hypertrophe obstruktive Cardiomyopathie)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "V.a. Erhöhung des intrakraniellen Drucks, z.B. bei intrakranieller Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Patienten < 12 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Hypotonie, RRsyst ≤ 120 mmHg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft und Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Anlage eines sicheren i.v.-Zugangs vor Gabe von Glyceroltrinitrat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Spray nicht schütteln",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dosierung: 1 x 0,4 mg (1 Hub) sublingual",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "einmalige Repetition nach 5 Minuten möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Kreislaufdysregulation: Blutdruckabfall, Tachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Flush, Schwindel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopfschmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anstieg des intrakraniellen Druckes",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Interaktionen: verstärkter Blutdruckabfall bei Vormedikation mit Antihypertensiva möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Cave: Reflextachykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "heparin",
+   "name": "Heparin",
+   "seite": 62,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Heparin-Natrium",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "25.000 I.E./ml (Amp. 5.000 I.E. / 0,2 ml), 5.000 I.E./ml (Amp. 25.000 I.E. / 5 ml, Amp. 5.000 I.E. / 1 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antikoagulans",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "akutes Koronarsyndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Lungenarterienembolie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akuter peripherer arterieller Verschluss",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Unverträglichkeit gegen die Substanz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Z.n. bekannter Heparin-induzierter Thrombozytopenie (HIT)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "erhöhte Blutungsgefahr (z.B. schwere Leberinsuffizienz, hochgradige Niereninsuffizienz, schwere Thrombozytopenie)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Z.n. großem operativem Eingriff oder schwerem Trauma sowie chirurgischen Eingriffen am Zentralnervensystem und Augenoperationen in den letzten 4 Wochen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akute zerebrovaskuläre Erkrankung (z.B. V.a. ICB, SAB, Apoplex)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gastrointestinale oder urogenitale Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "aktuelles Ulcus ventriculi oder Ulcus duodeni",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akutes Aortensyndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "unkontrollierbare schwergradige Hypertonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Antikoagulation im therapeutischen Bereich (Ausnahme: BPR ACS)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "5.000 I.E. i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "keine Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "allergische Reaktion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutungsgefahr",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Heparin-induzierte Thombozytopenie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: unterschiedliche Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "erhöhte Blutungsgefahr bei Kombination mit anderen Antikoagulanzien",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "ibuprofen",
+   "name": "Ibuprofen",
+   "seite": 63,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Ibuprofen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "20 mg/ml und 40 mg/ml (Saft / Suspension)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Suppositorien u.a. 75 mg, 125 mg, 150 mg, 250 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "4 mg/ml (400 mg in 100 ml) und 6 mg/ml (600 mg in 100 ml) i.v.-Präparat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Nichtopioid-Analgetikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Schmerzen, NRS ≥ 3",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fieber beim Kind nach stattgehabtem Krampfanfall / Fieberkrampf",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff oder gegen andere NSAR",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erkrankungen, die erhöhte Blutungsneigung oder aktive Blutungen mit sich bringen, wie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "z.B. Thrombozytopenie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ulcus ventriculi, Ulcus duodeni",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "erhöhte Blutungsgefahr, aktive Blutung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Niereninsuffizienz, Leberinsuffizienz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akutes Koronarsyndrom, schwere Herzinsuffizienz (NYHA-Klasse IV)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwergradige Dehydratation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Patienten unter 6 Monate / 7 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Kombination mit NSAR (Zeitfenster beachten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Patienten mit einer gastrointestinalen Erkrankung in der Anamnese (Colitis ulcerosa, Morbus Crohn)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Herzinsuffizienz (NYHA II–III)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ischämische Herzkrankheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Niereninsuffizienz, Leberinsuffizienz (Dosisreduktion)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dehydratation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Störung des Porphyrin-Stoffwechsels",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Applikation p.o. als Suspension",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "⁃ 7 - 9 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "6 - 11 Monate: 50 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "⁃ 10 - 15 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "1 - 3 Jahre: 100 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "⁃ 16 - 19 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "4 - 5 Jahre: 150 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "⁃ 20 - 39 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "6 - 11 Jahre: 200 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "⁃ > 40 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "> 12 Jahre: 7,5 mg/kgKG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "keine Repetition, bei Kleinkindern alternativ Gabe als Suppositorium (keine Dosisanpassung erforderlich) i.v.-Gabe möglich: 600 mg i.v ab dem 18. Lebensjahr",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Tageshöchstdosis Erwachsene: 1.200 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "uaw": [
+     {
+      "text": "allergische Reaktion, schwere Hautreaktionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Magen-Darm-Beschwerden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwindel, Tinnitus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Verschlechterung einer Herzinsuffizienz, Ödeme",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Leber- und Nierenfunktionsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "erhöhte Blutungsneigung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Präparate mit unterschiedlichen Konzentrationen bzw. Wirkstoffmengen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zeitabstand > 6 h zu letzter Gabe beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "ipratropiumbromid",
+   "name": "Ipratropiumbromid",
+   "seite": 64,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Ipratropiumbromid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "250 µg oder 500 µg / 2 ml Inhalationslösung, Präparate mit anderen Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "inhalatives Parasympatholytikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Bronchialobstruktion: Asthmaanfall, Exacerbation COPD",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff, Atropin oder andere Atropinderivate",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "symptomatische Tachykardie / Tachyarrhythmie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Engwinkelglaukom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Pat. < 6 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "vernebelte Lösung darf nicht in die Augen gelangen, auf festen Sitz der Maske achten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. > 12 Jahre 0,5 mg Inhalation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. 6 bis 12 Jahre 0,25 mg Inhalation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition nach 30 min möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Allergie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopfschmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwindel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sehstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tachycardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Mundtrockenheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Husten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gastrointestinale Motilitätsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Harnverhalt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "unterschiedliche Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "ketamin",
+   "name": "Ketamin",
+   "seite": 65,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Ketamin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "50 mg/ml (Amp. 100 mg / 2 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Analgetikum, Anästhetikum (dosisabhängig)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "starker Schmerz (NRS ≥ 6)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Bewusstseinstörung – Sopor, Koma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Intoxikation mit psychoaktiven Substanzen, Alkohol, Opioiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ACS, Myokardinfarkt, Herzinsuffizienz mit kardialer Dekompensation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "gesteigerter Hirndruck",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft, insbesondere Eklampsie / Präeklampsie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere hypertensive Entgleisung (über 180/100 mmHg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vormedikation mit Aminophyllin, Theophyllin, Ergometrin",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nicht oder ungenügend behandelte Hyperthyreose",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 10 kgKG (ca. 12 Monate)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Bewusstseinsstörung – Somnolenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "RRsyst < 100 mmHg bei Volumenmangelschock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. unter akutem Alkoholeinfluss, zentral dämpfenden oder psychotropen Substanzen in der Anamnese",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. mit schweren psychotischen Störungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei erhöhtem Augeninnendruck (Glaukom) und perforierenden Augenverletzungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "i.v.: 0,25 mg/kgKG, Repetition von 0,25 mg/kgKG, Maximaldosis 0,5 mg/kgKG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nasal, i.m.: 2 mg/kgKG zur Initialtherapie, einmalige Repetition 2 mg/kgKG möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kombination von Midazolam u. Ketamin bei i.v.-Gabe empfohlen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "weitere Blutdrucksenkung bei Volumenmangelschock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Nystagmus, Doppelsehen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aufwachreaktionen, Albträume, Unruhe, Schwindel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Euphorie, Dysphorie, Panikattacken",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bewusstseinstrübung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ateminsuffizienz (dosisabhängig)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anstieg von Blutdruck und Herzfrequenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zunahme des intraokularen Drucks (Cave: Glaukom)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Speichelfluss, Übelkeit, Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: Ampullen mit unterschiedlichen Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "hohe Geräusch- und Lichtempfindlichkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkeintritt nach ca. 1 min, Wirkdauer ca. 20 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "lidocain",
+   "name": "Lidocain",
+   "seite": 66,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Lidocain",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "Lidocain 2 %: 20 mg/ml (Amp. 100 mg / 5 ml), Lidocain 1 %: 10 mg/ml",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antiarrhythmikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Antiarrhythmikum bei defibrillierbaren Rhythmen (Kammerflimmern und pulsloser VT) im Rahmen der Reanimation (gleichwertige Alternative zu Amiodaron)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Erwachsene",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "100 mg i.v nach dem 3. Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "50 mg i.v. Repetition nach dem 5. Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Säuglinge und Kinder",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "1 mg/kgKG nach dem 3. Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "0,5 mg/kgKG nach dem 5. Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Bradykardie, Überleitungsstörungen, Hypotonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Cave: unterschiedliche Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "metoprolol",
+   "name": "Metoprolol",
+   "seite": 67,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Metoprolol",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "Metoprolol 1 mg/ml (Amp. 5 mg / 5 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Betablocker",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "STEMI / OMI mit nicht schmerzbedingtem tachykarden Vorhofflimmern (> 100 /min)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "STEMI / OMI mit multiplen VES (Richtwert: mind. 1 – 2 /15 sek)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "bekannte Allergie bzw. Unverträglichkeit (auch gegen enthaltene Konservierungsmittel)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vormedikation mit Calcium-Antagonisten vom Verapamil-Typ",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zeichen einer akuten Herzinsuffizienz, z.B. pulmonale Stauung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypotonie (RRsys < 120 mmHg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bradykardie (< 60 /min)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "AV-Block II° / III°",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hinweis auf Hyperkaliämie im EKG ➜ Cave: BRASH-Syndrom (pos. Verstärkung einer Kreislaufdepression bis -stillstand bei Hyperkaliämie und Betablockade)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Pat. < 18 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Asthma bronchiale",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Erwachsene",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "2 mg i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition: 2 mg i.v. und 1 mg i.v. (maximale Gesamtmenge 5 mg)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Hypotonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "beide beim ACS fakultativ indizierten Medikamente Metoprolol und Glyceroltrinitrat sind hypotensiv wirksam, daher keine zeitgleiche Gabe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "midazolam",
+   "name": "Midazolam",
+   "seite": 68,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Midazolamhydrochlorid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "1 mg/ml (zur i.v.-Gabe), 5 mg/ml (zur i.n.- / i.m.-Gabe)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Buccolam® Applikationsspritzen zur buccalen Anwendung: 5 mg/ml",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Benzodiazepin (Antikonvulsivum, Sedativum)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "komplizierter Krampfanfall / Fieberkrampf",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Analgosedierung (in Kombination mit Esketamin / Ketamin)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "primär hypoxisch bedingter Krampfanfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Analgosedierung:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "schwere Bewusstseinsstörung – Sopor, Koma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Intoxikation mit psychoaktiven Substanzen, Alkohol, Opioiden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Myasthenia gravis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Schlafapnoe (OSAS)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Pat. < 3 Monate, bei Analgosedierung: keine Anwendung bei Pat. < 10 kg KG (ca. 12 Monate)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "bei Analgosedierung:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Bewusstseinsstörung – Somnolenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "chron.-resp. Insuffizienz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Leber- und / oder Nierenfunktionsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Herzinsuffizienz (ab Klasse NYHA III)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. unter akutem Alkoholeinfluss, zentral dämpfenden oder psychotropen Substanzen in der Anamnese",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "(buccale, nasalen und intravenöse und intramuskuläre Applikation stellen Alternativen dar) antikonvulsive Therapie (adäquat hohe Dosierung erforderlich, nicht titrieren)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Kinder und Jugendliche:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "3 - 11 Monate: 2,5 mg in 0,5 ml buccal; keine Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "1 - 4 Jahre: 5,0 mg in 1,0 ml buccal; keine Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "5 - 9 Jahre: 7,5 mg in 1,5 ml buccal; einmalige Repetition möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "ab 10 Jahre: 10 mg in 2,0 ml buccal; einmalige Repetition möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nasal per MAD®: ab dem 3. LM bis 10 kg KG: 2,5 mg, 10 - 20 kg KG: 5 mg, > 20 kg KG: 10 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition erst bei Kindern > 10 kg KG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "0,1 mg/kgKG Midazolam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "10 mg i.m. oder nasal (1 ml = 5 mg pro Nasenloch) oder 10 mg in 2,0 ml buccal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "einmalige Repetition möglich, Maximaldosis 20 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Kinder:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "3 - 12 Jahre: 5 mg i.m.",
+      "ergaenzung": true,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "> 12 Jahre: 10 mg i.m.",
+      "ergaenzung": true,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "0,1 mg/kgKG i.v., max. 1 x Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "intravenöse Analgosedierung in Kombination mit Esketamin / Ketamin:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Kinder > 10 kg KG: 1 mg langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Erwachsene und Jugendliche > 50 kg KG: 2 mg langam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. > 60 Jahre und / oder < 50 kg KG und / oder mit einschränkenden Krankheiten: 1 mg langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Allergie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Müdigkeit, Amnesie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutdruckabfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "paradoxe Reaktionen (Erregungszustände)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "unterschiedliche Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "morphin",
+   "name": "Morphin",
+   "seite": 69,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Morphinsulfat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "10 mg/ml (Amp. 10 mg / 1 ml) bzw. 20 mg/ml ( 20 mg / 1 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Opiat, µ-Rezeptoragonist, BtM",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "starke und stärkste Schmerzen NRS ≥ 6",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Bewusstseinsstörung – Sopor, Koma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 21 kg KG (ca. 6 Jahre)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Bewusstseinsstörung – Somnolenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft, Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Atemwegserkrankungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Myasthenia gravis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Phäochromozytom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Erkrankungen des Gastrointestinaltraktes, Ileus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Epilepsie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Opioidabhängigkeit / Substitution mit Methadon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Erwachsene: 2 mg fraktioniert, langsam intravenös – alle 3 - 4 Minuten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder 0,05 mg/kgKG – alle 3 - 4 Minuten Maximaldosis 10 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Übelkeit, Erbrechen, Obstipation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression, Hypoventilation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutdruckabfall, Bradykardie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Benommenheit, Schwindel, Euphorisierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Miosis",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Histaminausschüttung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "anticholinerge Wirkung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Überdosierung / Gegenmaßnahmen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Atemdepression, Atemstillstand, Bewusstseinsverlust",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "➞ Kommandoatmung anwenden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ bei Abfall der SpO2 : Sauerstoff applizieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ assistierte Beatmung (Beutel-Maske-Beatmung): BPR Atemwegsmanagement",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ ultima ratio: Naloxon titrieren: SAA Naloxon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "bei Übelkeit und Erbrechen: SAA Dimenhydrinat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Insbesondere beim ACS zur Vorlastsenkung und Sedierung gut geeignet",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "langsame Applikation vermindert Übelkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkungsverstärkung und erhöhtes Risiko von Atemdepression in Kombination mit Alkohol",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Drogenkonsum / zentral dämpfenden Medikamenten (Benzodiazepine o.ä.)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Ampullen mit unterschiedlichen Konzentrationen im Handel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "nalbuphin",
+   "name": "Nalbuphin",
+   "seite": 70,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Nalbuphinhydrochlorid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "10 mg/ml (Amp. 20 mg / 2 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Opioid, µ-Rezeptor-Partialantagonist / Kappa-Rezeptor-Agonist, kein BtM nach BtMG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "starke und stärkste Schmerzen NRS ≥ 6",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwere Bewusstseinsstörung – Sopor, Koma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Leber- und Nierenschäden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dauertherapie mit µ-Rezeptor-Agonisten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Opioidabhängigkeit / Substitution mit Methadon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 21 kg KG (ca. 6 Jahre)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Bewusstseinsstörung – Somnolenz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Atemwegserkrankungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "obstruktive Erkrankungen des Gastrointestinaltraktes, Ileus",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Epilepsie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Pat. < 65 Jahre 0,2 mg/kgKG i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. ≥ 65 Jahre 0,1 mg/kgKG i.v.,",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition bis zur Maximaldosis 20 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder und Jugendliche keine Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nasal, i.m. und s.c. möglich 0,2 mg/kgKG",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Übelkeit, Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sedierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Atemdepression, Hypoventilation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Überdosierung / Gegenmaßnahmen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Atemdepression, Atemstillstand, Bewusstseinsverlust",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "➞ Kommandoatmung anwenden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ bei Abfall der SpO2 : Sauerstoff applizieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ assistierte Beatmung (Beutel-Maske-Beatmung): BPR Atemwegsmanagement",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ ultima ratio: Naloxon titrieren: SAA Naloxon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "bei Übelkeit und Erbrechen: SAA Dimenhydrinat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Ceiling-Effekt beachten = keine Wirkverstärkung bei Dosissteigerung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "geringes Risiko einer Atemdepression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "i.m. Gabe schmerzhaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "naloxonhydrochlorid",
+   "name": "Naloxonhydrochlorid",
+   "seite": 71,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Naloxonhydrochlorid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "0,4 mg/ml (Amp. 0,4 mg / 1 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Opioidrezeptorantagonist / Antidot",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Opioid-Intoxikation bei Versagen der primären Maßnahmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Opioid-Überdosierung bei Versagen der primären Maßnahmen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Primäre Maßnahmen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "➞ Kommandoatmung anwenden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ bei Abfall der SpO2: Sauerstoff applizieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ assistierte Beatmung (Beutel-Maske-Beatmung): BPR Atemwegsmanagement",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "➞ Naloxon titrieren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "0,1 mg fraktioniert, langsam intravenös – alle 2 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder 0,01 mg/kgKG – alle 2 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "fraktionierte Gabe, bis suffiziente Spontanatmung und Schutzreflexe vorhanden sind",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "i.m.- und intranasale Gabe möglich (Dosisanpassung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Auslösen eines akuten Entzugssyndroms bei Opioidabhängigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "überschießende Reaktion mit Schwindel, Schwitzen, Tremor, Muskelkrämpfen, Tachykardie,",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutdruckanstieg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Auftreten von Schmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Wirkeintritt: schnell, innerhalb von 1 - 2 Minuten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gabe von Naloxon kann zum akuten Opioid-Entzugssyndrom führen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "erneute Opioidwirkung nach Abbau von Naloxon möglich ➜ fortgesetzte Überwachung zwingend erforderlich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "ondansetron",
+   "name": "Ondansetron",
+   "seite": 72,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Ondansetron",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "4 mg / 2 ml",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Serontoninantagonist (5-HT3), Antiemetikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Opiatinduzierte Übelkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Chemotherapieassozierte Übelkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Massive Übelkeit/Erbrechen beim Erwachsenen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Unverträglichkeit/Allergie gegen Ondansetron",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft/Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bekanntes Long-QT-Syndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung durch NotSan bei Kindern < 12Jahren",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [],
+    "dosierung": [
+     {
+      "text": "Erwachsene",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "4 mg langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Flush",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypotonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopfschmerzen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sehstörungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dyskinesien",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "QT-Zeit-Verlängerungen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "* für Ondansetron gibt es keine abgestimmte SAA der 6-Länder-Arbeitsgruppe",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "paracetamol",
+   "name": "Paracetamol",
+   "seite": 73,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Paracetamol",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "10 mg/ml (Kurzinfusion 1 g / 100 ml / 0,5 g / 50 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Supp. 75 mg, 125 mg, 250 mg, 500 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Nicht-Opioid-Analgetikum, antipyretisch wirksam",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Schmerzen NRS ≥ 3",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Fieber beim Kind nach stattgehabtem Krampfanfall / Fieberkrampf",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Leberfunktionsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bekannter Glukose-6-phosphat-Dehydrogenase-Mangel",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "siehe Durchführung / Dosierung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "schwere Niereninsuffizienz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Leberfunktionsstörung (z.B. bei schwerer Mangelernährung, Alkoholabusus)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft, Stillzeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Blutbildungsstörungen angeboren oder erworben",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "➞ rektale Applikation (Dosierung identisch zur Schmerztherapie und Fiebersenkung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Kinder 7 - 12 kg KG / 6 Monate - 2 Jahre: 125 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder 13 - 25 kg KG / 2 - 8 Jahre: 250 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kinder 26 - 43 kg KG / 8 - 12 Jahre: 500 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "➞ Kurzinfusion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Pat.: 15 – 50 kg KG: 15 mg/kg KG i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat.: > 50 kg KG: 1000 mg i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "als einmalige Kurzinfusion über 15 Minuten i.v., keine Repetition",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nicht zu applizierende Menge vor Gabe abziehen und verwerfen",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Verschlechterung einer Leberfunktionsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "allergische Haut- und Schleimhautreaktionen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Hypotonie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Zeitabstand zur letzten Gabe > 6 Stunden beachten",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "prednisolon",
+   "name": "Prednisolon",
+   "seite": 74,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Prednisolon",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "50 mg/ml (z.B. Amp. 250 mg / 5 ml Lösungsmittel), Supp. oder Rectalkapsel 100 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Glukokortikoid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Anaphylaxie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bronchialobstruktion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pseudokrupp",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Anaphylaxie",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Pat > 12 Jahre: 250 mg i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat 30 - 60 kgKG: 100 mg i.v. oder 100 mg rectal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat 15 - 30 kgKG: 50 mg i.v. oder 100 mg rectal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bronchialobstruktion",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Pat > 12 Jahre 80 mg i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat ≤ 12 Jahre 2 mg/kgKG i.v. (max. 80 mg) oder 100 mg rectal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pseudokrupp",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Kleinkinder 100 mg rectal",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Hyperglykämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Immunsuppression",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Wirkeintritt verzögert, unspezifische frühzeitige Effekte nach 10 - 20 min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkdauer 4 - 6 Stunden",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "salbutamol",
+   "name": "Salbutamol",
+   "seite": 75,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Salbutamol",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "1,25 mg / 2,5 ml Fertiginhalat",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Zubereitungen mit anderen Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "ß2-Sympathomimetikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Bronchialobstruktion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "symptomatische Tachykardie / Tachyarrhythmie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "Pat. < 4 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "schwere Herzerkrankungen – ACS, HOCM",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Phäochromozytom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Pat. > 12 Jahre: 2,5 mg inhalativ",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. 4 - 12 Jahre: 1,25 mg inhalativ",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "einmalige Repetition nach 10 min möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Tachykardie, HRST, Extrasystolie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Unruhe, Schwindel, Tremor",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wehenhemmung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Zubereitungen mit unterschiedlichen Konzentrationen verfügbar",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "sauerstoff",
+   "name": "Sauerstoff",
+   "seite": 76,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Sauerstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "0,5 - 15 l/min, FiO2 21 – 100 %, FiO2 0,21 – 1,0",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "medizinisches Gas",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Hypoxämie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Intoxikation mit Kohlenmonoxid",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tauchunfall / Dekompressionskrankheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Applikation über Nasenbrille oder Gesichtsmaske",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Nasenbrille: Fluss < 5 l/min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gesichtsmaske: Fluss ≥ 5 l/min",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Zielbereiche: (Voraussetzung: spontan atmender Pat.)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Pat. ohne Hyperkapnierisiko Ziel: SpO2 92 - 96 %",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Pat. mit Hyperkapnierisiko Ziel: SpO2 88 - 92 %",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Erläuterung Hyperkapnierisiko:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Pat. mit COPD, Mukoviszidose (CF), Thoraxdeformitäten, neuromuskulären Erkrankungen, Adipositas per magna (BMI > 40 kg/m2)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Hochdosierte Sauerstoffgabe (15 l/min) ohne Zielwert:",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Pat. ohne Pulsoximetriesignal und kritisch krank (z.B. Herz-Kreislauf-Stillstand)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Atemnot",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "CO-Intoxikation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Tauchunfall / Dekompressionskrankheit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Hyperoxie mit Resorptionsatelektasen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Bildung freier Radikale mit koronarer und cerebraler Vasokonstriktion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Explosionsgefahr bei entsprechendem Konzentrationsverhältnis gegeben, CAVE bei Defibrillation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "tranexamsaeure",
+   "name": "Tranexamsäure",
+   "seite": 77,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Tranexamsäure",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "100 mg/ml (Amp. 500 mg / 5 ml und Amp. 1.000 mg / 10 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antifibrinolytikum",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Blutungen nach schwerem Trauma im hämorrhagischen Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 6 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "akute arterielle / venöse Thrombosen / Lungenarterienembolie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwere Nierenfunktionsstörung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "allergische Reaktion",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Übelkeit, Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Krampfanfälle",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sehstörungen einschließlich Störungen des Farbensehens",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Unwohlsein mit Hypotonie mit oder ohne Bewusstlosigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "(im Allgemeinen nach einer zu schnellen i.v.-Applikation)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "arterielle oder venöse Thrombosen / Embolien",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "15 mg/kgKG Tranexamsäure langsam i.v. (Kurzinfusion über 15 Minuten), max. 1000 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "Gabe nur innerhalb der ersten 3 Stunden nach Trauma",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Gabe von Tranexamsäure bei Schädel-Hirntrauma (SHT) als Monotrauma, intracerebraler Blutung (ICB) ohne Polytraumatisierung oder gastrointestinalen Blutungen wird nach aktuellen Studien nicht empfohlen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "urapidil",
+   "name": "Urapidil",
+   "seite": 78,
+   "abschnitte": {
+    "wirkstoff": [
+     {
+      "text": "Urapidil",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "konzentration": [
+     {
+      "text": "5 mg/ml (Amp. 25 mg / 5 ml, Amp. 50 mg / 10 ml)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "gruppe": [
+     {
+      "text": "Antihypertensivum, peripherer α1-Rezeptorenblocker mit zusätzlicher zentraler Wirkung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "hypertensiver Notfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "akutes Aortensyndrom",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schlaganfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Überempfindlichkeit gegen den Wirkstoff",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "nicht korrigierte Aortenisthmusstenose",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Schwangerschaft",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "keine Anwendung bei Kindern < 12 Jahre",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Leber- und Niereninsuffizienz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Aorten- oder Mitralklappenstenosen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Herzinsuffizienz",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "5 mg langsam i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Repetition möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Maximaldosis 25 mg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "unerwartet starker Blutdruckabfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "orthostatische Dysregulation",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Kopfschmerzen, Schwindel, Müdigkeit",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Übelkeit, Erbrechen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "bei Anwendung unter Nutzen- / Risiko-Abwägung Dosisreduktion empfohlen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Wirkungsverstärkung bei gleichzeitiger Medikation mit anderen Antihypertensiva",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei hypertensivem Notfall beim akuten Aortensyndrom beträgt der angestrebte Zielwert RRsyst 100 - 120 mmHg",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "bei Hinweis auf Schlaganfall sollte eine moderate RR-Senkung auf einen Wert nicht RRsyst < 180 mmHg erfolgen",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "vollelektrolytloesung",
+   "name": "Vollelektrolytlösung",
+   "seite": 79,
+   "abschnitte": {
+    "gruppe": [
+     {
+      "text": "kristalloide Infusionslösung, balancierte Vollelektrolytlösung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "indikationen": [
+     {
+      "text": "Flüssigkeits- und Volumenmangel:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Blutung / hämorrhagischer Schock (möglichst nach Blutstillung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "schwergradige Dehydratation (z.B. bei massivem Erbrechen, Diarrhoe)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Anaphylaxie / anaphylaktischer Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Sepsis / septischer Schock",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "thermische Verletzung (z.B. Verbrennungen)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kritische Hyperglykämie (Erwachsene > 250 mg/dl, Kinder > 200 mg/dl)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "weitere Indikationen:",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Schlaganfall",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "keineAnwendung": [
+     {
+      "text": "Hypervolämie, z.B. im Rahmen von",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "kardialer Dekompensation, Lungenödem",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Niereninsuffizienz mit Oligo- / Anurie",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "altersbegrenzung": [
+     {
+      "text": "entfällt",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ],
+    "nutzenRisiko": [
+     {
+      "text": "Herzinsuffizienz, pulmonale Stauung",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "dosierung": [
+     {
+      "text": "Pat. > 12 Jahre: 500 - 1.000 ml i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Pat. ≤ 12 Jahre: 10 ml/kgKG i.v. Repetition möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "uaw": [
+     {
+      "text": "Hyperhydratation (Überwässerung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Dilution (Verdünnung und ggf. Verstärkung einer Blutung)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     }
+    ],
+    "besonderheiten": [
+     {
+      "text": "relativ kurzzeitiger intravasaler Volumeneffekt (20 - 30 Minuten)",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": true
+     },
+     {
+      "text": "Vollelektrolytlösung",
+      "ergaenzung": false,
+      "bold": true,
+      "bullet": false
+     },
+     {
+      "text": "Pat. > 12 Jahre: 500 - 1.000 ml i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Pat. ≤ 12 Jahre: 10 ml/kgKG i.v.",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     },
+     {
+      "text": "Repetition möglich",
+      "ergaenzung": false,
+      "bold": false,
+      "bullet": false
+     }
+    ]
+   }
+  }
+ ]
+}

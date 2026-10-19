@@ -1,0 +1,904 @@
+{
+ "_hinweis": "Strukturierte Dosisregeln für den Rechner. Jede Regel nennt Belegtexte, die wörtlich auf der angegebenen Seite stehen müssen (geprüft durch tools/extract/verify_curated.py). Alles andere zeigt die App nur als Originaltext.",
+ "regeln": [
+  {
+   "id": "epi-rea-erw",
+   "medikament": "epinephrin",
+   "kontext": "Reanimation",
+   "seite": 100,
+   "beleg": [
+    "1 mg Epinephrin i.v. / i.o.",
+    "Wiederholung bis ROSC (jeweils alle 4 Minuten)"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 1,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. / i.o.",
+   "wiederholung": {
+    "intervallMin": 4,
+    "text": "alle 4 Minuten bis ROSC"
+   },
+   "konzentration": {
+    "wert": 0.1,
+    "einheit": "mg/ml",
+    "text": "Epinephrin 1 mg (= 10 ml der Mischung)",
+    "seite": 91
+   }
+  },
+  {
+   "id": "epi-rea-kind",
+   "medikament": "epinephrin",
+   "kontext": "Reanimation",
+   "seite": 100,
+   "beleg": [
+    "0,01 mg/kgKG Epinephrin i.v. / i.o."
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.01,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. / i.o.",
+   "wiederholung": {
+    "intervallMin": 4,
+    "text": "alle 4 Minuten bis ROSC"
+   },
+   "konzentration": {
+    "wert": 0.1,
+    "einheit": "mg/ml",
+    "text": "Epinephrin - Lösung 1:10.000",
+    "seite": 93
+   }
+  },
+  {
+   "id": "amio-rea-erw-1",
+   "medikament": "amiodaron",
+   "kontext": "Reanimation",
+   "seite": 100,
+   "beleg": [
+    "300 mg Amiodaron i.v. / i.o. (nach dem 3. Schock)"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 300,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. / i.o.",
+   "konzentration": {
+    "wert": 50,
+    "einheit": "mg/ml",
+    "text": "50 mg/ml (Amp. 150 mg / 3 ml)",
+    "seite": 50
+   },
+   "schritt": "nach dem 3. Schock"
+  },
+  {
+   "id": "amio-rea-erw-2",
+   "medikament": "amiodaron",
+   "kontext": "Reanimation",
+   "seite": 100,
+   "beleg": [
+    "150 mg Amiodaron i.v. / i.o. (nach dem 5. Schock)"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 150,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. / i.o.",
+   "konzentration": {
+    "wert": 50,
+    "einheit": "mg/ml",
+    "text": "50 mg/ml (Amp. 150 mg / 3 ml)",
+    "seite": 50
+   },
+   "schritt": "nach dem 5. Schock"
+  },
+  {
+   "id": "amio-rea-kind-1",
+   "medikament": "amiodaron",
+   "kontext": "Reanimation",
+   "seite": 100,
+   "beleg": [
+    "5 mg/kgKG Amiodaron i.v. / i.o. max. 300 mg (nach dem 3. Schock)"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 5,
+    "einheit": "mg",
+    "max": 300
+   },
+   "applikation": "i.v. / i.o.",
+   "konzentration": {
+    "wert": 50,
+    "einheit": "mg/ml",
+    "text": "50 mg/ml (Amp. 150 mg / 3 ml)",
+    "seite": 50
+   },
+   "hinweis": "SAA Amiodaron (S. 50) nennt als Altersbegrenzung: Säuglinge und Kinder < 3 Jahre (Gehalt an Benzylalkohol).",
+   "schritt": "nach dem 3. Schock"
+  },
+  {
+   "id": "amio-rea-kind-2",
+   "medikament": "amiodaron",
+   "kontext": "Reanimation",
+   "seite": 100,
+   "beleg": [
+    "max. 150 mg (nach dem 5. Schock)"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 5,
+    "einheit": "mg",
+    "max": 150
+   },
+   "applikation": "i.v. / i.o.",
+   "konzentration": {
+    "wert": 50,
+    "einheit": "mg/ml",
+    "text": "50 mg/ml (Amp. 150 mg / 3 ml)",
+    "seite": 50
+   },
+   "hinweis": "SAA Amiodaron (S. 50) nennt als Altersbegrenzung: Säuglinge und Kinder < 3 Jahre (Gehalt an Benzylalkohol).",
+   "schritt": "nach dem 5. Schock"
+  },
+  {
+   "id": "lido-rea-erw-1",
+   "medikament": "lidocain",
+   "kontext": "Reanimation",
+   "seite": 101,
+   "beleg": [
+    "100 mg i.v nach dem 3. Schock"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 100,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "konzentration": {
+    "wert": 20,
+    "einheit": "mg/ml",
+    "text": "Lidocain 2 %: 20 mg/ml (Amp. 100 mg / 5 ml)",
+    "seite": 66
+   },
+   "schritt": "nach dem 3. Schock"
+  },
+  {
+   "id": "lido-rea-erw-2",
+   "medikament": "lidocain",
+   "kontext": "Reanimation",
+   "seite": 101,
+   "beleg": [
+    "50 mg i.v. Repetition nach dem 5. Schock"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 50,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "konzentration": {
+    "wert": 20,
+    "einheit": "mg/ml",
+    "text": "Lidocain 2 %: 20 mg/ml (Amp. 100 mg / 5 ml)",
+    "seite": 66
+   },
+   "schritt": "nach dem 5. Schock"
+  },
+  {
+   "id": "lido-rea-kind-1",
+   "medikament": "lidocain",
+   "kontext": "Reanimation",
+   "seite": 101,
+   "beleg": [
+    "1 mg/kgKG nach dem 3. Schock"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 1,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "konzentration": {
+    "wert": 20,
+    "einheit": "mg/ml",
+    "text": "Lidocain 2 %: 20 mg/ml (Amp. 100 mg / 5 ml)",
+    "seite": 66
+   },
+   "schritt": "nach dem 3. Schock"
+  },
+  {
+   "id": "lido-rea-kind-2",
+   "medikament": "lidocain",
+   "kontext": "Reanimation",
+   "seite": 101,
+   "beleg": [
+    "0,5 mg/kgKG nach dem 5. Schock"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.5,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "konzentration": {
+    "wert": 20,
+    "einheit": "mg/ml",
+    "text": "Lidocain 2 %: 20 mg/ml (Amp. 100 mg / 5 ml)",
+    "seite": 66
+   },
+   "schritt": "nach dem 5. Schock"
+  },
+  {
+   "id": "morphin-erw",
+   "medikament": "morphin",
+   "kontext": "Schmerzen",
+   "seite": 107,
+   "beleg": [
+    "Erwachsene: 2 mg fraktioniert, langsam intravenös",
+    "Maximaldosis 10 mg"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 2,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. fraktioniert",
+   "wiederholung": {
+    "intervallMin": 3,
+    "text": "alle 3 – 4 Minuten"
+   },
+   "maxGesamt": {
+    "wert": 10,
+    "einheit": "mg"
+   },
+   "hinweis": "Präparat sinnvoll zur Titration mit NaCl 0,9 % verdünnen und kennzeichnen (S. 106)."
+  },
+  {
+   "id": "morphin-kind",
+   "medikament": "morphin",
+   "kontext": "Schmerzen",
+   "seite": 107,
+   "beleg": [
+    "Kinder ≥ 21 kg KG (ca. 6 Jahre)",
+    "0,05 mg/kgKG",
+    "Maximaldosis 10 mg"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false,
+    "gewichtMin": 21,
+    "gewichtMinInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.05,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "wiederholung": {
+    "intervallMin": 3,
+    "text": "alle 3 – 4 Minuten"
+   },
+   "maxGesamt": {
+    "wert": 10,
+    "einheit": "mg"
+   }
+  },
+  {
+   "id": "fentanyl-iv",
+   "medikament": "fentanyl",
+   "kontext": "Schmerzen",
+   "seite": 108,
+   "beleg": [
+    "Erwachsene und Kinder ≥ 20 kg KG (ca. 6 Jahre)",
+    "in 50-µg-Schritten",
+    "Maximaldosis 2 µg/kgKG (ideales Körpergewicht)"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 20,
+    "gewichtMinInkl": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 50,
+    "einheit": "µg"
+   },
+   "applikation": "i.v. fraktioniert",
+   "wiederholung": {
+    "intervallMin": 3,
+    "text": "im Abstand von 3 – 4 Minuten"
+   },
+   "maxGesamt": {
+    "proKg": 2,
+    "einheit": "µg",
+    "idealgewicht": true
+   },
+   "hinweis": "Maximaldosis bezieht sich auf das ideale Körpergewicht. SAA Fentanyl (S. 57) nennt abweichend: keine Anwendung bei Kindern < 21 kgKG."
+  },
+  {
+   "id": "fentanyl-nasal",
+   "medikament": "fentanyl",
+   "kontext": "Schmerzen",
+   "seite": 108,
+   "beleg": [
+    "nasale und i.m.-Gabe: 2 µg/kgKG (ideales Körpergewicht)"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 20,
+    "gewichtMinInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 2,
+    "einheit": "µg"
+   },
+   "applikation": "nasal / i.m.",
+   "hinweis": "Berechnung mit idealem Körpergewicht."
+  },
+  {
+   "id": "nalbuphin-iv-u65",
+   "medikament": "nalbuphin",
+   "kontext": "Schmerzen",
+   "seite": 107,
+   "beleg": [
+    "0,2 mg/kgKG i.v.",
+    "Repetition bis zur Maximaldosis 20 mg"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "alterMax": 65,
+    "alterMaxInkl": false,
+    "gewichtMin": 21,
+    "gewichtMinInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.2,
+    "einheit": "mg",
+    "max": 20
+   },
+   "applikation": "i.v.",
+   "wiederholung": {
+    "text": "Repetition bis zur Maximaldosis 20 mg – Kinder und Jugendliche keine Repetition"
+   },
+   "maxGesamt": {
+    "wert": 20,
+    "einheit": "mg"
+   }
+  },
+  {
+   "id": "nalbuphin-iv-ue65",
+   "medikament": "nalbuphin",
+   "kontext": "Schmerzen",
+   "seite": 107,
+   "beleg": [
+    "0,1 mg/kgKG i.v.",
+    "Repetition bis zur Maximaldosis 20 mg"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "alterMin": 65,
+    "alterMinInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.1,
+    "einheit": "mg",
+    "max": 20
+   },
+   "applikation": "i.v.",
+   "wiederholung": {
+    "text": "Repetition bis zur Maximaldosis 20 mg"
+   },
+   "maxGesamt": {
+    "wert": 20,
+    "einheit": "mg"
+   }
+  },
+  {
+   "id": "esketamin-iv",
+   "medikament": "esketamin",
+   "kontext": "Schmerzen",
+   "seite": 110,
+   "beleg": [
+    "Initialdosis 0,125 mg/kgKG i.v.",
+    "Maximaldosis 0,25 mg/kgKG"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 10,
+    "gewichtMinInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.125,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "wiederholung": {
+    "text": "Repetitionsdosis 0,125 mg/kgKG i.v."
+   },
+   "maxGesamt": {
+    "proKg": 0.25,
+    "einheit": "mg"
+   },
+   "hinweis": "Kombination von Midazolam und Esketamin bei i.v.-Gabe empfohlen."
+  },
+  {
+   "id": "ketamin-iv",
+   "medikament": "ketamin",
+   "kontext": "Schmerzen",
+   "seite": 111,
+   "beleg": [
+    "Initialdosis 0,25 mg/kgKG i.v.",
+    "Maximaldosis 0,5 mg/kgKG"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 30,
+    "gewichtMinInkl": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.25,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "wiederholung": {
+    "text": "Repetitionsdosis 0,25 mg/kgKG i.v."
+   },
+   "maxGesamt": {
+    "proKg": 0.5,
+    "einheit": "mg"
+   },
+   "konzentration": {
+    "wert": 50,
+    "einheit": "mg/ml",
+    "text": "50 mg/ml (Amp. 100 mg / 2 ml)",
+    "seite": 65
+   }
+  },
+  {
+   "id": "paracetamol-15-50",
+   "medikament": "paracetamol",
+   "kontext": "Schmerzen",
+   "seite": 112,
+   "beleg": [
+    "Pat. 15 - 50 kgKG: 15 mg/kgKG i.v als Kurzinfusion"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 15,
+    "gewichtMinInkl": true,
+    "gewichtMax": 50,
+    "gewichtMaxInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 15,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. Kurzinfusion",
+   "konzentration": {
+    "wert": 10,
+    "einheit": "mg/ml",
+    "text": "10 mg/ml (Kurzinfusion 1 g / 100 ml / 0,5 g / 50 ml)",
+    "seite": 73
+   },
+   "hinweis": "Nicht zu applizierende Menge vor der Gabe abziehen und verwerfen."
+  },
+  {
+   "id": "paracetamol-ue50",
+   "medikament": "paracetamol",
+   "kontext": "Schmerzen",
+   "seite": 112,
+   "beleg": [
+    "Pat. > 50 kgKG: 1.000 mg als Kurzinfusion über 15 min, keine Repetition"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 50,
+    "gewichtMinInkl": false
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 1000,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. Kurzinfusion über 15 min",
+   "wiederholung": {
+    "text": "keine Repetition"
+   },
+   "konzentration": {
+    "wert": 10,
+    "einheit": "mg/ml",
+    "text": "10 mg/ml (Kurzinfusion 1 g / 100 ml / 0,5 g / 50 ml)",
+    "seite": 73
+   }
+  },
+  {
+   "id": "midazolam-analgo-kind",
+   "medikament": "midazolam",
+   "kontext": "Schmerzen",
+   "seite": 110,
+   "beleg": [
+    "Kinder > 10 kg KG und < 50 kg KG: 1 mg langsam i.v."
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false,
+    "gewichtMin": 10,
+    "gewichtMinInkl": false,
+    "gewichtMax": 50,
+    "gewichtMaxInkl": false
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 1,
+    "einheit": "mg"
+   },
+   "applikation": "langsam i.v."
+  },
+  {
+   "id": "midazolam-analgo-erw-1",
+   "medikament": "midazolam",
+   "kontext": "Schmerzen",
+   "seite": 110,
+   "beleg": [
+    "Erwachsene > 60 Jahre und / oder < 50 kg KG und / oder",
+    "mit einschränkenden chronischen Krankheiten: 1 mg langsam i.v"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 1,
+    "einheit": "mg"
+   },
+   "applikation": "langsam i.v.",
+   "hinweis": "Gilt für Erwachsene > 60 Jahre und / oder < 50 kg KG und / oder mit einschränkenden chronischen Krankheiten."
+  },
+  {
+   "id": "midazolam-analgo-erw-2",
+   "medikament": "midazolam",
+   "kontext": "Schmerzen",
+   "seite": 110,
+   "beleg": [
+    "Erwachsene und Jugendliche ≥ 50 kg KG: 2 mg langsam i.v."
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "gewichtMin": 50,
+    "gewichtMinInkl": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 2,
+    "einheit": "mg"
+   },
+   "applikation": "langsam i.v.",
+   "hinweis": "Nicht bei Erwachsenen > 60 Jahre oder mit einschränkenden chronischen Krankheiten (dann 1 mg)."
+  },
+  {
+   "id": "butylscopolamin",
+   "medikament": "butylscopolamin",
+   "kontext": "Schmerzen",
+   "seite": 112,
+   "beleg": [
+    "0,3 mg/kgKG Butylscopolamin langsam i.v., Repetition nach 5 min – max. 20 mg"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.3,
+    "einheit": "mg",
+    "max": 20
+   },
+   "applikation": "langsam i.v.",
+   "wiederholung": {
+    "intervallMin": 5,
+    "text": "Repetition nach 5 min"
+   },
+   "maxGesamt": {
+    "wert": 20,
+    "einheit": "mg"
+   },
+   "konzentration": {
+    "wert": 20,
+    "einheit": "mg/ml",
+    "text": "20 mg/ml (Amp. 20 mg / 1 ml)",
+    "seite": 52
+   }
+  },
+  {
+   "id": "naloxon-erw",
+   "medikament": "naloxonhydrochlorid",
+   "kontext": "Schmerzen",
+   "seite": 109,
+   "beleg": [
+    "Erwachsene: 0,1 mg fraktioniert, langsam intravenös – alle 2 min"
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 0.1,
+    "einheit": "mg"
+   },
+   "applikation": "langsam i.v. fraktioniert",
+   "wiederholung": {
+    "intervallMin": 2,
+    "text": "alle 2 min, bis Schutzreflexe / suffiziente Spontanatmung wieder vorhanden sind"
+   },
+   "konzentration": {
+    "wert": 0.1,
+    "einheit": "mg/ml",
+    "text": "1 Amp. Naloxon (1 ml = 0,4 mg) mit 3 ml NaCl 0,9 % verdünnen ➞4 ml Lösung (Naloxon 0,1 mg/ml)",
+    "seite": 48
+   }
+  },
+  {
+   "id": "naloxon-kind",
+   "medikament": "naloxonhydrochlorid",
+   "kontext": "Schmerzen",
+   "seite": 109,
+   "beleg": [
+    "Kinder: 0,01 mg/kgKG – alle 2 min"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "erwachsen": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.01,
+    "einheit": "mg"
+   },
+   "applikation": "i.v. fraktioniert",
+   "wiederholung": {
+    "intervallMin": 2,
+    "text": "alle 2 min, bis Schutzreflexe / suffiziente Spontanatmung wieder vorhanden sind"
+   },
+   "konzentration": {
+    "wert": 0.1,
+    "einheit": "mg/ml",
+    "text": "1 Amp. Naloxon (1 ml = 0,4 mg) mit 3 ml NaCl 0,9 % verdünnen ➞4 ml Lösung (Naloxon 0,1 mg/ml)",
+    "seite": 48
+   }
+  },
+  {
+   "id": "txa",
+   "medikament": "tranexamsaeure",
+   "kontext": "Trauma – Blutungskontrolle",
+   "seite": 159,
+   "beleg": [
+    "15 mg/kgKG Tranexamsäure langsam i.v. (Kurzinfusion über 15 Minuten) – max. 1.000 mg"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "alterMin": 6,
+    "alterMinInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 15,
+    "einheit": "mg",
+    "max": 1000
+   },
+   "applikation": "langsam i.v. Kurzinfusion über 15 Minuten",
+   "konzentration": {
+    "wert": 100,
+    "einheit": "mg/ml",
+    "text": "100 mg/ml (Amp. 500 mg / 5 ml und Amp. 1.000 mg / 10 ml)",
+    "seite": 77
+   },
+   "hinweis": "Gabe nur innerhalb der ersten 3 Stunden nach Trauma (SAA Tranexamsäure, S. 77)."
+  },
+  {
+   "id": "vel-kind",
+   "medikament": "vollelektrolytloesung",
+   "kontext": "SAA Vollelektrolytlösung",
+   "seite": 79,
+   "beleg": [
+    "Pat. ≤ 12 Jahre: 10 ml/kgKG i.v."
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "alterMax": 12,
+    "alterMaxInkl": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 10,
+    "einheit": "ml"
+   },
+   "applikation": "i.v.",
+   "wiederholung": {
+    "text": "Repetition möglich"
+   }
+  },
+  {
+   "id": "epi-ana-ab12",
+   "medikament": "epinephrin",
+   "kontext": "Anaphylaxie",
+   "seite": 123,
+   "beleg": [
+    "Erwachsene und Kinder ab 12 Jahre:",
+    "0,5 mg Epinephrin i.m. - Repetition nach 5–10 min möglich"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "alterMin": 12,
+    "alterMinInkl": true
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 0.5,
+    "einheit": "mg"
+   },
+   "applikation": "i.m.",
+   "wiederholung": {
+    "text": "Repetition nach 5–10 min möglich"
+   }
+  },
+  {
+   "id": "epi-ana-6-12",
+   "medikament": "epinephrin",
+   "kontext": "Anaphylaxie",
+   "seite": 123,
+   "beleg": [
+    "Kinder von 6 bis 12 Jahre:",
+    "0,3 mg Epinephrin i.m. - Repetition nach 5–10 min möglich"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "alterMin": 6,
+    "alterMinInkl": true,
+    "alterMax": 12,
+    "alterMaxInkl": false
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 0.3,
+    "einheit": "mg"
+   },
+   "applikation": "i.m.",
+   "wiederholung": {
+    "text": "Repetition nach 5–10 min möglich"
+   }
+  },
+  {
+   "id": "epi-ana-u6",
+   "medikament": "epinephrin",
+   "kontext": "Anaphylaxie",
+   "seite": 123,
+   "beleg": [
+    "Kinder < 6 Jahre:",
+    "0,15 mg Epinephrin i.m. - Repetition nach 5–10 min möglich"
+   ],
+   "zielgruppe": "kinder",
+   "bedingung": {
+    "alterMax": 6,
+    "alterMaxInkl": false
+   },
+   "dosis": {
+    "art": "fix",
+    "wert": 0.15,
+    "einheit": "mg"
+   },
+   "applikation": "i.m.",
+   "wiederholung": {
+    "text": "Repetition nach 5–10 min möglich"
+   }
+  },
+  {
+   "id": "dimetinden",
+   "medikament": "dimetinden",
+   "kontext": "Anaphylaxie",
+   "seite": 124,
+   "beleg": [
+    "4 – 8 mg Dimetinden langsam i.v. (0,1 mg/kgKG, max. 8 mg)"
+   ],
+   "zielgruppe": "alle",
+   "bedingung": {
+    "alterMin": 12,
+    "alterMinInkl": false
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.1,
+    "einheit": "mg",
+    "max": 8
+   },
+   "applikation": "langsam i.v.",
+   "konzentration": {
+    "wert": 1,
+    "einheit": "mg/ml",
+    "text": "1 mg/ml (Amp. 4 mg / 4 ml)",
+    "seite": 54
+   }
+  },
+  {
+   "id": "midazolam-iv-krampf",
+   "medikament": "midazolam",
+   "kontext": "Krampfanfall",
+   "seite": 147,
+   "beleg": [
+    "0,1 mg/kgKG Midazolam i.v."
+   ],
+   "zielgruppe": "erwachsene",
+   "bedingung": {
+    "erwachsen": true
+   },
+   "dosis": {
+    "art": "proKg",
+    "wert": 0.1,
+    "einheit": "mg"
+   },
+   "applikation": "i.v.",
+   "konzentration": {
+    "wert": 1,
+    "einheit": "mg/ml",
+    "text": "1 mg/ml (zur i.v.-Gabe)",
+    "seite": 68
+   }
+  }
+ ]
+}

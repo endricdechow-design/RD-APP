@@ -1,0 +1,542 @@
+{
+ "_hinweis": "Kapitelstruktur nach Inhaltsverzeichnis (S. 5). 'kontexte' verknüpft die Freigabetabellen aus freigabe-zuordnung.json.",
+ "bpr": [
+  {
+   "id": "rechtliche-fragen",
+   "titel": "Rechtliche Fragen",
+   "seite": 14,
+   "bisSeite": 16,
+   "kategorie": "grundlagen",
+   "suchbegriffe": [
+    "Recht",
+    "NotSanG",
+    "2c",
+    "1c",
+    "Notstand"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "aufklaerung",
+   "titel": "Aufklärung",
+   "seite": 17,
+   "bisSeite": 19,
+   "kategorie": "grundlagen",
+   "kontexte": []
+  },
+  {
+   "id": "mitfahrtverweigerung",
+   "titel": "Mitfahrtverweigerung",
+   "seite": 20,
+   "bisSeite": 21,
+   "kategorie": "grundlagen",
+   "suchbegriffe": [
+    "Transportverweigerung"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "tna",
+   "titel": "Telenotarzt (TNA)",
+   "seite": 22,
+   "kategorie": "grundlagen",
+   "suchbegriffe": [
+    "Telenotarzt"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "kindeswohlgefaehrdung",
+   "titel": "Kindeswohlgefährdung",
+   "seite": 23,
+   "bisSeite": 25,
+   "kategorie": "grundlagen",
+   "kontexte": []
+  },
+  {
+   "id": "standard-invasiv",
+   "titel": "Standardvorgehen SAA Invasive Maßnahmen",
+   "seite": 27,
+   "kategorie": "grundlagen",
+   "kontexte": []
+  },
+  {
+   "id": "standard-medikamente",
+   "titel": "Standardvorgehen Medikamentengabe (6-R-Regel)",
+   "seite": 46,
+   "bisSeite": 47,
+   "kategorie": "grundlagen",
+   "suchbegriffe": [
+    "6-R",
+    "4-Augen"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "notfallkarte-opioid",
+   "titel": "Notfallkarte Opioidüberdosierung",
+   "seite": 48,
+   "kategorie": "grundlagen",
+   "suchbegriffe": [
+    "Naloxon",
+    "Opioid"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "survey",
+   "titel": "Primary und Secondary Survey",
+   "seite": 81,
+   "bisSeite": 82,
+   "kategorie": "herangehensweise",
+   "suchbegriffe": [
+    "ABCDE",
+    "xABCDE"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "schockraum",
+   "titel": "Schockraumalarmierung Non-Trauma / Trauma",
+   "seite": 83,
+   "bisSeite": 85,
+   "kategorie": "herangehensweise",
+   "kontexte": []
+  },
+  {
+   "id": "sinnhaft",
+   "titel": "SINNHAFT (Übergabe)",
+   "seite": 86,
+   "bisSeite": 87,
+   "kategorie": "herangehensweise",
+   "suchbegriffe": [
+    "Übergabe"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "atemwegsmanagement",
+   "titel": "Atemwegsmanagement",
+   "seite": 88,
+   "bisSeite": 89,
+   "kategorie": "herangehensweise",
+   "kontexte": []
+  },
+  {
+   "id": "rea-erwachsene",
+   "titel": "Reanimation Erwachsene – ALS",
+   "seite": 91,
+   "bisSeite": 92,
+   "kategorie": "kreislaufstillstand",
+   "kontexte": [
+    "Reanimation"
+   ],
+   "suchbegriffe": [
+    "CPR",
+    "ALS",
+    "REA"
+   ]
+  },
+  {
+   "id": "rea-kinder",
+   "titel": "Reanimation Kinder – PLS",
+   "seite": 93,
+   "bisSeite": 94,
+   "kategorie": "kreislaufstillstand",
+   "kontexte": [
+    "Reanimation"
+   ],
+   "suchbegriffe": [
+    "PLS",
+    "REA Kind"
+   ]
+  },
+  {
+   "id": "neugeborene-erstversorgung",
+   "titel": "Erstversorgung Neugeborener",
+   "seite": 95,
+   "bisSeite": 96,
+   "kategorie": "kreislaufstillstand",
+   "kontexte": []
+  },
+  {
+   "id": "rea-neugeborene",
+   "titel": "Reanimation Neugeborene – NLS",
+   "seite": 97,
+   "bisSeite": 98,
+   "kategorie": "kreislaufstillstand",
+   "suchbegriffe": [
+    "NLS"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "post-rosc",
+   "titel": "Post-ROSC",
+   "seite": 99,
+   "kategorie": "kreislaufstillstand",
+   "suchbegriffe": [
+    "ROSC"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "rea-medikamente",
+   "titel": "Medikamente Reanimation",
+   "seite": 100,
+   "bisSeite": 101,
+   "kategorie": "kreislaufstillstand",
+   "kontexte": [
+    "Reanimation"
+   ]
+  },
+  {
+   "id": "dyspnoe",
+   "titel": "Leitsymptom Dyspnoe",
+   "seite": 103,
+   "kategorie": "leitsymptom",
+   "suchbegriffe": [
+    "Atemnot"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "bewusstlosigkeit-kurz",
+   "titel": "Leitsymptom Kurzzeitige Bewusstlosigkeit",
+   "seite": 104,
+   "kategorie": "leitsymptom",
+   "suchbegriffe": [
+    "Synkope",
+    "TLOC"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "schmerzen",
+   "titel": "Leitsymptom Schmerzen u. Schmerzbehandlung",
+   "seite": 105,
+   "bisSeite": 112,
+   "kategorie": "leitsymptom",
+   "kontexte": [
+    "Schmerzen"
+   ],
+   "suchbegriffe": [
+    "Analgesie",
+    "Opioid",
+    "NRS"
+   ]
+  },
+  {
+   "id": "schock",
+   "titel": "Leitsymptom Schock",
+   "seite": 113,
+   "kategorie": "leitsymptom",
+   "kontexte": []
+  },
+  {
+   "id": "neuro-defizit",
+   "titel": "Leitsymptom Zentrales neurologisches Defizit",
+   "seite": 114,
+   "kategorie": "leitsymptom",
+   "kontexte": []
+  },
+  {
+   "id": "fremdkoerper",
+   "titel": "A-Problem bei Fremdkörperaspiration",
+   "seite": 115,
+   "kategorie": "krankheitsbild",
+   "kontexte": []
+  },
+  {
+   "id": "a-problem-erw",
+   "titel": "A-Problem beim Erwachsenen",
+   "seite": 116,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "A-Problem beim Erwachsenen"
+   ]
+  },
+  {
+   "id": "aortensyndrom",
+   "titel": "Akutes Aortensyndrom",
+   "seite": 117,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Akutes Aortensyndrom"
+   ],
+   "suchbegriffe": [
+    "Aortendissektion"
+   ]
+  },
+  {
+   "id": "acs",
+   "titel": "ACS",
+   "seite": 118,
+   "bisSeite": 120,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "ACS"
+   ],
+   "suchbegriffe": [
+    "Herzinfarkt",
+    "STEMI",
+    "Brustschmerz"
+   ]
+  },
+  {
+   "id": "anaphylaxie",
+   "titel": "Anaphylaxie",
+   "seite": 121,
+   "bisSeite": 124,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Anaphylaxie"
+   ],
+   "suchbegriffe": [
+    "Allergie"
+   ]
+  },
+  {
+   "id": "arterieller-verschluss",
+   "titel": "Akuter arterieller Verschluss peripherer Gefäße",
+   "seite": 125,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Akuter arterieller Verschluss"
+   ]
+  },
+  {
+   "id": "tracheostoma",
+   "titel": "Atemnot durch verlegtes Tracheostoma",
+   "seite": 126,
+   "bisSeite": 127,
+   "kategorie": "krankheitsbild",
+   "kontexte": []
+  },
+  {
+   "id": "bronchialobstruktion",
+   "titel": "Bronchialobstruktion",
+   "seite": 128,
+   "bisSeite": 130,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Bronchialobstruktion"
+   ],
+   "suchbegriffe": [
+    "Asthma",
+    "COPD"
+   ]
+  },
+  {
+   "id": "dehydratation",
+   "titel": "Dehydratation",
+   "seite": 131,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Dehydratation"
+   ],
+   "suchbegriffe": [
+    "Exsikkose"
+   ]
+  },
+  {
+   "id": "geburt",
+   "titel": "Geburtsbegleitung",
+   "seite": 132,
+   "bisSeite": 133,
+   "kategorie": "krankheitsbild",
+   "kontexte": []
+  },
+  {
+   "id": "hitze",
+   "titel": "Hitzeschäden",
+   "seite": 134,
+   "kategorie": "krankheitsbild",
+   "kontexte": []
+  },
+  {
+   "id": "hyperglykaemie",
+   "titel": "Hyperglykämie",
+   "seite": 135,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Hyperglykämie"
+   ]
+  },
+  {
+   "id": "hypertensiver-notfall",
+   "titel": "Hypertensiver Notfall",
+   "seite": 136,
+   "bisSeite": 137,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Hypertensiver Notfall"
+   ]
+  },
+  {
+   "id": "hypoglykaemie",
+   "titel": "Hypoglykämie",
+   "seite": 138,
+   "bisSeite": 139,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Hypoglykämie"
+   ],
+   "suchbegriffe": [
+    "Unterzucker",
+    "BZ"
+   ]
+  },
+  {
+   "id": "bradykardie",
+   "titel": "Instabile Bradykardie",
+   "seite": 140,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Instabile Bradykardie"
+   ]
+  },
+  {
+   "id": "tachykardie",
+   "titel": "Instabile Tachykardie",
+   "seite": 141,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Instabile Tachykardie"
+   ]
+  },
+  {
+   "id": "intoxikation",
+   "titel": "Intoxikation",
+   "seite": 142,
+   "kategorie": "krankheitsbild",
+   "suchbegriffe": [
+    "Vergiftung"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "lungenoedem",
+   "titel": "Kardiales Lungenödem",
+   "seite": 143,
+   "bisSeite": 144,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Kardiales Lungenödem"
+   ]
+  },
+  {
+   "id": "krampfanfall",
+   "titel": "Krampfanfall",
+   "seite": 145,
+   "bisSeite": 148,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Krampfanfall"
+   ],
+   "suchbegriffe": [
+    "Status epilepticus",
+    "Fieberkrampf"
+   ]
+  },
+  {
+   "id": "lae",
+   "titel": "Lungenarterienembolie",
+   "seite": 149,
+   "bisSeite": 150,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Lungenarterienembolie"
+   ],
+   "suchbegriffe": [
+    "LAE"
+   ]
+  },
+  {
+   "id": "obere-atemwege-kind",
+   "titel": "Obstruktion der oberen Atemwege – Säugling / Kleinkind",
+   "seite": 151,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Obstruktion der oberen Atemwege – Säugling / Kleinkind"
+   ],
+   "suchbegriffe": [
+    "Pseudokrupp"
+   ]
+  },
+  {
+   "id": "schlaganfall",
+   "titel": "Schlaganfall",
+   "seite": 152,
+   "bisSeite": 153,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Schlaganfall"
+   ],
+   "suchbegriffe": [
+    "Stroke",
+    "BE-FAST"
+   ]
+  },
+  {
+   "id": "sepsis",
+   "titel": "Sepsis",
+   "seite": 154,
+   "bisSeite": 155,
+   "kategorie": "krankheitsbild",
+   "kontexte": [
+    "Sepsis"
+   ],
+   "suchbegriffe": [
+    "NEWS2",
+    "qSOFA"
+   ]
+  },
+  {
+   "id": "trauma",
+   "titel": "Trauma",
+   "seite": 157,
+   "bisSeite": 164,
+   "kategorie": "trauma",
+   "kontexte": [
+    "Trauma – Blutungskontrolle"
+   ],
+   "suchbegriffe": [
+    "Blutung",
+    "Polytrauma"
+   ]
+  },
+  {
+   "id": "patientenzentrierte-rettung",
+   "titel": "Patientenzentrierte Rettung",
+   "seite": 165,
+   "bisSeite": 166,
+   "kategorie": "trauma",
+   "kontexte": []
+  },
+  {
+   "id": "mstart",
+   "titel": "mSTaRT (Vorsichtung MANV)",
+   "seite": 167,
+   "bisSeite": 170,
+   "kategorie": "trauma",
+   "suchbegriffe": [
+    "MANV",
+    "Sichtung",
+    "Triage"
+   ],
+   "kontexte": []
+  },
+  {
+   "id": "co-intox",
+   "titel": "Intoxikation mit Kohlenstoffmonoxid",
+   "seite": 171,
+   "bisSeite": 174,
+   "kategorie": "trauma",
+   "suchbegriffe": [
+    "CO"
+   ],
+   "kontexte": []
+  }
+ ]
+}

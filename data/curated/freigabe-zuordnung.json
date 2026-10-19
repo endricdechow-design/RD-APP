@@ -1,0 +1,816 @@
+{
+ "_hinweis": "Kuratierte Zuordnung der extrahierten Freigabetabellen. 'dosistext' nur dort, wo die automatische Extraktion durch Flussdiagramme gestört ist – wörtlich aus dem Kompendium übernommen und per Test gegen den PDF-Text geprüft.",
+ "zuordnung": [
+  {
+   "tabelle": "s28_t1",
+   "typ": "massnahme",
+   "thema": "i-v-zugang",
+   "titel": "i.v.-Zugang",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s29_t1",
+   "typ": "massnahme",
+   "thema": "i-o-zugang-ez-io-cook-big",
+   "titel": "i.o.-Zugang",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s31_t1",
+   "typ": "massnahme",
+   "thema": "extraglottischer-atemweg-lts-d",
+   "titel": "EGA – LTS-D®",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s32_t1",
+   "typ": "massnahme",
+   "thema": "extraglottischer-atemweg-larynxmaske-mit-drainagekanal-2-generation",
+   "titel": "EGA – Larynxmaske mit Drainagekanal (2. Gen.)",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s33_t1",
+   "typ": "massnahme",
+   "thema": "extraglottischer-atemweg-i-gel",
+   "titel": "EGA – i-gel®",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s34_t1",
+   "typ": "massnahme",
+   "thema": "laryngoskopie",
+   "titel": "Laryngoskopie",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s35_t1",
+   "typ": "massnahme",
+   "thema": "nichtinvasives-cpap-niv",
+   "titel": "Nichtinvasives CPAP / NIV",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s36_t1",
+   "typ": "massnahme",
+   "thema": "tourniquet-pneumatische-blutsperre",
+   "titel": "Tourniquet / pneumatische Blutsperre",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s37_t1",
+   "typ": "massnahme",
+   "thema": "beckenschlinge-trochanterschlinge",
+   "titel": "Beckenschlinge (Trochanterschlinge)",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s38_t1",
+   "typ": "massnahme",
+   "thema": "achsengerechte-immobilisation",
+   "titel": "Achsengerechte Immobilisation",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s39_t1",
+   "typ": "massnahme",
+   "thema": "thoraxentlastungspunktion",
+   "titel": "Thoraxentlastungspunktion",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s40_t1",
+   "typ": "massnahme",
+   "thema": "manuelle-defibrillation",
+   "titel": "Manuelle Defibrillation",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s41_t1",
+   "typ": "massnahme",
+   "thema": "kardioversion",
+   "titel": "Kardioversion",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s42_t1",
+   "typ": "massnahme",
+   "thema": "externe-schrittmacheranlage",
+   "titel": "Externe Schrittmacheranlage",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s43_t1",
+   "typ": "massnahme",
+   "thema": "endobronchiales-absaugen",
+   "titel": "Endobronchiales Absaugen",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s44_t1",
+   "typ": "massnahme",
+   "thema": "intramuskulaere-injektion",
+   "titel": "Intramuskuläre Injektion",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s45_t1",
+   "typ": "massnahme",
+   "thema": "intranasale-medikamentengabe",
+   "titel": "Intranasale Medikamentengabe",
+   "kontext": null,
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s79_t1",
+   "typ": "medikament",
+   "thema": "vollelektrolytloesung",
+   "titel": "Vollelektrolytlösung",
+   "kontext": "SAA Vollelektrolytlösung",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Pat. > 12 Jahre: 500 - 1.000 ml i.v.",
+    "Pat. ≤ 12 Jahre: 10 ml/kgKG i.v.",
+    "Repetition möglich"
+   ]
+  },
+  {
+   "tabelle": "s100_t1",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin – Reanimation",
+   "kontext": "Reanimation",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s100_t2",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin – Reanimation",
+   "kontext": "Reanimation",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s100_t3",
+   "typ": "medikament",
+   "thema": "amiodaron",
+   "titel": "Amiodaron – Reanimation",
+   "kontext": "Reanimation",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s100_t4",
+   "typ": "medikament",
+   "thema": "amiodaron",
+   "titel": "Amiodaron – Reanimation",
+   "kontext": "Reanimation",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s101_t1",
+   "typ": "medikament",
+   "thema": "lidocain",
+   "titel": "Lidocain – Reanimation",
+   "kontext": "Reanimation",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s101_t2",
+   "typ": "medikament",
+   "thema": "lidocain",
+   "titel": "Lidocain – Reanimation",
+   "kontext": "Reanimation",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s107_t1",
+   "typ": "medikament",
+   "thema": "nalbuphin",
+   "titel": "Nalbuphin i.v.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s107_t2",
+   "typ": "medikament",
+   "thema": "nalbuphin",
+   "titel": "Nalbuphin nasal, i.m. und s.c.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s107_t3",
+   "typ": "medikament",
+   "thema": "morphin",
+   "titel": "Morphin",
+   "kontext": "Schmerzen",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s107_t4",
+   "typ": "medikament",
+   "thema": "morphin",
+   "titel": "Morphin",
+   "kontext": "Schmerzen",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s108_t1",
+   "typ": "medikament",
+   "thema": "fentanyl",
+   "titel": "Fentanyl i.v.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s108_t2",
+   "typ": "medikament",
+   "thema": "fentanyl",
+   "titel": "Fentanyl nasal oder i.m.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s109_t1",
+   "typ": "medikament",
+   "thema": "naloxonhydrochlorid",
+   "titel": "Naloxon",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s109_t2",
+   "typ": "medikament",
+   "thema": "naloxonhydrochlorid",
+   "titel": "Nyxoid® 1,8 mg Nasenspray",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s109_t3",
+   "typ": "medikament",
+   "thema": "dimenhydrinat",
+   "titel": "Dimenhydrinat",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s109_t4",
+   "typ": "medikament",
+   "thema": "ondansetron",
+   "titel": "Ondansetron",
+   "kontext": "Schmerzen",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s110_t1",
+   "typ": "medikament",
+   "thema": "midazolam",
+   "titel": "Midazolam – Analgosedierung",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s110_t2",
+   "typ": "medikament",
+   "thema": "esketamin",
+   "titel": "Esketamin i.v.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s110_t3",
+   "typ": "medikament",
+   "thema": "esketamin",
+   "titel": "Esketamin nasal oder i.m.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s111_t1",
+   "typ": "medikament",
+   "thema": "ketamin",
+   "titel": "Ketamin i.v.",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s111_t2",
+   "typ": "medikament",
+   "thema": "ketamin",
+   "titel": "Ketamin i.m. oder nasal",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s112_t1",
+   "typ": "medikament",
+   "thema": "butylscopolamin",
+   "titel": "Butylscopolamin",
+   "kontext": "Schmerzen",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s112_t2",
+   "typ": "medikament",
+   "thema": "paracetamol",
+   "titel": "Paracetamol",
+   "kontext": "Schmerzen",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s112_t3",
+   "typ": "medikament",
+   "thema": "metamizol",
+   "titel": "Metamizol",
+   "kontext": "Schmerzen",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s116_t1",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin inhalativ",
+   "kontext": "A-Problem beim Erwachsenen",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Erwachsene:",
+    "4 mg Epinephrin inhalativ",
+    "- Repetition nach 10 min möglich"
+   ]
+  },
+  {
+   "tabelle": "s117_t1",
+   "typ": "medikament",
+   "thema": "urapidil",
+   "titel": "Urapidil",
+   "kontext": "Akutes Aortensyndrom",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Pat. ≥ 12 Jahre:",
+    "5 mg langsam i.v., Repetition möglich - angestrebter Zielwert: RRsyst 100 – 120 mmHg",
+    "Maximaldosis 25 mg"
+   ]
+  },
+  {
+   "tabelle": "s119_t1",
+   "typ": "medikament",
+   "thema": "acetylsalicylsaeure",
+   "titel": "Acetylsalicylsäure",
+   "kontext": "ACS",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Pat. ≥ 18 Jahre:",
+    "- 250 mg langsam i.v. oder",
+    "- 200 mg oral",
+    "keine Repetition"
+   ]
+  },
+  {
+   "tabelle": "s119_t2",
+   "typ": "medikament",
+   "thema": "heparin",
+   "titel": "Heparin",
+   "kontext": "ACS",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s120_t1",
+   "typ": "medikament",
+   "thema": "glyceroltrinitrat",
+   "titel": "Glyceroltrinitrat (keine routinemäßige Gabe)",
+   "kontext": "ACS",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s120_t2",
+   "typ": "medikament",
+   "thema": "metoprolol",
+   "titel": "Metoprolol",
+   "kontext": "ACS",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Erwachsene:",
+    "2 mg i.v. – Repetition: 2 mg i.v. und 1 mg i.v. (maximale Gesamtmenge 5 mg)",
+    "beide beim ACS fakultativ indizierten Medikamente Metoprolol und Glyceroltrinitrat sind hypotensiv wirksam, daher keine zeitgleiche Gabe"
+   ]
+  },
+  {
+   "tabelle": "s123_t1",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin i.m. – ab 12 Jahre",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s123_t2",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin i.m. – 6 bis 12 Jahre",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s123_t3",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin i.m. – unter 6 Jahre",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s123_t4",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin vernebelt",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s124_t1",
+   "typ": "medikament",
+   "thema": "prednisolon",
+   "titel": "Prednisolon",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Patienten > 12 Jahre: 250 mg Prednisolon i.v.",
+    "Patienten 30 – 60 kgKG: 100 mg Prednisolon i.v. o. 100 mg rektal",
+    "Patienten 15 – 30 kgKG: 50 mg Prednisolon i.v. o. 100 mg rektal"
+   ]
+  },
+  {
+   "tabelle": "s124_t2",
+   "typ": "medikament",
+   "thema": "dimetinden",
+   "titel": "Dimetinden",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s124_t3",
+   "typ": "medikament",
+   "thema": "salbutamol",
+   "titel": "Salbutamol",
+   "kontext": "Anaphylaxie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s125_t1",
+   "typ": "medikament",
+   "thema": "heparin",
+   "titel": "Heparin",
+   "kontext": "Akuter arterieller Verschluss",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Erwachsene:",
+    "5000 IE i.v."
+   ]
+  },
+  {
+   "tabelle": "s129_t1",
+   "typ": "medikament",
+   "thema": "salbutamol",
+   "titel": "Salbutamol",
+   "kontext": "Bronchialobstruktion",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s129_t2",
+   "typ": "medikament",
+   "thema": "ipratropiumbromid",
+   "titel": "Ipratropiumbromid – über 12 Jahre",
+   "kontext": "Bronchialobstruktion",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s129_t3",
+   "typ": "medikament",
+   "thema": "ipratropiumbromid",
+   "titel": "Ipratropiumbromid – 6 bis 12 Jahre",
+   "kontext": "Bronchialobstruktion",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s129_t4",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin inhalativ – Kinder < 4 Jahre",
+   "kontext": "Bronchialobstruktion",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s129_t5",
+   "typ": "medikament",
+   "thema": "fenoterol-ipratropium",
+   "titel": "Fenoterol und Ipratropiumbromid (Berodual® LS)",
+   "kontext": "Bronchialobstruktion",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Erwachsene und Kinder > 12 Jahre: 1 ml (= 10 Hübe) verdünnt mit NaCl 0,9 % vernebeln",
+    "Kinder 4 - 12 Jahre: 0,5 ml (= 5 Hübe) verdünnt mit NaCl 0,9 % vernebeln"
+   ]
+  },
+  {
+   "tabelle": "s130_t1",
+   "typ": "medikament",
+   "thema": "prednisolon",
+   "titel": "Prednisolon",
+   "kontext": "Bronchialobstruktion",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s131_t1",
+   "typ": "medikament",
+   "thema": "vollelektrolytloesung",
+   "titel": "Vollelektrolytlösung",
+   "kontext": "Dehydratation",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Erwachsene und Kinder > 12 Jahre:",
+    "500 - 1.000 ml i.v."
+   ]
+  },
+  {
+   "tabelle": "s135_t1",
+   "typ": "medikament",
+   "thema": "vollelektrolytloesung",
+   "titel": "Vollelektrolytlösung",
+   "kontext": "Hyperglykämie",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Erwachsene und Kinder > 12 Jahre:",
+    "500 - 1.000 ml i.v.",
+    "Kinder ≤ 12 Jahre:",
+    "10 ml/kgKG i.v."
+   ]
+  },
+  {
+   "tabelle": "s136_t1",
+   "typ": "medikament",
+   "thema": "urapidil",
+   "titel": "Urapidil",
+   "kontext": "Hypertensiver Notfall",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Erwachsene:",
+    "5 mg Urapidil langsam i.v.",
+    "Repetition möglich - Maximaldosis 25 mg"
+   ]
+  },
+  {
+   "tabelle": "s139_t1",
+   "typ": "medikament",
+   "thema": "glucose",
+   "titel": "Glucose",
+   "kontext": "Hypoglykämie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s139_t2",
+   "typ": "medikament",
+   "thema": "glucagon",
+   "titel": "Glucagon i.m. (Glucagen Hypokit®)",
+   "kontext": "Hypoglykämie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s139_t3",
+   "typ": "medikament",
+   "thema": "glucagon",
+   "titel": "Glucagon nasal (Baqsimi®)",
+   "kontext": "Hypoglykämie",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s140_t1",
+   "typ": "medikament",
+   "thema": "atropin",
+   "titel": "Atropin",
+   "kontext": "Instabile Bradykardie",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s140_t2",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin",
+   "kontext": "Instabile Bradykardie",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s141_t1",
+   "typ": "medikament",
+   "thema": "amiodaron",
+   "titel": "Amiodaron",
+   "kontext": "Instabile Tachykardie",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Erwachsene:",
+    "300 mg in einer Kurzinfusion (über 20 Minuten)"
+   ]
+  },
+  {
+   "tabelle": "s144_t1",
+   "typ": "medikament",
+   "thema": "glyceroltrinitrat",
+   "titel": "Glyceroltrinitrat",
+   "kontext": "Kardiales Lungenödem",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s144_t2",
+   "typ": "medikament",
+   "thema": "furosemid",
+   "titel": "Furosemid",
+   "kontext": "Kardiales Lungenödem",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s147_t1",
+   "typ": "medikament",
+   "thema": "midazolam",
+   "titel": "Midazolam intranasal",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Kinder ab dem 3. LM bis 10 kg KG: 2,5 mg Midazolam i.n.",
+    "Kinder 10 – 20 kg KG: 5 mg Midazolam i.n.",
+    "Kinder und Erwachsene > 20 kg KG: 10 mg Midazolam i.n.",
+    "einmalige Repetiton möglich (erst bei Kindern > 10 kg KG)"
+   ]
+  },
+  {
+   "tabelle": "s147_t2",
+   "typ": "medikament",
+   "thema": "midazolam",
+   "titel": "Midazolam bukkal (Buccolam®)",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "3 Monate bis < 1 Jahr: 2,5 mg – keine Repetition (gelb)",
+    "1 bis < 5 Jahre: 5 mg – keine Repetition (blau)",
+    "5 bis < 10 Jahre: 7,5 mg – einmalige Repetition möglich (violett)",
+    "Erwachsene u. Kinder ab 10 Jahre: 10 mg – einmalige Repetition möglich (orange)"
+   ]
+  },
+  {
+   "tabelle": "s147_t3",
+   "typ": "medikament",
+   "thema": "midazolam",
+   "titel": "Midazolam intramuskulär (15 mg / 3 ml)",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Kinder 3 – 12 Jahre: 5 mg Midazolam i.m.",
+    "Erwachsene und Kinder > 12 Jahre: 10 mg Midazolam i.m."
+   ]
+  },
+  {
+   "tabelle": "s147_t4",
+   "typ": "medikament",
+   "thema": "midazolam",
+   "titel": "Midazolam i.v.",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s148_t1",
+   "typ": "medikament",
+   "thema": "diazepam",
+   "titel": "Diazepam Rektiole",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "kinder",
+   "dosistext": [
+    "Kinder < 15 kgKG: 5 mg Diazepam rektal",
+    "Kinder > 15 kgKG: 10 mg Diazepam rektal"
+   ]
+  },
+  {
+   "tabelle": "s148_t2",
+   "typ": "medikament",
+   "thema": "paracetamol",
+   "titel": "Paracetamol (Fiebersenkung bei Fieberkrampf)",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s148_t3",
+   "typ": "medikament",
+   "thema": "ibuprofen",
+   "titel": "Ibuprofen (Fiebersenkung bei Fieberkrampf)",
+   "kontext": "Krampfanfall",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s150_t1",
+   "typ": "medikament",
+   "thema": "heparin",
+   "titel": "Heparin",
+   "kontext": "Lungenarterienembolie",
+   "zielgruppe": "erwachsene"
+  },
+  {
+   "tabelle": "s151_t1",
+   "typ": "medikament",
+   "thema": "epinephrin",
+   "titel": "Epinephrin inhalativ",
+   "kontext": "Obstruktion der oberen Atemwege – Säugling / Kleinkind",
+   "zielgruppe": "kinder",
+   "dosistext": [
+    "Kinder < 12 Jahre:",
+    "4 mg Epinephrin inhalativ"
+   ]
+  },
+  {
+   "tabelle": "s151_t2",
+   "typ": "medikament",
+   "thema": "prednisolon",
+   "titel": "Prednisolon rektal",
+   "kontext": "Obstruktion der oberen Atemwege – Säugling / Kleinkind",
+   "zielgruppe": "kinder"
+  },
+  {
+   "tabelle": "s152_t1",
+   "typ": "medikament",
+   "thema": "urapidil",
+   "titel": "Urapidil",
+   "kontext": "Schlaganfall",
+   "zielgruppe": "erwachsene",
+   "dosistext": [
+    "Erwachsene:",
+    "5 mg Urapidil langsam i.v. – ggf. alle 5 Minuten wiederholen bis RRsyst. < 220 mmHg (Maximaldosis 25 mg),",
+    "max. Senkung um 20 % des Ausgangswertes (RR)"
+   ]
+  },
+  {
+   "tabelle": "s152_t2",
+   "typ": "bpr",
+   "thema": "schlaganfall",
+   "titel": "Versorgung und Transport bei V.a. Schlaganfall (ohne erweiterte / medikamentöse Maßnahmen)",
+   "kontext": "Schlaganfall",
+   "zielgruppe": "alle"
+  },
+  {
+   "tabelle": "s154_t1",
+   "typ": "medikament",
+   "thema": "vollelektrolytloesung",
+   "titel": "Vollelektrolytlösung",
+   "kontext": "Sepsis",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "Erwachsene und Kinder > 12 Jahre:",
+    "500 – 1.000 ml i.v."
+   ]
+  },
+  {
+   "tabelle": "s159_t1",
+   "typ": "medikament",
+   "thema": "tranexamsaeure",
+   "titel": "Tranexamsäure",
+   "kontext": "Trauma – Blutungskontrolle",
+   "zielgruppe": "alle",
+   "dosistext": [
+    "15 mg/kgKG Tranexamsäure langsam i.v. (Kurzinfusion über 15 Minuten) – max. 1.000 mg"
+   ]
+  }
+ ],
+ "ignoriert": {
+  "s105_t1": "Fehlerkennung im Flussdiagramm (keine Freigabetabelle)",
+  "s118_t1": "Fehlerkennung im Flussdiagramm (keine Freigabetabelle)"
+ },
+ "zusatzmedikamente": [
+  {
+   "id": "metamizol",
+   "name": "Metamizol",
+   "hinweis": "Keine eigene SAA im Kompendium – nur Freigabetabelle im BPR Schmerzen (S. 112)."
+  },
+  {
+   "id": "diazepam",
+   "name": "Diazepam",
+   "hinweis": "Keine eigene SAA im Kompendium – nur Freigabetabelle im BPR Krampfanfall (S. 148)."
+  },
+  {
+   "id": "fenoterol-ipratropium",
+   "name": "Fenoterol + Ipratropiumbromid (Berodual® LS)",
+   "hinweis": "Keine eigene SAA im Kompendium – nur Freigabetabelle im BPR Bronchialobstruktion (S. 129)."
+  }
+ ]
+}
