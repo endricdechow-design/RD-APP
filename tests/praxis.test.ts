@@ -89,3 +89,14 @@ describe('Auswertung Beobachtungsprotokoll', () => {
     expect(p.some((x) => x.titel === 'Amiodaron ohne VF / pVT')).toBe(true);
   });
 });
+
+describe('Zyklus-Timer', () => {
+  it('läuft erst nach manuellem Start und zeigt Überziehung negativ', async () => {
+    const { zyklusRest } = await import('../src/logic/rea');
+    let z = neueRea('erwachsen', t0);
+    expect(zyklusRest(z, t0 + 10_000)).toBeNull();
+    z = protokolliere(z, 'zyklus', 'Zyklus gestartet', t0 + 20_000);
+    expect(zyklusRest(z, t0 + 20_000 + 30_000)).toBe(90_000);
+    expect(zyklusRest(z, t0 + 20_000 + 2 * MIN + 5_000)).toBe(-5_000);
+  });
+});

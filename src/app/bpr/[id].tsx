@@ -39,7 +39,7 @@ export default function BprSeite() {
 
       {liste.length ? (
         <Abschnitt titel="Medikamente in diesem Behandlungspfad">
-          <PatientLeiste />
+          <PatientLeiste regeln={b.kontexte.flatMap(freigabenImKontext).flatMap(regelnFuerFreigabe)} />
           {liste.map((fr) => (
             <View key={fr.tabelle} style={{ gap: 4 }}>
               <FreigabeKarte freigabe={fr} regeln={regelnFuerFreigabe(fr)} zeigeKontext={false} />

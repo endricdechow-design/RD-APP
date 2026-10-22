@@ -128,3 +128,22 @@ export function formatDosis(n: number | undefined, einheit: string): string {
   if (n === undefined) return '–';
   return `${zahl(n)} ${einheit}`;
 }
+
+/** Welche Angaben brauchen die Regeln für Erwachsene bzw. Kinder? */
+export function benoetigteAngaben(regeln: Dosisregel[], erwachsen: boolean): { alter: boolean; gewicht: boolean } {
+  const relevant = regeln.filter(
+    (r) =>
+      (r.bedingung.erwachsen === undefined || r.bedingung.erwachsen === erwachsen) &&
+      (r.zielgruppe === 'alle' || r.zielgruppe === (erwachsen ? 'erwachsene' : 'kinder')),
+  );
+  return {
+    alter: relevant.some((r) => r.bedingung.alterMin !== undefined || r.bedingung.alterMax !== undefined),
+    gewicht: relevant.some(
+      (r) =>
+        r.dosis.art === 'proKg' ||
+        r.maxGesamt?.proKg !== undefined ||
+        r.bedingung.gewichtMin !== undefined ||
+        r.bedingung.gewichtMax !== undefined,
+    ),
+  };
+}

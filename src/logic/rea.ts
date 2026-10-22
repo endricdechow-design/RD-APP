@@ -9,6 +9,7 @@ export type Rhythmus = 'schockbar' | 'nicht_schockbar';
 
 export type ReaEreignisTyp =
   | 'start'
+  | 'zyklus'
   | 'analyse'
   | 'schock'
   | 'epinephrin'
@@ -58,7 +59,7 @@ export const REVERSIBLE_URSACHEN: Record<ReaModus, { seite: number; hs: string[]
 };
 
 export function neueRea(modus: ReaModus, jetzt: number, gewichtKg?: number): ReaZustand {
-  return { modus, gewichtKg, start: jetzt, ereignisse: [{ zeit: jetzt, typ: 'start', text: 'Reanimation begonnen' }] };
+  return { modus, gewichtKg, start: jetzt, ereignisse: [{ zeit: jetzt, typ: 'start', text: 'Szenario gestartet' }] };
 }
 
 export function protokolliere(
@@ -80,10 +81,13 @@ export function letzte(z: ReaZustand, typ: ReaEreignisTyp): ReaEreignis | undefi
   return [...z.ereignisse].reverse().find((e) => e.typ === typ);
 }
 
-/** Restzeit im aktuellen 2-Minuten-Zyklus, gerechnet ab der letzten Analyse (oder dem Start) */
-export function zyklusRest(z: ReaZustand, jetzt: number): number {
-  const bezug = letzte(z, 'analyse')?.zeit ?? z.start;
-  return Math.max(0, ZYKLUS_MS - (jetzt - bezug));
+/**
+ * Restzeit im aktuellen 2-Minuten-Zyklus. Der Zyklus wird von Hand gestartet (Ereignis "zyklus").
+ * null = kein Zyklus gestartet; negativ = Zyklus überzogen.
+ */
+export function zyklusRest(z: ReaZustand, jetzt: number): number | null {
+  const start = letzte(z, 'zyklus');
+  return start ? ZYKLUS_MS - (jetzt - start.zeit) : null;
 }
 
 function regel(id: string) {

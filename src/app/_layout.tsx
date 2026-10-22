@@ -1,14 +1,21 @@
-import { Redirect, Stack, useSegments } from 'expo-router';
+import { router, Stack, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { ActivityIndicator, View } from 'react-native';
+import { useEffect } from 'react';
+import { ActivityIndicator, StyleSheet, View } from 'react-native';
 
 import { AppStateProvider, useApp } from '@/state/AppState';
+import { Haftungshinweis } from '@/ui/Haftungshinweis';
 import { useFarben } from '@/ui/theme';
 
 function Navigation() {
-  const { geladen, eingerichtet, einstellungen } = useApp();
+  const { geladen, eingerichtet, einstellungen, hinweisBestaetigt } = useApp();
   const f = useFarben();
   const segmente = useSegments();
+  const zumOnboarding = geladen && !eingerichtet && segmente[0] !== 'onboarding';
+
+  useEffect(() => {
+    if (zumOnboarding) router.replace('/onboarding');
+  }, [zumOnboarding]);
 
   if (!geladen) {
     return (
@@ -17,7 +24,6 @@ function Navigation() {
       </View>
     );
   }
-  if (!eingerichtet && segmente[0] !== 'onboarding') return <Redirect href="/onboarding" />;
 
   const dunkel = f.hintergrund === '#0B0F14';
   return (
@@ -45,6 +51,12 @@ function Navigation() {
         <Stack.Screen name="profil" options={{ title: 'Profil' }} />
         <Stack.Screen name="vergleich/[thema]" options={{ title: 'Bereichsvergleich' }} />
       </Stack>
+      {/* Haftungshinweis bei jedem App-Start über allem anderen */}
+      {!hinweisBestaetigt ? (
+        <View style={[StyleSheet.absoluteFill, { zIndex: 10 }]}>
+          <Haftungshinweis />
+        </View>
+      ) : null}
     </>
   );
 }

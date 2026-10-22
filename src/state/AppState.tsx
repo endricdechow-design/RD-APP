@@ -49,6 +49,9 @@ export const BASIS_TAGESFRAGEN = 20;
 
 interface AppKontext extends Gespeichert {
   geladen: boolean;
+  /** Haftungshinweis in dieser Sitzung bestätigt – wird bewusst nicht gespeichert */
+  hinweisBestaetigt: boolean;
+  bestaetigeHinweis: () => void;
   patient: Patient;
   setzePatient: (p: Patient) => void;
   setzeProfil: (p: Profil) => void;
@@ -65,6 +68,9 @@ interface AppKontext extends Gespeichert {
 
 const Kontext = createContext<AppKontext | null>(null);
 
+/** Zustand der laufenden App-Sitzung (übersteht Neuaufbau der Navigation, nicht aber einen Neustart) */
+const sitzung = { hinweisBestaetigt: false };
+
 const tagNr = (t: number) => Math.floor(t / 86_400_000);
 
 export function AppStateProvider({ children }: { children: ReactNode }) {
@@ -72,6 +78,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const [geladen, setGeladen] = useState(false);
   // Patient ist bewusst flüchtig: jeder Einsatz beginnt ohne alte Patientendaten.
   const [patient, setzePatient] = useState<Patient>({ erwachsen: true });
+  // Bei jedem App-Start neu zu bestätigen (gilt für die laufende Sitzung, wird nie gespeichert)
+  const [hinweisBestaetigt, setHinweisBestaetigt] = useState(sitzung.hinweisBestaetigt);
 
   useEffect(() => {
     AsyncStorage.getItem(SCHLUESSEL)
@@ -94,6 +102,11 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     () => ({
       ...zustand,
       geladen,
+      hinweisBestaetigt,
+      bestaetigeHinweis: () => {
+        sitzung.hinweisBestaetigt = true;
+        setHinweisBestaetigt(true);
+      },
       patient,
       setzePatient,
       setzeProfil: (profil) => aendere((z) => ({ ...z, profil })),
@@ -117,7 +130,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       fragenHeute: () => (zustand.tagesfragen.tag === tagNr(Date.now()) ? zustand.tagesfragen.anzahl : 0),
       zuruecksetzen: () => aendere(() => START),
     }),
-    [zustand, geladen, patient, aendere],
+    [zustand, geladen, hinweisBestaetigt, patient, aendere],
   );
 
   return <Kontext.Provider value={wert}>{children}</Kontext.Provider>;

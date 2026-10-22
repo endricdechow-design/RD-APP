@@ -204,3 +204,17 @@ describe('Suche', () => {
     expect(suche('Pseudokrupp').some((t) => t.id === 'obere-atemwege-kind')).toBe(true);
   });
 });
+
+describe('Patientenangaben nur bei Bedarf', () => {
+  it('Amiodaron: Erwachsene brauchen nichts, Kinder brauchen das Gewicht', async () => {
+    const { benoetigteAngaben } = await import('../src/logic/dosis');
+    const amio = dosisregeln.filter((r) => r.medikament === 'amiodaron');
+    expect(benoetigteAngaben(amio, true)).toEqual({ alter: false, gewicht: false });
+    expect(benoetigteAngaben(amio, false)).toEqual({ alter: false, gewicht: true });
+  });
+  it('Epinephrin Anaphylaxie braucht das Alter, Paracetamol das Gewicht', async () => {
+    const { benoetigteAngaben } = await import('../src/logic/dosis');
+    expect(benoetigteAngaben(dosisregeln.filter((r) => r.id.startsWith('epi-ana')), true).alter).toBe(true);
+    expect(benoetigteAngaben(dosisregeln.filter((r) => r.medikament === 'paracetamol'), true).gewicht).toBe(true);
+  });
+});

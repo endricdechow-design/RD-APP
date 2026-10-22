@@ -84,7 +84,7 @@ export default function MedikamentSeite() {
 
       {alleFreigaben.length ? (
         <Abschnitt titel={profil.bereich ? 'Freigabe & Rechner für deinen Bereich' : 'Freigabe & Rechner'}>
-          {regeln.length ? <PatientLeiste hinweisIdealgewicht={id === 'fentanyl'} /> : null}
+          <PatientLeiste regeln={regeln} hinweisIdealgewicht={id === 'fentanyl'} />
           {freigaben.map((fr) => <FreigabeKarte key={fr.tabelle} freigabe={fr} regeln={regelnFuerFreigabe(fr)} />)}
           {freigaben.length === 0 ? <T leise>{`Keine Freigabe für ${patient.erwachsen ? 'Erwachsene' : 'Kinder'} im Kompendium.`}</T> : null}
         </Abschnitt>

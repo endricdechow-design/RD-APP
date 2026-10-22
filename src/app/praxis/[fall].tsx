@@ -88,27 +88,38 @@ export default function Beobachten() {
         <Kasten titel="Deine Rolle" farbe="umriss">
           <T>Du beobachtest das Team und tippst jede Handlung in dem Moment, in dem sie passiert. Sprich während des Szenarios nicht mit dem Team.</T>
         </Kasten>
+        <Knopf titel="Weiter zur Beobachtung" icon="arrow-forward" gross style={{ marginTop: abstand.l }} onPress={() => setPhase('laeuft')} />
+      </Seite>
+    );
+  }
+
+  if (!z) {
+    // Uhr läuft erst, wenn der Beobachter das Szenario startet
+    return (
+      <Seite>
+        <Stack.Screen options={{ title: titel }} />
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: abstand.s }}>
+          <Kachel titel="GESAMT" wert="0:00" />
+          <Kachel titel="ZYKLUS" wert="2:00" unter="startest du selbst" />
+        </View>
+        <T leise style={{ marginVertical: abstand.l }}>Starte die Uhr in dem Moment, in dem das Szenario beginnt (z. B. Eintreffen am Patienten).</T>
         <Knopf
-          titel="Beobachtung starten"
+          titel="Szenario-Uhr starten"
           icon="play"
+          art="notfall"
           gross
-          style={{ marginTop: abstand.l }}
           onPress={() => {
             const start = Date.now();
             setZ(neueRea(modus, start, zahlAusText(gewicht)));
             setJetzt(start);
-            setPhase('laeuft');
           }}
         />
       </Seite>
     );
   }
 
-  if (!z) return null;
-
   if (phase === 'auswertung') return <Auswertung z={z} titel={titel} neu={() => { setZ(null); setPhase('vorbereitung'); }} />;
 
-  const letzteAnalyse = letzte(z, 'analyse');
   const letzterSchock = letzte(z, 'schock');
   const letztesEpi = letzte(z, 'epinephrin');
   const schocks = anzahl(z, 'schock');
@@ -128,7 +139,18 @@ export default function Beobachten() {
       <Stack.Screen options={{ title: titel, headerBackVisible: false }} />
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: abstand.s }}>
         <Kachel titel="GESAMT" wert={formatDauer(jetzt - z.start)} />
-        <Kachel titel="ZYKLUS" wert={formatDauer(rest)} unter={letzteAnalyse ? 'seit Analyse' : 'ab Start'} warn={rest === 0} />
+        <Pressable
+          onPress={() => log('zyklus', rest === null ? '1. Zyklus gestartet' : `${anzahl(z, 'zyklus') + 1}. Zyklus gestartet`)}
+          accessibilityRole="button"
+          accessibilityLabel={rest === null ? 'Zyklus starten' : 'Neuen Zyklus starten'}
+          style={{ flex: 1, minWidth: 140 }}>
+          <Kachel
+            titel={`ZYKLUS${anzahl(z, 'zyklus') ? ` ${anzahl(z, 'zyklus')}` : ''}`}
+            wert={rest === null ? '▶ Start' : rest >= 0 ? formatDauer(rest) : `+${formatDauer(-rest)}`}
+            unter={rest === null ? 'antippen zum Starten' : 'antippen = neuer Zyklus'}
+            warn={rest !== null && rest <= 0}
+          />
+        </Pressable>
         <Kachel titel={`SCHOCKS: ${schocks}`} wert={letzterSchock ? formatDauer(jetzt - letzterSchock.zeit) : '–'} unter="seit letztem" />
         <Kachel titel={`EPINEPHRIN: ${anzahl(z, 'epinephrin')}×`} wert={letztesEpi ? formatDauer(jetzt - letztesEpi.zeit) : '–'} unter="seit letzter Gabe" />
       </View>
