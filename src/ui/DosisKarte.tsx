@@ -42,7 +42,7 @@ export function DosisKarte({ regel }: { regel: Dosisregel }) {
             {e.volumenMl !== undefined ? <T art="titel" farbe={f.akzent}>{`= ${formatDosis(e.volumenMl, 'ml')}`}</T> : null}
           </View>
           <T art="klein" leise>{e.rechenweg}</T>
-          {regel.konzentration ? <T art="klein" leise>{`Konzentration: ${regel.konzentration.text} (S. ${regel.konzentration.seite})`}</T> : null}
+          {regel.konzentration ? <T art="klein" leise>{`Konzentration: ${regel.konzentration.text}`}</T> : null}
           {regel.wiederholung ? <T art="klein">{`Wiederholung: ${regel.wiederholung.text}`}</T> : null}
           {e.maxGesamt !== undefined ? (
             <T art="klein" style={{ fontWeight: '700' }}>{`Maximaldosis gesamt: ${formatDosis(e.maxGesamt, regel.maxGesamt?.einheit ?? e.einheit)}${regel.maxGesamt?.idealgewicht ? ' (ideales KG)' : ''}`}</T>
@@ -75,7 +75,6 @@ export function DosisKarte({ regel }: { regel: Dosisregel }) {
         <T leise>{e.grund}</T>
       )}
       {regel.hinweis ? <T art="klein" farbe={f.gelb}>{regel.hinweis}</T> : null}
-      <T art="klein" leise>{`„${regel.beleg.join(' … ')}“ (S. ${regel.seite})`}</T>
     </View>
   );
 }

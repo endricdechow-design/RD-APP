@@ -19,7 +19,7 @@ export default function Vergleich() {
     <Seite>
       <Stack.Screen options={{ title: fr.titel }} />
       <T art="titel">{fr.titel}</T>
-      <T leise>{`${fr.kontext ?? ''} · S. ${fr.seite}`}</T>
+      <T leise>{fr.kontext ?? ''}</T>
       <View style={{ marginTop: abstand.l }}>
         {bereiche.map((b) => {
           const z = fr.zellen[b.code];

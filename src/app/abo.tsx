@@ -84,7 +84,7 @@ export default function Abo() {
         <Karte>
           <T art="untertitel">Nodexo Team</T>
           <T art="klein">
-            Jährliche Kompetenzüberprüfung für vorabdelegierte Maßnahmen (★, S. 12) als dokumentierter Test, anonymisierte Auswertung für die ÄLRD, Kursmodus für Berufsfachschulen.
+            Jährliche Kompetenzüberprüfung für vorabdelegierte Maßnahmen (★) als dokumentierter Test, anonymisierte Auswertung für die ÄLRD, Kursmodus für Berufsfachschulen.
           </T>
         </Karte>
       </Abschnitt>

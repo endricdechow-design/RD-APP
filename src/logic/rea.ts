@@ -18,12 +18,19 @@ export type ReaEreignisTyp =
   | 'zugang'
   | 'rosc'
   | 'ende'
+  | 'ursache'
   | 'notiz';
 
 export interface ReaEreignis {
   zeit: number; // ms seit Epoch
   typ: ReaEreignisTyp;
   text: string;
+  /** Bei Analyse: festgestellter Rhythmus */
+  rhythmus?: Rhythmus;
+  /** Bei Medikamenten: protokollierte Dosis in mg */
+  dosisMg?: number;
+  /** Bei "ursache": besprochene reversible Ursache */
+  ursache?: string;
 }
 
 export interface ReaZustand {
@@ -54,8 +61,15 @@ export function neueRea(modus: ReaModus, jetzt: number, gewichtKg?: number): Rea
   return { modus, gewichtKg, start: jetzt, ereignisse: [{ zeit: jetzt, typ: 'start', text: 'Reanimation begonnen' }] };
 }
 
-export function protokolliere(z: ReaZustand, typ: ReaEreignisTyp, text: string, jetzt: number): ReaZustand {
-  return { ...z, ereignisse: [...z.ereignisse, { zeit: jetzt, typ, text }] };
+export function protokolliere(
+  z: ReaZustand,
+  typ: ReaEreignisTyp,
+  text: string,
+  jetzt: number,
+  extra: Pick<ReaEreignis, 'rhythmus' | 'dosisMg' | 'ursache'> = {},
+): ReaZustand {
+  const rhythmus = typ === 'analyse' && extra.rhythmus ? extra.rhythmus : z.rhythmus;
+  return { ...z, rhythmus, ereignisse: [...z.ereignisse, { zeit: jetzt, typ, text, ...extra }] };
 }
 
 export function anzahl(z: ReaZustand, typ: ReaEreignisTyp): number {

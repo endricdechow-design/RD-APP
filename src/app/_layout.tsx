@@ -34,7 +34,8 @@ function Navigation() {
         }}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="onboarding" options={{ headerShown: false }} />
-        <Stack.Screen name="rea" options={{ title: 'REA-Cockpit', headerStyle: { backgroundColor: f.notfall }, headerTintColor: '#fff' }} />
+        <Stack.Screen name="liste/[kategorie]" options={{ title: '' }} />
+        <Stack.Screen name="praxis/[fall]" options={{ title: 'Beobachten', gestureEnabled: false }} />
         <Stack.Screen name="medikament/[id]" options={{ title: 'Medikament' }} />
         <Stack.Screen name="massnahme/[id]" options={{ title: 'Maßnahme' }} />
         <Stack.Screen name="bpr/[id]" options={{ title: 'Behandlungspfad' }} />

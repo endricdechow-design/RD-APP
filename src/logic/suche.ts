@@ -75,11 +75,11 @@ export function suche(eingabe: string): Treffer[] {
     nimm({ art: 'medikament', id: m.id, titel: m.name, untertitel: 'Medikament', route: `/medikament/${m.id}` }, [m.name]);
   }
   for (const m of massnahmen) {
-    nimm({ art: 'massnahme', id: m.id, titel: m.name, untertitel: `Maßnahme · S. ${m.seite}`, route: `/massnahme/${m.id}` }, [m.name]);
+    nimm({ art: 'massnahme', id: m.id, titel: m.name, untertitel: 'Invasive Maßnahme', route: `/massnahme/${m.id}` }, [m.name]);
   }
   for (const b of bpr) {
     nimm(
-      { art: 'bpr', id: b.id, titel: b.titel, untertitel: `Behandlungspfad · S. ${b.seite}`, route: `/bpr/${b.id}` },
+      { art: 'bpr', id: b.id, titel: b.titel, untertitel: 'Behandlungspfad', route: `/bpr/${b.id}` },
       [b.titel, ...(b.suchbegriffe ?? [])],
     );
   }

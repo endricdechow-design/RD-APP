@@ -5,11 +5,10 @@ import type { IconName } from '@/ui/bausteine';
 import { useFarben } from '@/ui/theme';
 
 const TABS: { name: string; titel: string; icon: IconName }[] = [
-  { name: 'index', titel: 'Einsatz', icon: 'pulse' },
-  { name: 'medikamente', titel: 'Medikamente', icon: 'medkit' },
-  { name: 'massnahmen', titel: 'Maßnahmen', icon: 'bandage' },
+  { name: 'index', titel: 'Start', icon: 'home' },
   { name: 'lernen', titel: 'Lernen', icon: 'school' },
-  { name: 'mehr', titel: 'Mehr', icon: 'grid' },
+  { name: 'praxis', titel: 'Praxis', icon: 'people' },
+  { name: 'mehr', titel: 'Mehr', icon: 'menu' },
 ];
 
 export default function TabLayout() {

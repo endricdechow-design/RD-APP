@@ -271,7 +271,7 @@ function freigabeFragen(kontext: FragenKontext): Frage[] {
       richtig,
       optionen,
       [],
-      `${bewerte(f, code, kontext.qualifikation).hinweis} Tabelle auf S. ${f.seite}.`,
+      `${bewerte(f, code, kontext.qualifikation).hinweis}`,
       f.seite,
     );
     if (frage) fragen.push(frage);
@@ -283,15 +283,15 @@ function freigabeFragen(kontext: FragenKontext): Frage[] {
 
 function reaFragen(): Frage[] {
   const f: (Frage | null)[] = [
-    baue('rea:epi-zeitpunkt-vf', 'reanimation', 'ALS, VF / pVT: Wann wird Epinephrin erstmals gegeben?', 'nach dem 3. Schock', ['nach dem 1. Schock', 'sofort vor der ersten Analyse', 'nach dem 5. Schock', 'nur nach ROSC'], [], 'Bei VF / pVT nach dem 3. Schock, bei Asystolie / PEA so früh wie möglich (S. 100).', 100),
-    baue('rea:epi-intervall', 'reanimation', 'In welchem Intervall wird Epinephrin bei der Reanimation wiederholt?', 'alle 4 Minuten', ['alle 2 Minuten', 'alle 6 Minuten', 'alle 10 Minuten', 'nur einmalig'], [], 'Wiederholung bis ROSC jeweils alle 4 Minuten, d. h. nach jedem zweiten Zyklus (S. 91, 100).', 100),
-    baue('rea:amio-2', 'reanimation', 'ALS: Wann folgt die 2. Amiodaron-Gabe (150 mg)?', 'nach dem 5. Schock', ['nach dem 4. Schock', 'nach dem 6. Schock', '4 Minuten nach der 1. Gabe', 'nach dem 3. Schock'], [], '300 mg nach dem 3. Schock, 150 mg nach dem 5. Schock (S. 100).', 100),
-    baue('rea:kompression-erw', 'reanimation', 'ALS: Welche Kompressionsfrequenz und -tiefe gelten?', '100 – 120/min, 5 – 6 cm', ['80 – 100/min, 4 – 5 cm', '120 – 140/min, 6 – 7 cm', '100 – 120/min, 3 – 4 cm', '60 – 80/min, 5 – 6 cm'], [], 'Thoraxkompressionen 100 – 120/min, Kompressionstiefe 5 – 6 cm (S. 91).', 91),
-    baue('rea:pls-verhaeltnis', 'reanimation', 'PLS: In welchem Verhältnis werden Kompressionen und Beatmung durchgeführt?', '15:2', ['30:2', '5:1', '3:1', '30:1'], [], 'Thoraxkompressionen + Beatmung im Verhältnis 15:2 (S. 93).', 93),
-    baue('rea:pls-initial', 'reanimation', 'PLS: Wie viele initiale Beatmungen werden gegeben?', '5', ['2', '3', '10', 'keine'], [], '5 initiale Beatmungen, dann Lebenszeichen prüfen (S. 93).', 93),
-    baue('rea:pls-joule', 'reanimation', 'PLS: Mit welcher Energie wird defibrilliert?', '4 J/kgKG', ['2 J/kgKG', '1 J/kgKG', '6 J/kgKG', '150 J fix'], [], 'Defibrillation mit 4 J/kgKG (S. 93).', 93),
-    baue('rea:elektroden', 'reanimation', 'ALS (neu 2026): Was erwägst du nach drei erfolglosen Defibrillationen?', 'Elektroden in anterior-posteriore Position wechseln', ['Energie halbieren', 'Defibrillation beenden', 'Amiodaron verdoppeln', 'auf AED-Modus wechseln'], [], 'Erwäge: Wechsel der Defibrillationselektroden in die anterior-posteriore Position nach drei erfolglosen Defibrillationsversuchen (S. 91).', 91),
-    baue('rea:etco2', 'reanimation', 'Welcher etCO₂-Sollwert zeigt eine effektive Herzdruckmassage an?', '> 15 mmHg (2 kPa)', ['> 5 mmHg', '> 45 mmHg', '< 10 mmHg', '> 60 mmHg'], [], 'Effektivität der HDM; Soll: etCO2 > 15 mmHg (2 kPa) (S. 92).', 92),
+    baue('rea:epi-zeitpunkt-vf', 'reanimation', 'ALS, VF / pVT: Wann wird Epinephrin erstmals gegeben?', 'nach dem 3. Schock', ['nach dem 1. Schock', 'sofort vor der ersten Analyse', 'nach dem 5. Schock', 'nur nach ROSC'], [], 'Bei VF / pVT nach dem 3. Schock, bei Asystolie / PEA so früh wie möglich.', 100),
+    baue('rea:epi-intervall', 'reanimation', 'In welchem Intervall wird Epinephrin bei der Reanimation wiederholt?', 'alle 4 Minuten', ['alle 2 Minuten', 'alle 6 Minuten', 'alle 10 Minuten', 'nur einmalig'], [], 'Wiederholung bis ROSC jeweils alle 4 Minuten, d. h. nach jedem zweiten Zyklus.', 100),
+    baue('rea:amio-2', 'reanimation', 'ALS: Wann folgt die 2. Amiodaron-Gabe (150 mg)?', 'nach dem 5. Schock', ['nach dem 4. Schock', 'nach dem 6. Schock', '4 Minuten nach der 1. Gabe', 'nach dem 3. Schock'], [], '300 mg nach dem 3. Schock, 150 mg nach dem 5. Schock.', 100),
+    baue('rea:kompression-erw', 'reanimation', 'ALS: Welche Kompressionsfrequenz und -tiefe gelten?', '100 – 120/min, 5 – 6 cm', ['80 – 100/min, 4 – 5 cm', '120 – 140/min, 6 – 7 cm', '100 – 120/min, 3 – 4 cm', '60 – 80/min, 5 – 6 cm'], [], 'Thoraxkompressionen 100 – 120/min, Kompressionstiefe 5 – 6 cm.', 91),
+    baue('rea:pls-verhaeltnis', 'reanimation', 'PLS: In welchem Verhältnis werden Kompressionen und Beatmung durchgeführt?', '15:2', ['30:2', '5:1', '3:1', '30:1'], [], 'Thoraxkompressionen + Beatmung im Verhältnis 15:2.', 93),
+    baue('rea:pls-initial', 'reanimation', 'PLS: Wie viele initiale Beatmungen werden gegeben?', '5', ['2', '3', '10', 'keine'], [], '5 initiale Beatmungen, dann Lebenszeichen prüfen.', 93),
+    baue('rea:pls-joule', 'reanimation', 'PLS: Mit welcher Energie wird defibrilliert?', '4 J/kgKG', ['2 J/kgKG', '1 J/kgKG', '6 J/kgKG', '150 J fix'], [], 'Defibrillation mit 4 J/kgKG.', 93),
+    baue('rea:elektroden', 'reanimation', 'ALS (neu 2026): Was erwägst du nach drei erfolglosen Defibrillationen?', 'Elektroden in anterior-posteriore Position wechseln', ['Energie halbieren', 'Defibrillation beenden', 'Amiodaron verdoppeln', 'auf AED-Modus wechseln'], [], 'Erwäge: Wechsel der Defibrillationselektroden in die anterior-posteriore Position nach drei erfolglosen Defibrillationsversuchen.', 91),
+    baue('rea:etco2', 'reanimation', 'Welcher etCO₂-Sollwert zeigt eine effektive Herzdruckmassage an?', '> 15 mmHg (2 kPa)', ['> 5 mmHg', '> 45 mmHg', '< 10 mmHg', '> 60 mmHg'], [], 'Effektivität der HDM; Soll: etCO2 > 15 mmHg (2 kPa).', 92),
   ];
   return f.filter((x): x is Frage => x !== null);
 }
@@ -316,11 +316,11 @@ function scoreFragen(): Frage[] {
     const p = news2Punkte({ ...basis, ...delta });
     const key = Object.keys(delta)[0] as keyof News2Eingabe;
     const richtig = `${p[key]} Punkte`;
-    return baue(`score:news2:${name}`, 'scores', `NEWS2: Wie viele Punkte gibt „${name}“?`, richtig, ['0 Punkte', '1 Punkte', '2 Punkte', '3 Punkte'], [], 'NEWS2-Tabelle, BPR Sepsis (S. 155).', 155);
+    return baue(`score:news2:${name}`, 'scores', `NEWS2: Wie viele Punkte gibt „${name}“?`, richtig, ['0 Punkte', '1 Punkte', '2 Punkte', '3 Punkte'], [], 'NEWS2-Tabelle, BPR Sepsis.', 155);
   });
   fragen.push(
-    baue('score:qsofa', 'scores', 'qSOFA: Ab wie vielen Punkten besteht bei Infektionsverdacht ein hohes Risiko?', '2 Punkte', ['1 Punkt', '3 Punkte', '4 Punkte', '5 Punkte'], [], 'Errechnen sich 2 oder mehr Punkte und besteht der Verdacht einer Infektion, ergibt sich ein hohes Risiko (S. 155).', 155),
-    baue('score:news2-hoch', 'scores', 'NEWS2: Ab welcher Summe besteht ein hohes Risiko?', '≥ 7 Punkte', ['≥ 3 Punkte', '≥ 5 Punkte', '≥ 10 Punkte', '≥ 12 Punkte'], [], '≥ 7 Punkte: hohes Risiko für eine Sepsis mit schwerem Krankheitsverlauf (S. 155).', 155),
+    baue('score:qsofa', 'scores', 'qSOFA: Ab wie vielen Punkten besteht bei Infektionsverdacht ein hohes Risiko?', '2 Punkte', ['1 Punkt', '3 Punkte', '4 Punkte', '5 Punkte'], [], 'Errechnen sich 2 oder mehr Punkte und besteht der Verdacht einer Infektion, ergibt sich ein hohes Risiko.', 155),
+    baue('score:news2-hoch', 'scores', 'NEWS2: Ab welcher Summe besteht ein hohes Risiko?', '≥ 7 Punkte', ['≥ 3 Punkte', '≥ 5 Punkte', '≥ 10 Punkte', '≥ 12 Punkte'], [], '≥ 7 Punkte: hohes Risiko für eine Sepsis mit schwerem Krankheitsverlauf.', 155),
   );
   return fragen.filter((x): x is Frage => x !== null);
 }

@@ -66,7 +66,7 @@ export default function Quiz() {
               const ok = antworten[i] === fr.richtig;
               return (
                 <Karte key={fr.id} style={{ marginTop: abstand.s, borderColor: ok ? f.gruen : f.rot }}>
-                  <T art="klein" leise>{`Frage ${i + 1} · S. ${fr.seite}`}</T>
+                  <T art="klein" leise>{`Frage ${i + 1}`}</T>
                   <T style={{ fontWeight: '700' }}>{fr.frage}</T>
                   {!ok ? <T art="klein" farbe={f.rot}>{`Deine Antwort: ${antworten[i] !== undefined ? fr.optionen[antworten[i]] : '–'}`}</T> : null}
                   <T art="klein" farbe={f.gruen}>{`Richtig: ${fr.optionen[fr.richtig]}`}</T>
@@ -138,7 +138,6 @@ export default function Quiz() {
         <Karte style={{ marginTop: abstand.l, borderColor: gewaehlt === fr.richtig ? f.gruen : f.rot }}>
           <T art="untertitel" farbe={gewaehlt === fr.richtig ? f.gruen : f.rot}>{gewaehlt === fr.richtig ? 'Richtig' : 'Leider falsch'}</T>
           <T art="klein">{fr.erklaerung}</T>
-          <T art="klein" leise>{`Kompendium S. ${fr.seite}`}</T>
         </Karte>
       ) : null}
       {beantwortet && !pruefung ? <Knopf titel={index + 1 < fragen.length ? 'Weiter' : 'Auswertung'} icon="arrow-forward" onPress={weiter} style={{ marginTop: abstand.m }} /> : null}

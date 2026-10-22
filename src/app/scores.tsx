@@ -78,10 +78,10 @@ export default function Scores() {
       <Abschnitt titel="Schockindex (HF ÷ RR syst.)">
         <Karte>
           <T art="titel" farbe={si?.ueber09 ? f.rot : f.text}>{si ? si.wert.toLocaleString('de-DE') : 'HF und RR eingeben'}</T>
-          {si?.ueber09 ? <T art="klein" farbe={f.rot}>Schockindex &gt; 0,9: Kriterium Schockraumalarmierung Trauma (S. 85).</T> : null}
+          {si?.ueber09 ? <T art="klein" farbe={f.rot}>Schockindex &gt; 0,9: Kriterium Schockraumalarmierung Trauma.</T> : null}
         </Karte>
       </Abschnitt>
-      <Quelle seite={155} text="BPR Sepsis (NEWS2, qSOFA); Schockindex S. 85" />
+      <Quelle text="BPR Sepsis (NEWS2, qSOFA), Schockraumalarmierung (Schockindex)" />
     </Seite>
   );
 }

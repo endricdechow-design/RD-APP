@@ -82,7 +82,7 @@ export function bewerte(f: Pick<Freigabe, 'zellen' | 'fussnoten'>, code: Bereich
   const benoetigt = RANG[zelle.level];
   const eigener = rangVon(q);
   const azubi = q === 'NotSanAzubi'
-    ? ' Als Auszubildende/r nur unter Aufsicht der praxisanleitenden NotSan, sofern die ÄLRD dies zulässt (S. 15).'
+    ? ' Als Auszubildende/r nur unter Aufsicht der praxisanleitenden NotSan, sofern die ÄLRD dies zulässt.'
     : '';
 
   if (benoetigt <= eigener) {
@@ -91,7 +91,7 @@ export function bewerte(f: Pick<Freigabe, 'zellen' | 'fussnoten'>, code: Bereich
         ...basis,
         art: 'erlaubt',
         label: 'RS',
-        hinweis: 'Nur im rechtfertigenden Notstand (§ 34 StGB): lebensbedrohlicher Zustand oder wesentliche Folgeschäden zu erwarten, keine weniger invasive Alternative – und du beherrschst die Maßnahme sicher (S. 15).',
+        hinweis: 'Nur im rechtfertigenden Notstand (§ 34 StGB): lebensbedrohlicher Zustand oder wesentliche Folgeschäden zu erwarten, keine weniger invasive Alternative – und du beherrschst die Maßnahme sicher.',
       };
     }
     if (zelle.vorabdelegiert) {
@@ -106,7 +106,7 @@ export function bewerte(f: Pick<Freigabe, 'zellen' | 'fussnoten'>, code: Bereich
       ...basis,
       art: 'erlaubt',
       label: LEVEL_NAME[zelle.level],
-      hinweis: `Durchführung durch NotSan nach Vorgabe der SAA / des BPR (Rechtsgrundlagen S. 14–16).${azubi}`,
+      hinweis: `Durchführung durch NotSan nach Vorgabe der SAA / des BPR (Rechtsgrundlagen).${azubi}`,
     };
   }
 
@@ -115,7 +115,7 @@ export function bewerte(f: Pick<Freigabe, 'zellen' | 'fussnoten'>, code: Bereich
       ...basis,
       art: 'nur_tna_na',
       label: 'TNA / NA',
-      hinweis: 'Nur nach Delegation durch Telenotarzt oder Notarzt (Einzelfalldelegation, 2b). Komplikationen sofort an den TNA melden (S. 16).',
+      hinweis: 'Nur nach Delegation durch Telenotarzt oder Notarzt (Einzelfalldelegation, 2b). Komplikationen sofort an den TNA melden.',
     };
   }
   if (zelle.level === 'Notarzt' || zelle.level === 'TNA_NA') {

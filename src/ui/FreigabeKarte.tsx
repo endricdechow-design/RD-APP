@@ -1,12 +1,12 @@
 // Eine Freigabetabelle aus dem Kompendium, bewertet für Profil und Bereich.
 import { router } from 'expo-router';
-import { View } from 'react-native';
+import { Pressable, View } from 'react-native';
 
 import { bereiche } from '../data/kompendium';
 import type { Dosisregel, Freigabe } from '../data/typen';
 import { bereicheMitFreigabe, bewerte } from '../logic/freigabe';
 import { useApp } from '../state/AppState';
-import { FreigabeBadge, Karte, Knopf, T } from './bausteine';
+import { FreigabeBadge, Karte, T } from './bausteine';
 import { DosisKarte } from './DosisKarte';
 import { abstand, useFarben } from './theme';
 
@@ -17,7 +17,6 @@ export function FreigabeKarte({ freigabe, regeln = [], zeigeKontext = true }: { 
   const { profil } = useApp();
   const b = profil.bereich ? bewerte(freigabe, profil.bereich, profil.qualifikation) : null;
   const anzahl = bereicheMitFreigabe(freigabe, profil.qualifikation, bereiche.map((x) => x.code)).length;
-  const original = b?.zelle?.original;
   const kopf = [zeigeKontext ? freigabe.kontext : null, ZIEL[freigabe.zielgruppe]].filter(Boolean).join(' · ');
 
   return (
@@ -29,7 +28,7 @@ export function FreigabeKarte({ freigabe, regeln = [], zeigeKontext = true }: { 
         </View>
         <FreigabeBadge b={b} gross />
       </View>
-      {freigabe.dosis.length ? (
+      {freigabe.typ === 'medikament' && freigabe.dosis.length ? (
         <View style={{ gap: 2 }}>
           {freigabe.dosis.map((z, i) => <T key={i}>{z}</T>)}
         </View>
@@ -37,19 +36,16 @@ export function FreigabeKarte({ freigabe, regeln = [], zeigeKontext = true }: { 
       {regeln.map((r) => <DosisKarte key={r.id} regel={r} />)}
       {b ? (
         <View style={{ gap: 4 }}>
-          <T art="klein" farbe={b.art === 'erlaubt' ? f.text : f.textLeise}>{b.hinweis}</T>
+          {b.art !== 'erlaubt' || profil.qualifikation === 'RS' ? <T art="klein" leise>{b.hinweis}</T> : null}
           {b.fussnoten.map((n) => <T key={n} art="klein" farbe={f.gelb}>{n}</T>)}
-          {original?.includes('+') ? (
-            <T art="klein" leise>{`Im Kompendium: „${original}“`}</T>
-          ) : null}
+          {b.zelle?.original?.includes('+') ? <T art="klein" leise>{`Im Kompendium: „${b.zelle.original}“`}</T> : null}
         </View>
       ) : (
         <T art="klein" leise>{`Für deine Qualifikation in ${anzahl} von ${bereiche.length} Bereichen freigegeben.`}</T>
       )}
-      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-        <T art="klein" leise>{`S. ${freigabe.seite}`}</T>
-        <Knopf titel="Alle Bereiche" art="umriss" icon="map" onPress={() => router.push(`/vergleich/${freigabe.tabelle}`)} style={{ minHeight: 40, paddingHorizontal: 10 }} />
-      </View>
+      <Pressable onPress={() => router.push(`/vergleich/${freigabe.tabelle}`)} accessibilityRole="link" hitSlop={8} style={{ alignSelf: 'flex-start' }}>
+        <T art="klein" farbe={f.akzent} style={{ fontWeight: '700' }}>Alle Bereiche vergleichen ›</T>
+      </Pressable>
     </Karte>
   );
 }

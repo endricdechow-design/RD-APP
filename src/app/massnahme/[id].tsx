@@ -1,28 +1,29 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { Pressable, View } from 'react-native';
+import { Pressable, Text, View } from 'react-native';
 
 import { freigabenFuer, massnahme } from '@/data/kompendium';
 import type { MassnahmeAbschnitt } from '@/data/typen';
 import { useApp } from '@/state/AppState';
-import { Abschnitt, Aufklapper, Chip, Hinweis, Karte, Punkte, Quelle, Seite, T } from '@/ui/bausteine';
+import { Chip, Hinweis, Kasten, Punkte, Seite, T, type KastenFarbe } from '@/ui/bausteine';
 import { FreigabeKarte } from '@/ui/FreigabeKarte';
+import { PdfSeiten } from '@/ui/PdfSeiten';
 import { abstand, TOUCH, useFarben } from '@/ui/theme';
 
-const ABSCHNITTE: { key: MassnahmeAbschnitt; titel: string }[] = [
-  { key: 'indikationen', titel: 'Indikationen / Symptome' },
-  { key: 'kontraindikationen', titel: 'Kontraindikationen' },
-  { key: 'alternativen', titel: 'Alternativen' },
-  { key: 'aufklaerung', titel: 'Aufklärung / Risiken' },
-  { key: 'einwilligung', titel: 'Einwilligung' },
-  { key: 'durchfuehrung', titel: 'Durchführung' },
-  { key: 'erfolgspruefung', titel: 'Erfolgsprüfung' },
-  { key: 'gegenmassnahmen', titel: 'Gegenmaßnahmen' },
-  { key: 'verlaufskontrolle', titel: 'Verlaufskontrolle' },
+const ABSCHNITTE: { key: MassnahmeAbschnitt; titel: string; farbe: KastenFarbe }[] = [
+  { key: 'indikationen', titel: 'Indikation / Symptome', farbe: 'gelb' },
+  { key: 'kontraindikationen', titel: 'Kontraindikationen', farbe: 'rot' },
+  { key: 'alternativen', titel: 'Alternativen', farbe: 'grau' },
+  { key: 'aufklaerung', titel: 'Aufklärung / Risiken', farbe: 'grau' },
+  { key: 'einwilligung', titel: 'Einwilligung', farbe: 'umriss' },
+  { key: 'durchfuehrung', titel: 'Durchführung', farbe: 'tuerkis' },
+  { key: 'erfolgspruefung', titel: 'Erfolgsprüfung', farbe: 'gruen' },
+  { key: 'gegenmassnahmen', titel: 'Gegenmaßnahmen', farbe: 'orange' },
+  { key: 'verlaufskontrolle', titel: 'Verlaufskontrolle', farbe: 'blau' },
 ];
 
-/** Checkliste nach Standardvorgehen invasive Maßnahmen (S. 27): Schritte abhaken */
+/** Checkliste nach Standardvorgehen invasive Maßnahmen: Schritte abhaken */
 function Checkliste({ schritte }: { schritte: string[] }) {
   const f = useFarben();
   const [erledigt, setErledigt] = useState<Set<number>>(new Set());
@@ -52,13 +53,14 @@ export default function MassnahmeSeite() {
   const { merkeBesuch, favoriten, schalteFavorit } = useApp();
   const f = useFarben();
   const m = massnahme(id);
-  const [modus, setModus] = useState<'lesen' | 'checkliste'>('lesen');
+  const [checkliste, setCheckliste] = useState(false);
   const route = `/massnahme/${id}`;
   useEffect(() => merkeBesuch(route), [route]); // eslint-disable-line react-hooks/exhaustive-deps
   if (!m) return <Seite><T>Maßnahme nicht gefunden.</T></Seite>;
   const fav = favoriten.includes(route);
+  const freigaben = freigabenFuer(m.id);
 
-  const pruefschritte = [
+  const schritte = [
     'Indikation bestätigt',
     'Kontraindikationen ausgeschlossen',
     'Alternativen laut BPR geprüft',
@@ -82,42 +84,32 @@ export default function MassnahmeSeite() {
           ),
         }}
       />
-      <T art="gross">{m.name}</T>
-      <View style={{ flexDirection: 'row', gap: abstand.s, marginTop: abstand.m }}>
-        <Chip titel="Lesen" icon="book" aktiv={modus === 'lesen'} onPress={() => setModus('lesen')} />
-        <Chip titel="Checkliste" icon="checkbox" aktiv={modus === 'checkliste'} onPress={() => setModus('checkliste')} />
+      <Text style={{ color: f.notfall, fontSize: 22, fontWeight: '800' }}>{m.name}</Text>
+      <View style={{ flexDirection: 'row', gap: abstand.s, marginVertical: abstand.m }}>
+        <Chip titel="Ansehen" icon="reader" aktiv={!checkliste} onPress={() => setCheckliste(false)} />
+        <Chip titel="Checkliste" icon="checkbox" aktiv={checkliste} onPress={() => setCheckliste(true)} />
       </View>
 
-      {freigabenFuer(m.id).map((fr) => (
-        <View key={fr.tabelle} style={{ marginTop: abstand.l }}><FreigabeKarte freigabe={fr} zeigeKontext={false} /></View>
+      {freigaben.map((fr) => (
+        <View key={fr.tabelle} style={{ marginBottom: abstand.m }}><FreigabeKarte freigabe={fr} zeigeKontext={false} /></View>
       ))}
 
-      {modus === 'checkliste' ? (
-        <Abschnitt titel="Standardvorgehen (S. 27) + Durchführung laut SAA">
-          <Karte><Checkliste schritte={pruefschritte} /></Karte>
-        </Abschnitt>
+      {checkliste ? (
+        <Kasten titel="Standardvorgehen invasive Maßnahmen" farbe="umriss">
+          <Checkliste schritte={schritte} />
+        </Kasten>
       ) : (
-        <Abschnitt titel={`SAA ${m.name}`}>
-          {m.abschnitte.kontraindikationen?.length ? (
-            <Karte style={{ borderColor: f.rot, borderWidth: 2 }}>
-              <T art="untertitel" farbe={f.rot}>Kontraindikationen</T>
-              <Punkte punkte={m.abschnitte.kontraindikationen} warnung />
-            </Karte>
-          ) : null}
-          {ABSCHNITTE.filter((x) => x.key !== 'kontraindikationen' && m.abschnitte[x.key]?.length).map((x) => (
-            <Aufklapper key={x.key} titel={x.titel} offen={x.key === 'indikationen' || x.key === 'durchfuehrung'} anzahl={m.abschnitte[x.key]?.length}>
-              <Punkte punkte={m.abschnitte[x.key]} />
-            </Aufklapper>
+        <View style={{ gap: abstand.m }}>
+          {ABSCHNITTE.filter((x) => m.abschnitte[x.key]?.length).map((x) => (
+            <Kasten key={x.key} titel={x.titel} farbe={x.farbe}>
+              <Punkte punkte={m.abschnitte[x.key]} aufHell={x.farbe !== 'umriss'} />
+            </Kasten>
           ))}
-        </Abschnitt>
+          {m.groessentabelle ? <Hinweis>Größen- und Farbtabelle: siehe Originalseite unten.</Hinweis> : null}
+        </View>
       )}
 
-      {m.groessentabelle ? (
-        <View style={{ marginTop: abstand.l }}>
-          <Hinweis art="warnung">{`Größen- und Farbtabelle: bitte im Kompendium S. ${m.seite} nachschlagen. Sie wird in einer späteren Version geprüft digitalisiert.`}</Hinweis>
-        </View>
-      ) : null}
-      <Quelle seite={m.seite} text={`SAA ${m.name}`} />
+      <PdfSeiten seiten={[m.seite]} />
     </Seite>
   );
 }

@@ -79,3 +79,16 @@ export function alleMedikamentNamen(): { id: string; name: string; hatSAA: boole
 export function zeilen(punkte: { text: string }[] | undefined): string[] {
   return (punkte ?? []).map((p) => p.text);
 }
+
+const normal = (s: string) => s.replace(/[–—]/g, '-').replace(/\s+/g, ' ').trim().toLowerCase();
+
+/**
+ * Dosisregeln, die zu genau dieser Freigabetabelle gehören: gleiches Medikament,
+ * gleicher Kontext und mindestens ein Belegtext steht im Dosistext der Tabelle.
+ */
+export function regelnFuerFreigabe(fr: Freigabe): Dosisregel[] {
+  const text = normal(fr.dosis.join(' '));
+  return dosisregeln.filter(
+    (r) => r.medikament === fr.thema && r.kontext === fr.kontext && r.beleg.some((b) => text.includes(normal(b))),
+  );
+}

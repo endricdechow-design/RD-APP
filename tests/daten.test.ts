@@ -7,6 +7,7 @@ import {
   freigaben,
   massnahmen,
   medikamente,
+  regelnFuerFreigabe,
   zusatzmedikamente,
 } from '../src/data/kompendium';
 
@@ -78,6 +79,16 @@ describe('Datenbasis Kompendium 2026', () => {
       if (f.kontext?.startsWith('SAA ')) continue;
       expect(kontexte.has(f.kontext!), `${f.tabelle}: ${f.kontext}`).toBe(true);
     }
+  });
+
+  it('ordnet jede Dosisregel genau den passenden Freigabetabellen zu', () => {
+    for (const r of dosisregeln) {
+      const tabellen = freigaben.filter((f) => regelnFuerFreigabe(f).includes(r)).map((f) => f.tabelle);
+      expect(tabellen.length, r.id).toBeGreaterThan(0);
+    }
+    // Anaphylaxie: drei Altersgruppen, drei Tabellen – keine Vermischung
+    const ab12 = freigaben.find((f) => f.tabelle === 's123_t1')!;
+    expect(regelnFuerFreigabe(ab12).map((r) => r.id)).toEqual(['epi-ana-ab12']);
   });
 
   it('hat Dosisregeln nur für existierende Medikamente mit Belegen', () => {

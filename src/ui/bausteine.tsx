@@ -6,6 +6,7 @@ import { Pressable, ScrollView, StyleSheet, Text, TextInput, View, type StylePro
 
 import type { Textpunkt } from '../data/typen';
 import type { FreigabeArt, FreigabeBewertung } from '../logic/freigabe';
+import { ohneSeiten } from '../logic/text';
 import { abstand, radius, TOUCH, useFarben, type Farben } from './theme';
 
 export type IconName = ComponentProps<typeof Ionicons>['name'];
@@ -36,9 +37,11 @@ export function T({
   zeilen?: number;
 }) {
   const f = useFarben();
+  // Seitenzahlen werden nie angezeigt – auch nicht in Texten aus Logik und Daten
+  const inhalt = typeof children === 'string' ? ohneSeiten(children) : children;
   return (
     <Text numberOfLines={zeilen} style={[s[art], { color: farbe ?? (leise ? f.textLeise : f.text) }, style]}>
-      {children}
+      {inhalt}
     </Text>
   );
 }
@@ -156,23 +159,61 @@ export function Aufklapper({ titel, children, offen: start = false, anzahl }: { 
   );
 }
 
-/** Aufzählung aus dem Kompendium; Ergänzungen (Mitternachtsblau kursiv) werden markiert */
-export function Punkte({ punkte, warnung }: { punkte: Textpunkt[] | undefined; warnung?: boolean }) {
+/** Farben der Inhaltskästen – hell mit dunkler Schrift, auch bei Sonnenlicht lesbar */
+export const KASTEN = {
+  gelb: '#F3EE73',
+  rot: '#F3908A',
+  orange: '#F7C47B',
+  grau: '#CDD2D8',
+  tuerkis: '#A9EFEC',
+  gruen: '#A8E3A3',
+  blau: '#BCD5FF',
+  lila: '#D6C4F5',
+} as const;
+export type KastenFarbe = keyof typeof KASTEN | 'umriss';
+
+/** Farbiger Inhaltskasten mit Überschrift (Aufbau wie gedruckte SAA) */
+export function Kasten({ titel, farbe, children, rechts }: { titel: string; farbe: KastenFarbe; children: ReactNode; rechts?: ReactNode }) {
   const f = useFarben();
-  if (!punkte?.length) return <T leise>–</T>;
+  const umriss = farbe === 'umriss';
   return (
-    <View style={{ gap: 6 }}>
+    <View
+      style={{
+        backgroundColor: umriss ? 'transparent' : KASTEN[farbe],
+        borderWidth: umriss ? 1.5 : 0,
+        borderColor: f.text,
+        borderRadius: radius.s,
+        padding: abstand.m,
+        gap: 6,
+      }}>
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: abstand.s }}>
+        <Text style={{ fontSize: 17, fontWeight: '800', color: umriss ? f.text : '#111', flex: 1 }}>{titel}</Text>
+        {rechts}
+      </View>
+      {children}
+    </View>
+  );
+}
+
+/** Aufzählung aus dem Kompendium; Ergänzungen (Mitternachtsblau kursiv) werden markiert */
+export function Punkte({ punkte, warnung, aufHell }: { punkte: Textpunkt[] | undefined; warnung?: boolean; aufHell?: boolean }) {
+  const f = useFarben();
+  const textFarbe = aufHell ? '#111' : f.text;
+  const ergaenzung = aufHell ? '#0E2A8A' : f.ergaenzung;
+  if (!punkte?.length) return <T farbe={textFarbe}>–</T>;
+  return (
+    <View style={{ gap: 4 }}>
       {punkte.map((p, i) => (
         <View key={i} style={{ flexDirection: 'row', gap: 8 }}>
-          {p.bold ? null : <T farbe={warnung ? f.rot : f.textLeise}>{p.bullet ? '•' : ' '}</T>}
+          {p.bold ? null : <Text style={[s.text, { color: aufHell ? '#111' : warnung ? f.rot : f.textLeise }]}>{p.bullet ? '•' : ' '}</Text>}
           <Text
             style={[
               s.text,
-              { color: p.ergaenzung ? f.ergaenzung : f.text, flex: 1 },
+              { color: p.ergaenzung ? ergaenzung : textFarbe, flex: 1 },
               p.bold && { fontWeight: '700', marginTop: i ? 6 : 0 },
               p.ergaenzung && { fontStyle: 'italic' },
             ]}>
-            {p.text}
+            {ohneSeiten(p.text)}
           </Text>
         </View>
       ))}
@@ -180,10 +221,10 @@ export function Punkte({ punkte, warnung }: { punkte: Textpunkt[] | undefined; w
   );
 }
 
-export function Quelle({ seite, text }: { seite: number; text?: string }) {
+export function Quelle({ text }: { seite?: number; text?: string }) {
   return (
     <T art="klein" leise style={{ marginTop: abstand.s }}>
-      {`Quelle: Gemeinsames Kompendium Rettungsdienst 2026, S. ${seite}${text ? ` – ${text}` : ''}`}
+      {`Quelle: Gemeinsames Kompendium Rettungsdienst 2026${text ? ` – ${text}` : ''}`}
     </T>
   );
 }

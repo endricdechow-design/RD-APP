@@ -16,19 +16,26 @@ Warum der Bereich nötig ist: „Die Kreise und Städte definieren das Kompetenz
 und die inhaltliche Gestaltung in eigener Verantwortung“ (S. 6). Morphin für Erwachsene ist z. B. in Duisburg
 NotSan, in Krefeld Notarzt, in Bochum TNA/NA und im Rhein-Kreis Neuss in Planung (S. 107).
 
-## Navigation
+## Navigation (v0.2 – schlichter)
 
-| Tab | Inhalt | Beispiel (Taps) |
-|---|---|---|
-| **Einsatz** | REA Erwachsene / REA Kind (0 Taps entfernt), Suche, Favoriten, Zuletzt, Behandlungspfade nach Kategorie, Schnellzugriff Scores / Notfallkarte Opioid / 6-R | Einsatz → Anaphylaxie = 1 |
-| **Medikamente** | A–Z mit Freigabe-Ampel, Filter „Was ich darf“, Notfallkarte Opioidüberdosierung oben | Medikamente → Amiodaron = 1 |
-| **Maßnahmen** | 18 SAA gruppiert (Zugang, Atemweg, Blutung/Trauma, Elektrotherapie) | Maßnahmen → i.o.-Zugang = 1 |
-| **Lernen** | Fortschritt, Serie, Lernplan, fünf Lernmodi, Themenauswahl | Lernen → Alles durcheinander = 1 |
-| **Mehr** | Profil, Pro, Scores, REA, Grundlagen & Recht (Rechtliche Fragen, Aufklärung, Mitfahrtverweigerung, TNA, Kindeswohl, 6-R) | Mehr → Mitfahrtverweigerung = 1 |
+| Tab | Inhalt |
+|---|---|
+| **Start** | Große Suchleiste oben, darunter 8 farbige Kategorien wie im Kompendium: Medikamente (SAA), Invasive Maßnahmen (SAA), Kreislaufstillstand, Leitsymptome, Krankheitsbilder A–Z, Trauma/MANV, Herangehensweise, Grundlagen & Recht; dazu Scores |
+| **Lernen** | Fortschritt, Serie, Lernplan, fünf Lernmodi, Themenauswahl |
+| **Praxis** | Praktische Fallbeispiele Reanimation mit Beobachter-Modus und Auswertung |
+| **Mehr** | Profil, Pro, Grundlagen & Recht, Über |
+
+Weg zu jedem Inhalt: Suche (1 Tap + Tippen) oder Kategorie → Eintrag (2 Taps).
+
+**Keine REA-Knöpfe auf dem Start:** Im echten Einsatz legt niemand das Handy neben die Reanimation. Der Reanimationsablauf
+lebt jetzt im Praxis-Bereich – zum Üben und Beobachten.
+
+**Keine Seitenzahlen in der App.** Gesucht wird über die Suche. Intern bleiben die Seitenzahlen erhalten (Belege,
+Prüfung, Originalseiten).
 
 Kinder bekommen keinen eigenen Tab: Der Schalter **Erwachsen / Kind** in der Patientenleiste filtert alle Dosierungen.
 
-## Medikamenten-Seite (Aufbau von oben nach unten)
+## Medikamenten-Seite (Aufbau von oben nach unten, farbige Kästen wie die gedruckte SAA)
 
 1. Name, Wirkstoff, Gruppe, **Konzentration** (fett)
 2. **Keine Anwendung, wenn** – rot umrandet, immer offen, mit Altersbegrenzung und dem Hinweis von S. 46
@@ -54,7 +61,14 @@ Nicht Erlaubtes wird **nicht versteckt**, nur nach unten sortiert – im Team mu
 
 ## Smarte Funktionen
 
-- **REA-Cockpit:** Zyklus-Timer, Schockzähler steuert Epinephrin (VF/pVT nach dem 3. Schock, Asystolie/PEA sofort,
+- **Praxis – Beobachter-Modus:** Ein Team übt am Phantom, eine Person tippt mit: Analyse (VF/pVT, Asystolie/PEA),
+  Schocks, Epinephrin und Amiodaron mit der tatsächlich gegebenen Dosis, Atemweg, i.v./i.o., ROSC, 4 Hs/HITS.
+  Live sichtbar: Gesamtzeit, Zyklus, Zeit seit letztem Schock und letztem Epinephrin. Die Auswertung vergleicht mit dem BPR:
+  Analysen im 2-Minuten-Takt, Schock nur bei VF/pVT, erstes Epinephrin (Asystolie: so früh wie möglich; VF: nach dem
+  3. Schock), Intervalle 4 min (± 1 min Toleranz), Amiodaron nach dem 3./5. Schock, Dosen (Kinder nach Gewicht),
+  offene reversible Ursachen. Ergebnis teilbar für die Nachbesprechung.
+- **Originalseite:** Am Ende jeder Seite die zugehörige(n) Kompendium-Seite(n) als Vorschau; Tippen → Vollbild, Zoom (+/−, Doppeltipp).
+- **REA-Logik (früher Cockpit):** Zyklus-Timer, Schockzähler steuert Epinephrin (VF/pVT nach dem 3. Schock, Asystolie/PEA sofort,
   dann alle 4 min) und Amiodaron (3. und 5. Schock); Kind: 4 J/kgKG und Dosen nach Gewicht; „Erwäge
   anterior-posteriore Elektrodenposition nach drei erfolglosen Defibrillationen“ (neu 2026, S. 91);
   4 Hs/HITS als Checkliste; Protokoll mit Zeitstempeln zum Teilen; Bildschirm bleibt an.

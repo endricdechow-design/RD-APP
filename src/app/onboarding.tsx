@@ -40,7 +40,7 @@ export default function Onboarding() {
 
       <T art="titel" style={{ marginTop: abstand.xxl, marginBottom: abstand.s }}>2 · Dein Rettungsdienstbereich</T>
       <T art="klein" leise style={{ marginBottom: abstand.s }}>
-        Die Kreise und Städte legen selbst fest, was jede Qualifikation darf (S. 6). Ohne Bereich zeigt Nodexo die Freigaben aller Bereiche.
+        Die Kreise und Städte legen selbst fest, was jede Qualifikation darf. Ohne Bereich zeigt Nodexo die Freigaben aller Bereiche.
       </T>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: abstand.s }}>
         <Chip titel="Noch keiner / nur lernen" aktiv={bereich === null} onPress={() => setBereich(null)} />
